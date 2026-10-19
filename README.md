@@ -38,31 +38,47 @@ E06_mix_098 = 0.2 × E09_ensemble_A2B
 
 ## 目录结构
 
+全仓库 171 个文件、约 1.38 MB，目录树如下（标注每部分的用途与文件数）：
+
 ```text
 .
-├── README.md
-├── .gitignore
-├── docs/
-│   ├── REPORT_turn4.md              # 原始探索与修订评价报告
-│   ├── REPORT_training_v2a.md       # v2a 训练报告
-│   ├── CHANGELOG_v4.md              # v4 数据变更记录
-│   ├── exploration/                # 计划、补充计划、README、schema
-│   └── exploration2/               # Turn 5 计划、README 与状态
-├── configs/
-│   ├── exploration/                # 各阶段 JSON 配置（含 E06.json）
-│   ├── e06_recipe_graph.json        # 最终 E06 成员与配方
-│   └── exploration2_e06_seal.json   # 后续探索封存记录
-├── scripts/
-│   ├── exploration/                # 原探索 Python 脚本
-│   ├── v2a_training/               # v2a 训练 Python 脚本
-│   └── exploration2_turn5/          # 来源审阅包中的 Turn 5 脚本
-├── selection/                      # JSON/TSV 选择记录与冻结阈值
-├── results/
-│   ├── exploration/                # 阶段/实验结果、数据流、运行与清单记录
-│   └── v2a/                        # TSV 结果及 E06_archived_metrics.json
-└── candidates/
-    └── <原候选名>/                  # summary.json、per_class.tsv、DONE.json
+├── README.md                        # 本文件：项目背景、E06 配方与指标、免责说明
+├── .gitignore                       # 排除 npz/npy/pkl/pt 等大二进制
+│
+├── docs/                            # 叙述性文档（12）：讲"为什么"
+│   ├── REPORT_turn4.md              # 探索阶段总报告：E00–E09、最终选择与修订评价
+│   ├── REPORT_training_v2a.md       # v2a 重训报告：M00/M06、E06_archived 对照
+│   ├── CHANGELOG_v4.md              # v4 标签变更记录
+│   ├── exploration/                 # 探索阶段 PLAN.md + 两份 addendum + README + schema.json
+│   └── exploration2/                # 第二轮探索的 PLAN / addendum / README / STATE
+│
+├── configs/                         # 全部实验配置（12）：讲"做什么"
+│   ├── e06_recipe_graph.json        # E06_mix_098 配方图（最终方案的精确定义）
+│   ├── exploration2_e06_seal.json   # exploration2「无可超越 E06_mix_098」封存结论
+│   └── exploration/                 # E01–E09 各阶段配置（含 E06.json 全部 133 个配置）
+│
+├── scripts/                         # 全部代码（69）：讲"怎么做"
+│   ├── exploration/                 # 探索阶段训练/推理/特征/选择脚本（23）
+│   ├── exploration2_turn5/          # Turn 5 融合与审计脚本（29）
+│   └── v2a_training/                # v2a 重训脚本（17）
+│
+├── selection/                       # 冻结的选择记录（7）
+│   ├── final_selection.json         # 最终方案 + 32 个逐类冻结阈值
+│   ├── validation_leaderboard.tsv   # 335 个候选完整排序
+│   ├── crossfit_selector_checks.json    # 5 个按类选择器的交叉检查（被否决依据）
+│   └── family_winners.json 等       # 家族胜者、MLP 结构记录
+│
+├── results/                         # 指标表（24）：讲"结果"
+│   ├── exploration/                 # stage_results / experiment_results / data_flow / manifest 等（6）
+│   └── v2a/                         # v2a 结果 TSV + E06_archived_metrics.json（18）
+│
+└── candidates/                      # 15 个关键候选 × 3 件证据（45）：讲"证据"
+    ├── E06_mix_098/                 # 最终方案：summary.json + per_class.tsv + DONE.json
+    ├── E06_class_*/                 # 5 个被交叉检查否决的按类选择器
+    └── E04_006_C, E05_*, E09_*/     # 最终方案的 9 个组成成员
 ```
+
+设计逻辑：docs 讲"为什么"，configs 讲"做什么"，scripts 讲"怎么做"，selection / results / candidates 讲"结果和证据"。所有模型权重与特征矩阵（npz/npy/pkl/pt 等）均未纳入，本仓库保留文本级证据链，可审阅完整实验依据，但不能直接端到端复现（见下文「未包含内容」）。
 
 主要来源为 `gpu_handoff_pack_20261005/output/` 下的 `exploration/`、`exploration2/`、`v2/preregistration/` 和 `v2/training/`。Turn 5 脚本与封存记录来自 `source_review_pack_20261009/`，变更记录来自 `gpu_handoff_pack_20261008/CHANGELOG_v4.md`。
 

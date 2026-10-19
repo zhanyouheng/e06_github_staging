@@ -1,0 +1,36 @@
+{
+  "A2B": {
+    "config": {
+      "algorithm": "mlp",
+      "dropout": 0.2,
+      "feature": "A2B",
+      "hidden": [
+        512
+      ],
+      "name": "E09_000_A2B_s20261006",
+      "order": 0,
+      "seed": 20261006,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "first_seed_winner": "E09_000_A2B_s20261006",
+    "validation_macro_AP": 0.8622660047286623
+  },
+  "FAB": {
+    "config": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "FAB",
+      "hidden": [
+        512
+      ],
+      "name": "E09_003_FAB_s20261006",
+      "order": 3,
+      "seed": 20261006,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "first_seed_winner": "E09_003_FAB_s20261006",
+    "validation_macro_AP": 0.8269717570845008
+  }
+}

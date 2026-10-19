@@ -1,0 +1,17 @@
+{
+  "SHA256SUMS_sha256": "f56184467c4049b61248cab84c7e9647b53fa934252b9b67bde749d125db0577",
+  "audit_sha256": "1f0eccacec4ccdfac5c0e9c337c436d9a11cd0220cf89ef68d80261ec7a77039",
+  "audit_status": "passed_with_unresolved_session_log_metadata_exception",
+  "conclusion": "无可超越 E06_mix_098",
+  "created_at_utc": "2026-10-06T06:11:56.744582+00:00",
+  "historical_metadata_exception_count": 1,
+  "historical_test_content_opened": false,
+  "inventory_sha256": "5fd59010763e1aa5d9441ebfe39fdd2d3bab2e6332af4fd06443cea5ae662601",
+  "payload_bytes": 7747696581,
+  "payload_files": 6953,
+  "report_sha256": "d4792825b54cf4b90a3455590c24496121babe95730014a52896c6e23e3e3b2b",
+  "selected_candidate": null,
+  "status": "complete",
+  "test_evaluations_this_turn": 0,
+  "third_test_authorized": false
+}

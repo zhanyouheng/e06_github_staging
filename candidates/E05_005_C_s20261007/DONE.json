@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-05T18:34:34.743282+00:00",
+  "context": {
+    "config": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "C",
+      "hidden": [
+        512
+      ],
+      "name": "E05_005_C_s20261007",
+      "order": 5,
+      "seed": 20261007,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E05_005_C_s20261007/per_class.tsv": "d5de2546adf28b290fb71c72cf546724c54e0ca49e2c84c344bff1a6d9e1b690",
+    "candidates/E05_005_C_s20261007/summary.json": "2ea2499745dde6738d59521e9e89379db7c1b500ecd6741c1f27e579b7d61eaa",
+    "candidates/E05_005_C_s20261007/validation.npz": "5fac0ba6313db8798ea29903dfaa932eb7e3d88d547ac034dd282e3d5e6ee976",
+    "gpu/E05_005_C_s20261007/DONE.json": "c3a8c529ca2b2331ab5c0c5c5b7593f163f05a8a39502ec3734780f2a65ab7ab",
+    "gpu/E05_005_C_s20261007/best.pt": "a2b033e94c2304a9be3a3789ae93fa8f1d6df1c00ccb14d7f8ab72becc743e78",
+    "gpu/E05_005_C_s20261007/best_validation.npz": "8931b5b40cb3d8d07394412890cbfd9ce8253d663441cd3bba12a602294c473b",
+    "gpu/E05_005_C_s20261007/history.json": "5e1ff5d6b0ffd5e552c94d5e2e8108e418bda333128b92ba24ec27b6625b9ea8"
+  },
+  "status": "verified_done"
+}

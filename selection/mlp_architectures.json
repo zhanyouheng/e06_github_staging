@@ -1,0 +1,38 @@
+{
+  "B": {
+    "architecture": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "B",
+      "hidden": [
+        512
+      ],
+      "name": "E05_001_B_s20261006",
+      "order": 1,
+      "seed": 20261006,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "first_seed_winner": "E05_001_B_s20261006",
+    "selection_uses_test": false,
+    "validation_macro_AP": 0.590161929337837
+  },
+  "C": {
+    "architecture": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "C",
+      "hidden": [
+        512
+      ],
+      "name": "E05_005_C_s20261006",
+      "order": 5,
+      "seed": 20261006,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "first_seed_winner": "E05_005_C_s20261006",
+    "selection_uses_test": false,
+    "validation_macro_AP": 0.8538020314650258
+  }
+}

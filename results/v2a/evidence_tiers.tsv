@@ -1,0 +1,16 @@
+candidate	positive_evidence_source	positive_cells	recalled_positive_cells	recall	AP
+E06_archived	background_v4_pos	466	345	0.740343347639485	not reported: post-hoc source masking changes its target universe
+M00	background_v4_pos	466	352	0.7553648068669528	not reported: post-hoc source masking changes its target universe
+M06	background_v4_pos	466	342	0.7339055793991416	not reported: post-hoc source masking changes its target universe
+E06_archived	sameseq_pos:background_v4_neg	30	24	0.8	not reported: post-hoc source masking changes its target universe
+M00	sameseq_pos:background_v4_neg	30	22	0.7333333333333333	not reported: post-hoc source masking changes its target universe
+M06	sameseq_pos:background_v4_neg	30	23	0.7666666666666667	not reported: post-hoc source masking changes its target universe
+E06_archived	sameseq_pos:background_v4_pos	1	1	1.0	not reported: post-hoc source masking changes its target universe
+M00	sameseq_pos:background_v4_pos	1	0	0.0	not reported: post-hoc source masking changes its target universe
+M06	sameseq_pos:background_v4_pos	1	0	0.0	not reported: post-hoc source masking changes its target universe
+E06_archived	sameseq_pos:train_candidate	27	25	0.9259259259259259	not reported: post-hoc source masking changes its target universe
+M00	sameseq_pos:train_candidate	27	26	0.9629629629629629	not reported: post-hoc source masking changes its target universe
+M06	sameseq_pos:train_candidate	27	27	1.0	not reported: post-hoc source masking changes its target universe
+E06_archived	train_candidate	4521	4266	0.9435965494359655	not reported: post-hoc source masking changes its target universe
+M00	train_candidate	4521	3909	0.8646317186463172	not reported: post-hoc source masking changes its target universe
+M06	train_candidate	4521	3939	0.8712674187126742	not reported: post-hoc source masking changes its target universe

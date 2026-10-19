@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-05T18:41:30.808099+00:00",
+  "context": {
+    "config": {
+      "algorithm": "ensemble",
+      "feature": "A2B",
+      "members": [
+        "E09_000_A2B_s20261006",
+        "E09_000_A2B_s20261007",
+        "E09_000_A2B_s20261008"
+      ],
+      "name": "E09_ensemble_A2B",
+      "order": 100,
+      "seed": 20261006,
+      "seeds": [
+        20261006,
+        20261007,
+        20261008
+      ],
+      "stage": "E09",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E09_000_A2B_s20261006/DONE.json": "afde663dbb6dcc0d0d23a2ee781659c8017ef91793d1ab9b27d10405c07d70ed",
+    "candidates/E09_000_A2B_s20261007/DONE.json": "cd845511bc5b3e3545cb63673549c72438b3ec3eb0eacad00f4f5cee2be7f190",
+    "candidates/E09_000_A2B_s20261008/DONE.json": "501a068cbf90a52a035e71b743018562f1520a41de3bb5c723e449120d451cce",
+    "candidates/E09_ensemble_A2B/per_class.tsv": "046346aabd63be89014f0e086fb681659755f83e72cb51b40f5bb46d24bba4a2",
+    "candidates/E09_ensemble_A2B/summary.json": "360a1dadf8f74afa3b6c9459ab53ff597ca989bc9ee17a99dd5d9f61440164e1",
+    "candidates/E09_ensemble_A2B/validation.npz": "d9c6bfebf342ea914098c7ffa6872900ee28984a872b658bd9f8e30930e1f071"
+  },
+  "status": "verified_done"
+}

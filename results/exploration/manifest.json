@@ -1,0 +1,28 @@
+{
+  "SHA256SUMS_sha256": "c7229dde0636d9f05c52c187968cb9815415f7f93c12829330a5cc40cfe49b90",
+  "all_registered_experiments_complete": true,
+  "created_at_utc": "2026-10-05T19:38:41.612031+00:00",
+  "final_audit_sha256": "c350bccd63beb500217a27eda2a54d49097afa4fa25a83c25798cae6439de9a5",
+  "inventory_exclusions": [
+    "exploration/artifacts.tsv",
+    "exploration/SHA256SUMS",
+    "exploration/manifest.json",
+    "exploration/DONE.json"
+  ],
+  "inventory_sha256": "c5d768822903df0cba413a73121599db735350044589bbd28a1e43c431061532",
+  "new_test_schemes": 1,
+  "overall_test_view_number": 2,
+  "payload_bytes": 12137543646,
+  "payload_files": 24625,
+  "payload_scope": "every exploration file plus REPORT_turn4.md, excluding exactly the four enclosing manifest/inventory/checksum/DONE files",
+  "posttest_tuning": false,
+  "recovery_inventory_sha256": "61392e4760e34f066708d8e4af91a98698b930aa0f38b70fc0749503c814253c",
+  "report_path": "../REPORT_turn4.md",
+  "report_sha256": "d5bd2f5ea25ac1b8b41d87439b3fd08edb3ed1e97e80eddb04d5c26f5751eeda",
+  "revision_event_sha256": "4c1c2ed43325b78a7593d1ad3827155daca47b302513991136abcf24ce02557a",
+  "runtime_supplement_sha256": "e6be605f4ad1ba1374e90d6572a7340b3e4b6551026e3f96e31f8943c3d95fad",
+  "selected_candidate": "E06_mix_098",
+  "selection_sha256": "1a7b22306a6e87048b4e2499dd4765eba8d89ca65277080890b29933e078d1e7",
+  "status": "complete",
+  "version": "turn4_exploration_delivery_v1"
+}

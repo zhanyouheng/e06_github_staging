@@ -1,0 +1,54 @@
+[
+  {
+    "algorithm": "mlp",
+    "dropout": 0.2,
+    "feature": "A2B",
+    "hidden": [
+      512
+    ],
+    "name": "E09_000_A2B_s20261007",
+    "order": 0,
+    "seed": 20261007,
+    "stage": "E09",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "mlp",
+    "dropout": 0.2,
+    "feature": "A2B",
+    "hidden": [
+      512
+    ],
+    "name": "E09_000_A2B_s20261008",
+    "order": 0,
+    "seed": 20261008,
+    "stage": "E09",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "mlp",
+    "dropout": 0.5,
+    "feature": "FAB",
+    "hidden": [
+      512
+    ],
+    "name": "E09_003_FAB_s20261007",
+    "order": 3,
+    "seed": 20261007,
+    "stage": "E09",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "mlp",
+    "dropout": 0.5,
+    "feature": "FAB",
+    "hidden": [
+      512
+    ],
+    "name": "E09_003_FAB_s20261008",
+    "order": 3,
+    "seed": 20261008,
+    "stage": "E09",
+    "weight": "weighted"
+  }
+]

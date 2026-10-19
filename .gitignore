@@ -1,0 +1,8 @@
+*.npz
+*.npy
+*.pkl
+*.pt
+*.bin
+*.ckpt
+__pycache__/
+.DS_Store

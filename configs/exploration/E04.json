@@ -1,0 +1,134 @@
+[
+  {
+    "algorithm": "extra_trees",
+    "feature": "A",
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "name": "E04_000_A",
+    "order": 0,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "A",
+    "max_features": "sqrt",
+    "min_samples_leaf": 3,
+    "name": "E04_001_A",
+    "order": 1,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "A",
+    "max_features": 0.2,
+    "min_samples_leaf": 1,
+    "name": "E04_002_A",
+    "order": 2,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "A",
+    "max_features": 0.2,
+    "min_samples_leaf": 3,
+    "name": "E04_003_A",
+    "order": 3,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "C",
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "name": "E04_004_C",
+    "order": 4,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "C",
+    "max_features": "sqrt",
+    "min_samples_leaf": 3,
+    "name": "E04_005_C",
+    "order": 5,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "C",
+    "max_features": 0.2,
+    "min_samples_leaf": 1,
+    "name": "E04_006_C",
+    "order": 6,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "C",
+    "max_features": 0.2,
+    "min_samples_leaf": 3,
+    "name": "E04_007_C",
+    "order": 7,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "B",
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "name": "E04_008_B",
+    "order": 8,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "B",
+    "max_features": "sqrt",
+    "min_samples_leaf": 3,
+    "name": "E04_009_B",
+    "order": 9,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "B",
+    "max_features": 0.2,
+    "min_samples_leaf": 1,
+    "name": "E04_010_B",
+    "order": 10,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  },
+  {
+    "algorithm": "extra_trees",
+    "feature": "B",
+    "max_features": 0.2,
+    "min_samples_leaf": 3,
+    "name": "E04_011_B",
+    "order": 11,
+    "seed": 20261006,
+    "stage": "E04",
+    "weight": "weighted"
+  }
+]

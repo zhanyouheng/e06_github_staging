@@ -1,0 +1,75 @@
+{
+  "at": "2026-10-05T19:38:30.178771+00:00",
+  "delivery_retry": {
+    "at": "2026-10-05T19:38:30.178939+00:00",
+    "error": "KeyError: selection_eligible in first packaging attempt",
+    "model_or_evaluation_effect": false,
+    "resolution": "use get(selection_eligible, True), exactly matching immutable select_final.py"
+  },
+  "interrupted_configurations_at_recovery": [],
+  "no_posttest_model_or_threshold_change": true,
+  "notes": "Statistical negative results are preserved in experiment_results.tsv and REPORT_turn4.md; no failed fit was silently scored.",
+  "pretest_inference_numerical_correction": {
+    "authoritative_prediction_directory": "inference_v2",
+    "created_at_utc": "2026-10-05T19:03:40.207254+00:00",
+    "ensemble_weights_changed": false,
+    "features_changed": false,
+    "inference_v1_sha256": "c4003ea08effe1ce5bf3a324a54c5c75962a49b8d1aca749dd6f1f13ac747d5c",
+    "inference_v2_sha256": "959e3bdbcad943b7ecf6bcc7673d6807447220d8fa2f86128f020d2c52d596cf",
+    "model_weights_changed": false,
+    "old_known_prediction_differences": 6,
+    "old_max_abs_diff": 1.1102230246251565e-16,
+    "old_prediction_differences": 6,
+    "old_versions_preserved": true,
+    "phase": "after model selection, before revision test event",
+    "reason": "seed mean must sum then divide, matching stored validation candidates exactly; multiplying each seed by1/3 before summing changed6 known threshold-equality decisions at1.11e-16 score difference",
+    "test_read": false,
+    "thresholds_changed": false,
+    "unchanged_final_selection_sha256": "1a7b22306a6e87048b4e2499dd4765eba8d89ca65277080890b29933e078d1e7",
+    "version": 2
+  },
+  "rejected_selectors": [
+    {
+      "crossfit_delta": -0.03291636444227142,
+      "crossfit_macro_AP": 0.7682664756323819,
+      "name": "E06_class_C_A",
+      "reference_macro_AP": 0.8011828400746533,
+      "selection_eligible": false
+    },
+    {
+      "crossfit_delta": -0.04794206358128705,
+      "crossfit_macro_AP": 0.5281097662416192,
+      "name": "E06_class_C_B",
+      "reference_macro_AP": 0.5760518298229063,
+      "selection_eligible": false
+    },
+    {
+      "crossfit_delta": -0.027392845323019888,
+      "crossfit_macro_AP": 0.8208045385713847,
+      "name": "E06_class_C_C",
+      "reference_macro_AP": 0.8481973838944046,
+      "selection_eligible": false
+    },
+    {
+      "crossfit_delta": -0.014594987816684446,
+      "crossfit_macro_AP": 0.847934793811232,
+      "name": "E06_class_family_free",
+      "reference_macro_AP": 0.8625297816279165,
+      "selection_eligible": false
+    },
+    {
+      "crossfit_delta": -0.021152228285216124,
+      "crossfit_macro_AP": 0.8413775533427004,
+      "name": "E06_class_family_guarded",
+      "reference_macro_AP": 0.8625297816279165,
+      "selection_eligible": false
+    }
+  ],
+  "runtime_training_failures": [],
+  "unstarted_optional_branches": [
+    "GO ancestor expansion: frozen historical ontology not supplied",
+    "new PLM or other ESM layers: outside registered prioritized grid",
+    "classifier chains: not registered as mandatory",
+    "unknown pseudo-labels: not used"
+  ]
+}

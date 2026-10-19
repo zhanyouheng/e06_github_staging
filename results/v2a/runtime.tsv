@@ -1,0 +1,1480 @@
+artifact	seconds	pid	epochs	warnings
+models/neural/M00_A2B_s20261007/early0/result.json	6.2121453285217285	3114209	20	0
+models/neural/M00_A2B_s20261007/outer0/result.json	1.2877094745635986	3114209	20	0
+models/neural/M00_A2B_s20261007/early1/result.json	2.7758758068084717	3114209	30	0
+models/neural/M00_A2B_s20261007/outer1/result.json	1.5397024154663086	3114209	30	0
+models/neural/M00_A2B_s20261007/early2/result.json	3.0342657566070557	3114209	35	0
+models/neural/M00_A2B_s20261007/outer2/result.json	1.8125054836273193	3114209	35	0
+models/neural/M00_A2B_s20261007/early3/result.json	2.9918487071990967	3114209	40	0
+models/neural/M00_A2B_s20261007/outer3/result.json	1.9378767013549805	3114209	40	0
+models/neural/M00_A2B_s20261007/early4/result.json	2.9025959968566895	3114209	35	0
+models/neural/M00_A2B_s20261007/outer4/result.json	1.7736289501190186	3114209	35	0
+models/neural/M00_A2B_s20261007/full/result.json	2.107520341873169	3114209	35	0
+models/neural/M00_A2B_s20261006/early0/result.json	6.6054368019104	3114208	30	0
+models/neural/M00_A2B_s20261006/outer0/result.json	1.6422464847564697	3114208	30	0
+models/neural/M00_A2B_s20261006/early1/result.json	4.904698371887207	3114208	105	0
+models/neural/M00_A2B_s20261006/outer1/result.json	4.364283323287964	3114208	105	0
+models/neural/M00_A2B_s20261006/early2/result.json	1.914811134338379	3114208	10	0
+models/neural/M00_A2B_s20261006/outer2/result.json	0.7381100654602051	3114208	10	0
+models/neural/M00_A2B_s20261006/early3/result.json	2.3141415119171143	3114208	25	0
+models/neural/M00_A2B_s20261006/outer3/result.json	1.3485569953918457	3114208	25	0
+models/neural/M00_A2B_s20261006/early4/result.json	3.014634132385254	3114208	40	0
+models/neural/M00_A2B_s20261006/outer4/result.json	1.89571213722229	3114208	40	0
+models/neural/M00_A2B_s20261006/full/result.json	1.8345463275909424	3114208	30	0
+models/neural/M00_C_s20261006/early0/result.json	4.061105966567993	3114209	75	0
+models/neural/M00_C_s20261006/outer0/result.json	2.838536262512207	3114209	75	0
+models/neural/M00_C_s20261006/early1/result.json	2.3945276737213135	3114209	35	0
+models/neural/M00_C_s20261006/outer1/result.json	1.3661386966705322	3114209	35	0
+models/neural/M00_C_s20261006/early2/result.json	2.612842082977295	3114209	40	0
+models/neural/M00_C_s20261006/outer2/result.json	1.6254425048828125	3114209	40	0
+models/neural/M00_C_s20261006/early3/result.json	2.275019645690918	3114209	35	0
+models/neural/M00_C_s20261006/outer3/result.json	1.436333179473877	3114209	35	0
+models/neural/M00_C_s20261006/early4/result.json	2.588219404220581	3114209	40	0
+models/neural/M00_C_s20261006/outer4/result.json	1.6696412563323975	3114209	40	0
+models/neural/M00_C_s20261006/full/result.json	1.9073708057403564	3114209	40	0
+models/neural/M00_A2B_s20261008/early0/result.json	4.223856449127197	3114208	65	0
+models/neural/M00_A2B_s20261008/outer0/result.json	2.9542667865753174	3114208	65	0
+models/neural/M00_A2B_s20261008/early1/result.json	1.7698516845703125	3114208	10	0
+models/neural/M00_A2B_s20261008/outer1/result.json	0.7252120971679688	3114208	10	0
+models/neural/M00_A2B_s20261008/early2/result.json	2.6894893646240234	3114208	30	0
+models/neural/M00_A2B_s20261008/outer2/result.json	1.5108859539031982	3114208	30	0
+models/neural/M00_A2B_s20261008/early3/result.json	2.85123610496521	3114208	40	0
+models/neural/M00_A2B_s20261008/outer3/result.json	1.855154037475586	3114208	40	0
+models/neural/M00_A2B_s20261008/early4/result.json	4.936708927154541	3114208	100	0
+models/neural/M00_A2B_s20261008/outer4/result.json	4.201642274856567	3114208	100	0
+models/neural/M00_A2B_s20261008/full/result.json	2.2888267040252686	3114208	40	0
+models/neural/M00_C_s20261008/early0/result.json	3.3087596893310547	3114209	50	0
+models/neural/M00_C_s20261008/outer0/result.json	1.9773318767547607	3114209	50	0
+models/neural/M00_C_s20261008/early1/result.json	4.188051462173462	3114209	105	0
+models/neural/M00_C_s20261008/outer1/result.json	3.6277666091918945	3114209	105	0
+models/neural/M00_C_s20261008/early2/result.json	3.4580817222595215	3114209	65	0
+models/neural/M00_C_s20261008/outer2/result.json	2.4115989208221436	3114209	65	0
+models/neural/M00_C_s20261008/early3/result.json	3.807098150253296	3114209	80	0
+models/neural/M00_C_s20261008/outer3/result.json	2.9387500286102295	3114209	80	0
+models/neural/M00_C_s20261008/early4/result.json	3.148517370223999	3114209	55	0
+models/neural/M00_C_s20261008/outer4/result.json	2.1650638580322266	3114209	55	0
+models/neural/M00_C_s20261008/full/result.json	2.9169750213623047	3114209	65	0
+models/neural/M00_C_s20261007/early0/result.json	3.1382696628570557	3114208	55	0
+models/neural/M00_C_s20261007/outer0/result.json	2.135558843612671	3114208	55	0
+models/neural/M00_C_s20261007/early1/result.json	1.7552781105041504	3114208	20	0
+models/neural/M00_C_s20261007/outer1/result.json	0.8539531230926514	3114208	20	0
+models/neural/M00_C_s20261007/early2/result.json	1.9003643989562988	3114208	20	0
+models/neural/M00_C_s20261007/outer2/result.json	0.8722054958343506	3114208	20	0
+models/neural/M00_C_s20261007/early3/result.json	2.404813528060913	3114208	40	0
+models/neural/M00_C_s20261007/outer3/result.json	1.7045912742614746	3114208	40	0
+models/neural/M00_C_s20261007/early4/result.json	2.564812421798706	3114208	40	0
+models/neural/M00_C_s20261007/outer4/result.json	1.5570650100708008	3114208	40	0
+models/neural/M00_C_s20261007/full/result.json	1.8438832759857178	3114208	40	0
+models/neural/M02_A2B_s20261006/early0/result.json	2.7218503952026367	3114208	20	0
+models/neural/M02_A2B_s20261006/outer0/result.json	1.5785632133483887	3114208	20	0
+models/neural/M02_A2B_s20261006/early1/result.json	2.191471576690674	3114208	10	0
+models/neural/M02_A2B_s20261006/outer1/result.json	1.1949548721313477	3114208	10	0
+models/neural/M02_A2B_s20261006/early2/result.json	2.951319694519043	3114208	25	0
+models/neural/M02_A2B_s20261006/outer2/result.json	1.789928913116455	3114208	25	0
+models/neural/M02_A2B_s20261006/early3/result.json	2.178076982498169	3114208	10	0
+models/neural/M02_A2B_s20261006/outer3/result.json	1.1803333759307861	3114208	10	0
+models/neural/M02_A2B_s20261006/early4/result.json	2.238534927368164	3114208	10	0
+models/neural/M02_A2B_s20261006/outer4/result.json	1.149705171585083	3114208	10	0
+models/neural/M02_A2B_s20261006/full/result.json	1.4034571647644043	3114208	10	0
+models/neural/M02_A2B_s20261007/early0/result.json	3.2916178703308105	3114209	30	0
+models/neural/M02_A2B_s20261007/outer0/result.json	2.029601812362671	3114209	30	0
+models/neural/M02_A2B_s20261007/early1/result.json	2.323544502258301	3114209	10	0
+models/neural/M02_A2B_s20261007/outer1/result.json	1.2208099365234375	3114209	10	0
+models/neural/M02_A2B_s20261007/early2/result.json	2.5599069595336914	3114209	15	0
+models/neural/M02_A2B_s20261007/outer2/result.json	1.4164454936981201	3114209	15	0
+models/neural/M02_A2B_s20261007/early3/result.json	3.633155345916748	3114209	45	0
+models/neural/M02_A2B_s20261007/outer3/result.json	2.6734068393707275	3114209	45	0
+models/neural/M02_A2B_s20261007/early4/result.json	2.5032389163970947	3114209	15	0
+models/neural/M02_A2B_s20261007/outer4/result.json	1.411860704421997	3114209	15	0
+models/neural/M02_A2B_s20261007/full/result.json	1.7031323909759521	3114209	15	0
+models/neural/M02_A2B_s20261008/early0/result.json	5.6690404415130615	3114208	95	0
+models/neural/M02_A2B_s20261008/outer0/result.json	4.55497407913208	3114208	95	0
+models/neural/M02_A2B_s20261008/early1/result.json	2.246980905532837	3114208	10	0
+models/neural/M02_A2B_s20261008/outer1/result.json	1.2120471000671387	3114208	10	0
+models/neural/M02_A2B_s20261008/early2/result.json	3.698695182800293	3114208	45	0
+models/neural/M02_A2B_s20261008/outer2/result.json	2.5329220294952393	3114208	45	0
+models/neural/M02_A2B_s20261008/early3/result.json	3.306485891342163	3114208	40	0
+models/neural/M02_A2B_s20261008/outer3/result.json	2.2403910160064697	3114208	40	0
+models/neural/M02_A2B_s20261008/early4/result.json	2.42181658744812	3114208	15	0
+models/neural/M02_A2B_s20261008/outer4/result.json	1.3463435173034668	3114208	15	0
+models/neural/M02_A2B_s20261008/full/result.json	2.756786584854126	3114208	40	0
+models/neural/M02_C_s20261006/early0/result.json	2.2574410438537598	3114209	20	0
+models/neural/M02_C_s20261006/outer0/result.json	1.2124054431915283	3114209	20	0
+models/neural/M02_C_s20261006/early1/result.json	1.745077133178711	3114209	10	0
+models/neural/M02_C_s20261006/outer1/result.json	0.854884147644043	3114209	10	0
+models/neural/M02_C_s20261006/early2/result.json	3.011218547821045	3114209	45	0
+models/neural/M02_C_s20261006/outer2/result.json	1.972414493560791	3114209	45	0
+models/neural/M02_C_s20261006/early3/result.json	3.9311559200286865	3114209	75	0
+models/neural/M02_C_s20261006/outer3/result.json	3.031104803085327	3114209	75	0
+models/neural/M02_C_s20261006/early4/result.json	2.1436986923217773	3114209	20	0
+models/neural/M02_C_s20261006/outer4/result.json	1.1678829193115234	3114209	20	0
+models/neural/M02_C_s20261006/full/result.json	1.3828859329223633	3114209	20	0
+models/neural/M02_C_s20261007/early0/result.json	4.649616718292236	3114208	95	0
+models/neural/M02_C_s20261007/outer0/result.json	3.7364768981933594	3114208	95	0
+models/neural/M02_C_s20261007/early1/result.json	1.712541103363037	3114208	10	0
+models/neural/M02_C_s20261007/outer1/result.json	0.8263585567474365	3114208	10	0
+models/neural/M02_C_s20261007/early2/result.json	2.3261101245880127	3114208	25	0
+models/neural/M02_C_s20261007/outer2/result.json	1.3012704849243164	3114208	25	0
+models/neural/M02_C_s20261007/early3/result.json	2.837202548980713	3114208	45	0
+models/neural/M02_C_s20261007/outer3/result.json	1.952664852142334	3114208	45	0
+models/neural/M02_C_s20261007/early4/result.json	2.0877137184143066	3114208	20	0
+models/neural/M02_C_s20261007/outer4/result.json	1.1265912055969238	3114208	20	0
+models/neural/M02_C_s20261007/full/result.json	1.586728572845459	3114208	25	0
+models/neural/M02_C_s20261008/early0/result.json	2.4650745391845703	3114209	25	0
+models/neural/M02_C_s20261008/outer0/result.json	1.358842372894287	3114209	25	0
+models/neural/M02_C_s20261008/early1/result.json	2.45915150642395	3114209	30	0
+models/neural/M02_C_s20261008/outer1/result.json	1.4848575592041016	3114209	30	0
+models/neural/M02_C_s20261008/early2/result.json	1.9776463508605957	3114209	15	0
+models/neural/M02_C_s20261008/outer2/result.json	1.0063788890838623	3114209	15	0
+models/neural/M02_C_s20261008/early3/result.json	3.489835262298584	3114209	65	0
+models/neural/M02_C_s20261008/outer3/result.json	2.61122727394104	3114209	65	0
+models/neural/M02_C_s20261008/early4/result.json	2.7942588329315186	3114209	40	0
+models/neural/M02_C_s20261008/outer4/result.json	1.839123010635376	3114209	40	0
+models/neural/M02_C_s20261008/full/result.json	1.775193691253662	3114209	30	0
+models/neural/M03_A2B_s20261007/early0/result.json	2.4730725288391113	3114209	20	0
+models/neural/M03_A2B_s20261007/outer0/result.json	1.2528579235076904	3114209	20	0
+models/neural/M03_A2B_s20261007/early1/result.json	4.9746339321136475	3114209	115	0
+models/neural/M03_A2B_s20261007/outer1/result.json	4.89029860496521	3114209	115	0
+models/neural/M03_A2B_s20261007/early2/result.json	2.3451087474823	3114209	20	0
+models/neural/M03_A2B_s20261007/outer2/result.json	1.1802117824554443	3114209	20	0
+models/neural/M03_A2B_s20261007/early3/result.json	1.8325815200805664	3114209	10	0
+models/neural/M03_A2B_s20261007/outer3/result.json	0.7686789035797119	3114209	10	0
+models/neural/M03_A2B_s20261007/early4/result.json	2.950986623764038	3114209	35	0
+models/neural/M03_A2B_s20261007/outer4/result.json	1.7807557582855225	3114209	35	0
+models/neural/M03_A2B_s20261007/full/result.json	1.43648099899292	3114209	20	0
+models/neural/M03_A2B_s20261006/early0/result.json	3.305711507797241	3114208	40	0
+models/neural/M03_A2B_s20261006/outer0/result.json	2.1311726570129395	3114208	40	0
+models/neural/M03_A2B_s20261006/early1/result.json	4.9730751514434814	3114208	105	0
+models/neural/M03_A2B_s20261006/outer1/result.json	4.537980794906616	3114208	105	0
+models/neural/M03_A2B_s20261006/early2/result.json	2.8948209285736084	3114208	35	0
+models/neural/M03_A2B_s20261006/outer2/result.json	1.7467994689941406	3114208	35	0
+models/neural/M03_A2B_s20261006/early3/result.json	4.865923643112183	3114208	115	0
+models/neural/M03_A2B_s20261006/outer3/result.json	4.792785167694092	3114208	115	0
+models/neural/M03_A2B_s20261006/early4/result.json	2.926107168197632	3114208	35	0
+models/neural/M03_A2B_s20261006/outer4/result.json	1.7551817893981934	3114208	35	0
+models/neural/M03_A2B_s20261006/full/result.json	2.3202803134918213	3114208	40	0
+models/neural/M03_C_s20261006/early0/result.json	4.708770275115967	3114209	115	0
+models/neural/M03_C_s20261006/outer0/result.json	4.44056510925293	3114209	115	0
+models/neural/M03_C_s20261006/early1/result.json	4.401796817779541	3114209	115	0
+models/neural/M03_C_s20261006/outer1/result.json	4.047664642333984	3114209	115	0
+models/neural/M03_C_s20261006/early2/result.json	4.383941888809204	3114209	85	0
+models/neural/M03_C_s20261006/outer2/result.json	3.2221548557281494	3114209	85	0
+models/neural/M03_C_s20261006/early3/result.json	2.3074183464050293	3114209	35	0
+models/neural/M03_C_s20261006/outer3/result.json	1.42667818069458	3114209	35	0
+models/neural/M03_C_s20261006/early4/result.json	4.433295249938965	3114209	90	0
+models/neural/M03_C_s20261006/outer4/result.json	3.3753843307495117	3114209	90	0
+models/neural/M03_C_s20261006/full/result.json	3.944920301437378	3114209	90	0
+models/neural/M03_A2B_s20261008/early0/result.json	5.226808547973633	3114208	90	0
+models/neural/M03_A2B_s20261008/outer0/result.json	3.95878005027771	3114208	90	0
+models/neural/M03_A2B_s20261008/early1/result.json	4.462356328964233	3114208	75	0
+models/neural/M03_A2B_s20261008/outer1/result.json	3.1913630962371826	3114208	75	0
+models/neural/M03_A2B_s20261008/early2/result.json	3.7590067386627197	3114208	55	0
+models/neural/M03_A2B_s20261008/outer2/result.json	2.515617847442627	3114208	55	0
+models/neural/M03_A2B_s20261008/early3/result.json	2.2033989429473877	3114208	20	0
+models/neural/M03_A2B_s20261008/outer3/result.json	1.1413555145263672	3114208	20	0
+models/neural/M03_A2B_s20261008/early4/result.json	3.5544850826263428	3114208	55	0
+models/neural/M03_A2B_s20261008/outer4/result.json	2.4776103496551514	3114208	55	0
+models/neural/M03_A2B_s20261008/full/result.json	3.0120890140533447	3114208	55	0
+models/neural/M03_C_s20261008/early0/result.json	3.5288400650024414	3114209	60	0
+models/neural/M03_C_s20261008/outer0/result.json	2.399956226348877	3114209	60	0
+models/neural/M03_C_s20261008/early1/result.json	2.9473578929901123	3114209	55	0
+models/neural/M03_C_s20261008/outer1/result.json	2.026254892349243	3114209	55	0
+models/neural/M03_C_s20261008/early2/result.json	3.5845730304718018	3114209	65	0
+models/neural/M03_C_s20261008/outer2/result.json	2.413512706756592	3114209	65	0
+models/neural/M03_C_s20261008/early3/result.json	3.263563394546509	3114209	65	0
+models/neural/M03_C_s20261008/outer3/result.json	2.4019477367401123	3114209	65	0
+models/neural/M03_C_s20261008/early4/result.json	3.685730218887329	3114209	70	0
+models/neural/M03_C_s20261008/outer4/result.json	2.633305549621582	3114209	70	0
+models/neural/M03_C_s20261008/full/result.json	2.9421815872192383	3114209	65	0
+models/neural/M03_C_s20261007/early0/result.json	4.528638124465942	3114208	95	0
+models/neural/M03_C_s20261007/outer0/result.json	3.568283796310425	3114208	95	0
+models/neural/M03_C_s20261007/early1/result.json	2.783071517944336	3114208	50	0
+models/neural/M03_C_s20261007/outer1/result.json	1.8724870681762695	3114208	50	0
+models/neural/M03_C_s20261007/early2/result.json	2.924455404281616	3114208	50	0
+models/neural/M03_C_s20261007/outer2/result.json	1.8868744373321533	3114208	50	0
+models/neural/M03_C_s20261007/early3/result.json	1.8282599449157715	3114208	20	0
+models/neural/M03_C_s20261007/outer3/result.json	0.8871431350708008	3114208	20	0
+models/neural/M03_C_s20261007/early4/result.json	2.9431474208831787	3114208	45	0
+models/neural/M03_C_s20261007/outer4/result.json	1.7080724239349365	3114208	45	0
+models/neural/M03_C_s20261007/full/result.json	2.302238702774048	3114208	50	0
+models/neural/M04_A2B_s20261007/early0/result.json	2.764509677886963	3114209	20	0
+models/neural/M04_A2B_s20261007/outer0/result.json	1.3144068717956543	3114209	20	0
+models/neural/M04_A2B_s20261007/early1/result.json	3.3003172874450684	3114209	35	0
+models/neural/M04_A2B_s20261007/outer1/result.json	1.9800517559051514	3114209	35	0
+models/neural/M04_A2B_s20261007/early2/result.json	2.900599241256714	3114209	25	0
+models/neural/M04_A2B_s20261007/outer2/result.json	1.5114505290985107	3114209	25	0
+models/neural/M04_A2B_s20261007/early3/result.json	4.522621154785156	3114209	70	0
+models/neural/M04_A2B_s20261007/outer3/result.json	3.6533098220825195	3114209	70	0
+models/neural/M04_A2B_s20261007/early4/result.json	4.583550214767456	3114209	60	0
+models/neural/M04_A2B_s20261007/outer4/result.json	3.1510050296783447	3114209	60	0
+models/neural/M04_A2B_s20261007/full/result.json	2.3565335273742676	3114209	35	0
+models/neural/M04_A2B_s20261006/early0/result.json	5.118741035461426	3114208	70	0
+models/neural/M04_A2B_s20261006/outer0/result.json	3.5734758377075195	3114208	70	0
+models/neural/M04_A2B_s20261006/early1/result.json	4.184127569198608	3114208	55	0
+models/neural/M04_A2B_s20261006/outer1/result.json	2.7920703887939453	3114208	55	0
+models/neural/M04_A2B_s20261006/early2/result.json	5.8633599281311035	3114208	90	0
+models/neural/M04_A2B_s20261006/outer2/result.json	4.481939792633057	3114208	90	0
+models/neural/M04_A2B_s20261006/early3/result.json	4.188525676727295	3114208	60	0
+models/neural/M04_A2B_s20261006/outer3/result.json	2.969980478286743	3114208	60	0
+models/neural/M04_A2B_s20261006/early4/result.json	5.180656909942627	3114208	80	0
+models/neural/M04_A2B_s20261006/outer4/result.json	3.8526203632354736	3114208	80	0
+models/neural/M04_A2B_s20261006/full/result.json	4.116068124771118	3114208	70	0
+models/neural/M04_A2B_s20261008/early0/result.json	5.6489174365997314	3114208	85	0
+models/neural/M04_A2B_s20261008/outer0/result.json	4.2847535610198975	3114208	85	0
+models/neural/M04_A2B_s20261008/early1/result.json	5.271773099899292	3114208	85	0
+models/neural/M04_A2B_s20261008/outer1/result.json	3.9594130516052246	3114208	85	0
+models/neural/M04_A2B_s20261008/early2/result.json	5.628952980041504	3114208	95	0
+models/neural/M04_A2B_s20261008/outer2/result.json	4.542263746261597	3114208	95	0
+models/neural/M04_A2B_s20261008/early3/result.json	3.3940720558166504	3114208	45	0
+models/neural/M04_A2B_s20261008/outer3/result.json	2.313934087753296	3114208	45	0
+models/neural/M04_A2B_s20261008/early4/result.json	4.766247510910034	3114208	65	0
+models/neural/M04_A2B_s20261008/outer4/result.json	3.173175573348999	3114208	65	0
+models/neural/M04_A2B_s20261008/full/result.json	4.944872856140137	3114208	85	0
+models/cpu/M00/trees/full/class03/result.json	118.58513951301575	3113425		0
+models/cpu/M00/trees/full/class19/result.json	134.43151688575745	3113441		0
+models/cpu/M00/trees/full/class11/result.json	154.2864043712616	3113433		0
+models/cpu/M00/trees/full/class24/result.json	161.72248911857605	3113446		0
+models/cpu/M00/trees/full/class30/result.json	166.19410395622253	3113452		0
+models/cpu/M00/trees/full/class05/result.json	201.46006441116333	3113427		0
+models/cpu/M00/trees/full/class02/result.json	202.50978589057922	3113424		0
+models/cpu/M00/trees/full/class31/result.json	209.43656611442566	3113453		0
+models/cpu/M00/trees/full/class22/result.json	210.96632552146912	3113444		0
+models/cpu/M00/trees/full/class01/result.json	237.67830777168274	3113423		0
+models/cpu/M00/trees/full/class29/result.json	256.39177918434143	3113451		0
+models/cpu/M00/trees/full/class26/result.json	256.7396659851074	3113448		0
+models/cpu/M00/trees/full/class25/result.json	257.541494846344	3113447		0
+models/cpu/M00/trees/full/class27/result.json	269.1157374382019	3113449		0
+models/cpu/M00/trees/full/class08/result.json	293.0535364151001	3113430		0
+models/cpu/M00/trees/full/class10/result.json	294.69290828704834	3113432		0
+models/cpu/M00/trees/full/class20/result.json	299.973046541214	3113442		0
+models/cpu/M00/trees/full/class23/result.json	305.84257912635803	3113445		0
+models/cpu/M00/trees/full/class06/result.json	311.28960943222046	3113428		0
+models/cpu/M00/trees/full/class13/result.json	313.9305992126465	3113435		0
+models/cpu/M00/trees/full/class00/result.json	320.513503074646	3113422		0
+models/cpu/M00/trees/full/class07/result.json	322.53046011924744	3113429		0
+models/cpu/M00/trees/full/class28/result.json	327.9242215156555	3113450		0
+models/cpu/M00/trees/full/class15/result.json	332.6863691806793	3113437		0
+models/cpu/M00/trees/full/class14/result.json	375.1992471218109	3113436		0
+models/cpu/M00/trees/full/class18/result.json	376.0767111778259	3113440		0
+models/cpu/M00/trees/full/class04/result.json	390.7143828868866	3113426		0
+models/cpu/M00/trees/full/class21/result.json	402.40354657173157	3113443		0
+models/cpu/M00/trees/full/class16/result.json	406.02628207206726	3113438		0
+models/cpu/M00/trees/full/class12/result.json	422.69582986831665	3113434		0
+models/cpu/M00/trees/full/class09/result.json	444.3457062244415	3113431		0
+models/cpu/M00/trees/full/class17/result.json	825.9494440555573	3122275		0
+models/cpu/M00/trees/outer0/class02/result.json	252.48256158828735	3122266		0
+models/cpu/M00/trees/outer0/class04/result.json	543.8844795227051	3122264		0
+models/cpu/M00/trees/outer0/class03/result.json	113.11875677108765	3122289		0
+models/cpu/M00/trees/outer0/class00/result.json	397.2203550338745	3122304		0
+models/cpu/M00/trees/outer0/class01/result.json	296.171178817749	3122321		0
+models/cpu/M00/trees/outer0/class05/result.json	252.87654280662537	3122274		0
+models/cpu/M00/trees/outer0/class06/result.json	355.0367798805237	3122291		0
+models/cpu/M00/trees/outer0/class08/result.json	378.36983489990234	3122309		0
+models/cpu/M00/trees/outer0/class09/result.json	566.0033400058746	3122281		0
+models/cpu/M00/trees/outer0/class11/result.json	150.1433141231537	3122261		0
+models/cpu/M00/trees/outer0/class13/result.json	324.9244201183319	3122265		0
+models/cpu/M00/trees/outer0/class17/result.json	513.9264602661133	3122277		0
+models/cpu/M00/trees/outer0/class16/result.json	479.54831314086914	3122280		0
+models/cpu/M00/trees/outer0/class14/result.json	375.9098262786865	3122320		0
+models/cpu/M00/trees/outer0/class10/result.json	368.9481906890869	3122271		0
+models/cpu/M00/trees/outer0/class07/result.json	376.2399158477783	3122269		0
+models/cpu/M00/trees/outer0/class12/result.json	472.57957649230957	3122267		0
+models/cpu/M00/trees/outer0/class15/result.json	308.97669982910156	3122262		0
+models/cpu/M00/trees/outer0/class18/result.json	377.76550793647766	3122282		0
+models/cpu/M00/trees/outer0/class19/result.json	139.76460075378418	3122272		0
+models/cpu/M00/trees/outer0/class20/result.json	267.0012149810791	3122260		0
+models/cpu/M00/trees/outer0/class21/result.json	360.4730622768402	3122287		0
+models/cpu/M00/trees/outer0/class22/result.json	216.18549132347107	3122289		0
+models/cpu/M00/trees/outer0/class23/result.json	325.2181062698364	3122272		0
+models/cpu/M00/trees/outer0/class24/result.json	129.83070635795593	3122261		0
+models/cpu/M00/trees/outer0/class25/result.json	310.700572013855	3122325		0
+models/cpu/M00/trees/outer0/class26/result.json	414.1952040195465	3122258		0
+models/cpu/M00/trees/outer0/class27/result.json	359.99554538726807	3122333		0
+models/cpu/M00/trees/outer0/class28/result.json	377.0828068256378	3122276		0
+models/cpu/M00/trees/outer0/class29/result.json	327.98537135124207	3122266		0
+models/cpu/M00/trees/outer0/class30/result.json	220.19455313682556	3122312		0
+models/cpu/M00/trees/outer0/class31/result.json	290.386212348938	3122274		0
+models/cpu/M00/trees/outer1/class00/result.json	288.3852307796478	3122260		0
+models/cpu/M00/trees/outer1/class01/result.json	233.69668078422546	3122327		0
+models/cpu/M00/trees/outer1/class02/result.json	168.45597648620605	3122297		0
+models/cpu/M00/trees/outer1/class03/result.json	149.1496729850769	3122284		0
+models/cpu/M00/trees/outer1/class04/result.json	533.155047416687	3122270		0
+models/cpu/M00/trees/outer1/class05/result.json	239.51273393630981	3122333		0
+models/cpu/M00/trees/outer1/class06/result.json	382.1010799407959	3122329		0
+models/cpu/M00/trees/outer1/class07/result.json	305.51220655441284	3122276		0
+models/cpu/M00/trees/outer1/class08/result.json	379.2677969932556	3122335		0
+models/cpu/M00/trees/outer1/class09/result.json	389.9533507823944	3122292		0
+models/cpu/M00/trees/outer1/class10/result.json	288.5923581123352	3122267		0
+models/cpu/M00/trees/outer1/class11/result.json	134.23052859306335	3122320		0
+models/cpu/M00/trees/outer1/class12/result.json	523.5804870128632	3122258		0
+models/cpu/M00/trees/outer1/class13/result.json	394.5589380264282	3122331		0
+models/cpu/M00/trees/outer1/class14/result.json	341.02287459373474	3122316		0
+models/cpu/M00/trees/outer1/class15/result.json	287.7640562057495	3122259		0
+models/cpu/M00/trees/outer1/class16/result.json	414.7236154079437	3122337		0
+models/cpu/M00/trees/outer1/class17/result.json	392.7358498573303	3122295		0
+models/cpu/M00/trees/outer1/class18/result.json	298.837965965271	3122314		0
+models/cpu/M00/trees/outer1/class19/result.json	111.55897760391235	3122324		0
+models/cpu/M00/trees/outer1/class20/result.json	314.99301385879517	3122278		0
+models/cpu/M00/trees/outer1/class21/result.json	373.40107893943787	3122271		0
+models/cpu/M00/trees/outer1/class22/result.json	181.5460479259491	3122318		0
+models/cpu/M00/trees/outer1/class23/result.json	308.7142288684845	3122300		0
+models/cpu/M00/trees/outer1/class24/result.json	193.99999237060547	3122321		0
+models/cpu/M00/trees/outer1/class25/result.json	272.6695759296417	3122268		0
+models/cpu/M00/trees/outer1/class26/result.json	309.83181166648865	3122326		0
+models/cpu/M00/trees/outer1/class27/result.json	368.4235918521881	3122296		0
+models/cpu/M00/trees/outer1/class28/result.json	315.52348232269287	3122299		0
+models/cpu/M00/trees/outer1/class29/result.json	262.7362325191498	3122309		0
+models/cpu/M00/trees/outer1/class30/result.json	188.96235513687134	3122330		0
+models/cpu/M00/trees/outer1/class31/result.json	268.8025221824646	3122274		0
+models/cpu/M00/trees/outer2/class00/result.json	391.7289595603943	3122266		0
+models/cpu/M00/trees/outer2/class01/result.json	284.0766189098358	3122286		0
+models/cpu/M00/trees/outer2/class02/result.json	216.30841660499573	3122314		0
+models/cpu/M00/trees/outer2/class03/result.json	126.25217509269714	3122310		0
+models/cpu/M00/trees/outer2/class04/result.json	390.3789756298065	3122309		0
+models/cpu/M00/trees/outer2/class05/result.json	225.7658450603485	3122279		0
+models/cpu/M00/trees/outer2/class06/result.json	376.8724789619446	3122274		0
+models/cpu/M00/trees/outer2/class07/result.json	416.18439650535583	3122278		0
+models/cpu/M00/trees/outer2/class08/result.json	350.3428647518158	3122261		0
+models/cpu/M00/trees/outer2/class09/result.json	484.2071022987366	3122260		0
+models/cpu/M00/trees/outer2/class10/result.json	285.503276348114	3122291		0
+models/cpu/M00/trees/outer2/class11/result.json	136.90775346755981	3122313		0
+models/cpu/M00/trees/outer2/class12/result.json	579.4910168647766	3122300		0
+models/cpu/M00/trees/outer2/class13/result.json	405.33436584472656	3122308		0
+models/cpu/M00/trees/outer2/class14/result.json	354.25845646858215	3122316		0
+models/cpu/M00/trees/outer2/class15/result.json	412.904723405838	3122326		0
+models/cpu/M00/trees/outer2/class16/result.json	426.8531596660614	3122329		0
+models/cpu/M00/trees/outer2/class17/result.json	425.9621968269348	3122327		0
+models/cpu/M00/trees/outer2/class18/result.json	451.25770902633667	3122275		0
+models/cpu/M00/trees/outer2/class19/result.json	150.55903697013855	3122335		0
+models/cpu/M00/trees/outer2/class20/result.json	278.98486137390137	3122282		0
+models/cpu/M00/trees/outer2/class21/result.json	326.53848361968994	3122299		0
+models/cpu/M00/trees/outer2/class22/result.json	188.1245129108429	3122292		0
+models/cpu/M00/trees/outer2/class23/result.json	366.13969445228577	3122298		0
+models/cpu/M00/trees/outer2/class24/result.json	157.81869745254517	3122264		0
+models/cpu/M00/trees/outer2/class25/result.json	304.82114720344543	3122271		0
+models/cpu/M00/trees/outer2/class26/result.json	272.74174523353577	3122332		0
+models/cpu/M00/trees/outer2/class27/result.json	311.5711166858673	3122323		0
+models/cpu/M00/trees/outer2/class28/result.json	344.22593116760254	3122269		0
+models/cpu/M00/trees/outer2/class29/result.json	345.26529908180237	3122331		0
+models/cpu/M00/trees/outer2/class30/result.json	208.42184495925903	3122295		0
+models/cpu/M00/trees/outer2/class31/result.json	260.9844093322754	3122296		0
+models/cpu/M00/trees/outer3/class00/result.json	344.7639272212982	3122282		0
+models/cpu/M00/trees/outer3/class01/result.json	230.91568064689636	3122320		0
+models/cpu/M00/trees/outer3/class02/result.json	205.9604332447052	3122332		0
+models/cpu/M00/trees/outer3/class03/result.json	107.34587287902832	3122292		0
+models/cpu/M00/trees/outer3/class04/result.json	471.3883476257324	3122270		0
+models/cpu/M00/trees/outer3/class05/result.json	223.55173802375793	3122305		0
+models/cpu/M00/trees/outer3/class06/result.json	313.9631395339966	3122289		0
+models/cpu/M00/trees/outer3/class07/result.json	331.2488594055176	3122296		0
+models/cpu/M00/trees/outer3/class08/result.json	276.406455039978	3122261		0
+models/cpu/M00/trees/outer3/class09/result.json	413.94274711608887	3122299		0
+models/cpu/M00/trees/outer3/class10/result.json	307.77181935310364	3122271		0
+models/cpu/M00/trees/outer3/class11/result.json	135.57238054275513	3122266		0
+models/cpu/M00/trees/outer3/class12/result.json	381.8090453147888	3122316		0
+models/cpu/M00/trees/outer3/class13/result.json	307.35173296928406	3122301		0
+models/cpu/M00/trees/outer3/class14/result.json	288.8879280090332	3122309		0
+models/cpu/M00/trees/outer3/class15/result.json	287.80502486228943	3122323		0
+models/cpu/M00/trees/outer3/class16/result.json	435.89731335639954	3122274		0
+models/cpu/M00/trees/outer3/class17/result.json	440.6954822540283	3122294		0
+models/cpu/M00/trees/outer3/class18/result.json	324.8954277038574	3122330		0
+models/cpu/M00/trees/outer3/class19/result.json	122.58165740966797	3122285		0
+models/cpu/M00/trees/outer3/class20/result.json	250.6361174583435	3122318		0
+models/cpu/M00/trees/outer3/class21/result.json	298.0075399875641	3122269		0
+models/cpu/M00/trees/outer3/class22/result.json	217.4812207221985	3122331		0
+models/cpu/M00/trees/outer3/class23/result.json	273.9252746105194	3122286		0
+models/cpu/M00/trees/outer3/class24/result.json	223.8814959526062	3122308		0
+models/cpu/M00/trees/outer3/class25/result.json	306.2017250061035	3122278		0
+models/cpu/M00/trees/outer3/class26/result.json	316.11209654808044	3122298		0
+models/cpu/M00/trees/outer3/class27/result.json	250.40864419937134	3122315		0
+models/cpu/M00/trees/outer3/class28/result.json	367.1761791706085	3122280		0
+models/cpu/M00/trees/outer3/class29/result.json	328.8051743507385	3122326		0
+models/cpu/M00/trees/outer3/class30/result.json	184.35884642601013	3122277		0
+models/cpu/M00/trees/outer3/class31/result.json	212.76065611839294	3122310		0
+models/cpu/M00/trees/outer4/class00/result.json	357.9887754917145	3122318		0
+models/cpu/M00/trees/outer4/class01/result.json	267.1186227798462	3122282		0
+models/cpu/M00/trees/outer4/class02/result.json	289.7387533187866	3122334		0
+models/cpu/M00/trees/outer4/class03/result.json	132.36867833137512	3122323		0
+models/cpu/M00/trees/outer4/class04/result.json	424.3767673969269	3122309		0
+models/cpu/M00/trees/outer4/class05/result.json	258.6777901649475	3122302		0
+models/cpu/M00/trees/outer4/class06/result.json	386.8585386276245	3122271		0
+models/cpu/M00/trees/outer4/class07/result.json	399.9834420681	3122296		0
+models/cpu/M00/trees/outer4/class08/result.json	272.1698987483978	3122315		0
+models/cpu/M00/trees/outer4/class09/result.json	553.5721151828766	3122301		0
+models/cpu/M00/trees/outer4/class10/result.json	405.2718060016632	3122286		0
+models/cpu/M00/trees/outer4/class11/result.json	142.74570107460022	3122288		0
+models/cpu/M00/trees/outer4/class12/result.json	440.91613268852234	3122266		0
+models/cpu/M00/trees/outer4/class13/result.json	350.20238614082336	3122321		0
+models/cpu/M00/trees/outer4/class14/result.json	363.0129735469818	3122269		0
+models/cpu/M00/trees/outer4/class15/result.json	361.7054226398468	3122330		0
+models/cpu/M00/trees/outer4/class16/result.json	507.2182881832123	3122278		0
+models/cpu/M00/trees/outer4/class17/result.json	503.17150354385376	3122298		0
+models/cpu/M00/trees/outer4/class18/result.json	351.97942566871643	3122325		0
+models/cpu/M00/trees/outer4/class19/result.json	132.93591356277466	3122303		0
+models/cpu/M00/trees/outer4/class20/result.json	351.35331082344055	3122311		0
+models/cpu/M00/trees/outer4/class21/result.json	405.205628156662	3122279		0
+models/cpu/M00/trees/outer4/class22/result.json	250.11467480659485	3122258		0
+models/cpu/M00/trees/outer4/class23/result.json	272.48785185813904	3122287		0
+models/cpu/M00/trees/outer4/class24/result.json	213.95327377319336	3122284		0
+models/cpu/M00/trees/outer4/class25/result.json	288.51804852485657	3122316		0
+models/cpu/M00/trees/outer4/class26/result.json	281.86001229286194	3122259		0
+models/cpu/M00/trees/outer4/class27/result.json	373.7157852649689	3122326		0
+models/cpu/M00/trees/outer4/class28/result.json	383.6047158241272	3122322		0
+models/cpu/M00/trees/outer4/class29/result.json	316.09437322616577	3122285		0
+models/cpu/M00/trees/outer4/class30/result.json	221.59657788276672	3122335		0
+models/cpu/M00/trees/outer4/class31/result.json	218.50793504714966	3122265		0
+models/cpu/M02/trees/full/class03/result.json	120.55071496963501	3113446		0
+models/cpu/M02/trees/full/class02/result.json	232.378351688385	3113433		0
+models/cpu/M02/trees/full/class11/result.json	149.0400722026825	3113448		0
+models/cpu/M02/trees/full/class01/result.json	277.163211107254	3113441		0
+models/cpu/M02/trees/full/class05/result.json	211.2553265094757	3113427		0
+models/cpu/M02/trees/full/class19/result.json	107.77469372749329	3113428		0
+models/cpu/M02/trees/full/class00/result.json	323.97531628608704	3113425		0
+models/cpu/M02/trees/full/class04/result.json	857.332859992981	3122294		0
+models/cpu/M02/trees/full/class06/result.json	687.2216918468475	3122296		0
+models/cpu/M02/trees/full/class07/result.json	583.763614654541	3122297		0
+models/cpu/M02/trees/full/class09/result.json	693.9700183868408	3122299		0
+models/cpu/M02/trees/full/class10/result.json	673.4136974811554	3122300		0
+models/cpu/M02/trees/full/class13/result.json	536.6680481433868	3122303		0
+models/cpu/M02/trees/full/class12/result.json	718.9229423999786	3122302		0
+models/cpu/M02/trees/full/class14/result.json	566.138631105423	3122285		0
+models/cpu/M02/trees/full/class15/result.json	513.2585093975067	3122286		0
+models/cpu/M02/trees/full/class20/result.json	575.8766551017761	3122293		0
+models/cpu/M02/trees/full/class16/result.json	766.869259595871	3122306		0
+models/cpu/M02/trees/full/class17/result.json	836.4266996383667	3122307		0
+models/cpu/M02/trees/full/class18/result.json	707.8145334720612	3122308		0
+models/cpu/M02/trees/full/class23/result.json	441.2640495300293	3122268		0
+models/cpu/M02/trees/full/class21/result.json	767.8896279335022	3122311		0
+models/cpu/M02/trees/full/class22/result.json	252.78998064994812	3122312		0
+models/cpu/M02/trees/full/class08/result.json	658.9277610778809	3122278		0
+models/cpu/M02/trees/full/class27/result.json	485.5799026489258	3122301		0
+models/cpu/M02/trees/full/class24/result.json	292.39120602607727	3122310		0
+models/cpu/M02/trees/full/class25/result.json	453.5966796875	3122313		0
+models/cpu/M02/trees/full/class26/result.json	490.890988111496	3122316		0
+models/cpu/M02/trees/full/class28/result.json	585.872896194458	3122284		0
+models/cpu/M02/trees/full/class29/result.json	416.67829155921936	3122319		0
+models/cpu/M02/trees/full/class30/result.json	309.34032130241394	3122317		0
+models/cpu/M02/trees/full/class31/result.json	360.4905822277069	3122305		0
+models/cpu/M02/trees/outer0/class00/result.json	388.67900466918945	3122295		0
+models/cpu/M02/trees/outer0/class01/result.json	316.03233885765076	3122260		0
+models/cpu/M02/trees/outer0/class02/result.json	303.49560260772705	3122327		0
+models/cpu/M02/trees/outer0/class03/result.json	111.02040266990662	3122261		0
+models/cpu/M02/trees/outer0/class04/result.json	564.5877223014832	3122283		0
+models/cpu/M02/trees/outer0/class05/result.json	206.3147394657135	3122310		0
+models/cpu/M02/trees/outer0/class06/result.json	379.1991045475006	3122321		0
+models/cpu/M02/trees/outer0/class07/result.json	356.5179672241211	3122324		0
+models/cpu/M02/trees/outer0/class08/result.json	400.8243737220764	3122262		0
+models/cpu/M02/trees/outer0/class09/result.json	569.5662331581116	3122317		0
+models/cpu/M02/trees/outer0/class10/result.json	354.3977448940277	3122318		0
+models/cpu/M02/trees/outer0/class11/result.json	162.37242650985718	3122265		0
+models/cpu/M02/trees/outer0/class12/result.json	470.4788625240326	3122289		0
+models/cpu/M02/trees/outer0/class13/result.json	322.5115005970001	3122314		0
+models/cpu/M02/trees/outer0/class14/result.json	418.8487226963043	3122323		0
+models/cpu/M02/trees/outer0/class15/result.json	276.6518576145172	3122292		0
+models/cpu/M02/trees/outer0/class16/result.json	444.0921137332916	3122291		0
+models/cpu/M02/trees/outer0/class17/result.json	516.0959305763245	3122287		0
+models/cpu/M02/trees/outer0/class18/result.json	391.36553859710693	3122305		0
+models/cpu/M02/trees/outer0/class19/result.json	149.56004214286804	3122271		0
+models/cpu/M02/trees/outer0/class20/result.json	247.68725299835205	3122320		0
+models/cpu/M02/trees/outer0/class21/result.json	356.93145060539246	3122269		0
+models/cpu/M02/trees/outer0/class22/result.json	183.57732009887695	3122282		0
+models/cpu/M02/trees/outer0/class23/result.json	316.09507632255554	3122309		0
+models/cpu/M02/trees/outer0/class24/result.json	125.05262732505798	3122332		0
+models/cpu/M02/trees/outer0/class25/result.json	315.3179233074188	3122261		0
+models/cpu/M02/trees/outer0/class26/result.json	329.2681608200073	3122279		0
+models/cpu/M02/trees/outer0/class27/result.json	342.9817588329315	3122304		0
+models/cpu/M02/trees/outer0/class28/result.json	385.6221013069153	3122319		0
+models/cpu/M02/trees/outer0/class29/result.json	332.3227560520172	3122273		0
+models/cpu/M02/trees/outer0/class30/result.json	218.63019800186157	3122259		0
+models/cpu/M02/trees/outer0/class31/result.json	234.95202541351318	3122268		0
+models/cpu/M02/trees/outer1/class00/result.json	270.2855110168457	3122261		0
+models/cpu/M02/trees/outer1/class01/result.json	276.63830161094666	3122308		0
+models/cpu/M02/trees/outer1/class02/result.json	169.2528257369995	3122262		0
+models/cpu/M02/trees/outer1/class03/result.json	137.2432506084442	3122313		0
+models/cpu/M02/trees/outer1/class04/result.json	465.7172772884369	3122302		0
+models/cpu/M02/trees/outer1/class05/result.json	244.01884174346924	3122279		0
+models/cpu/M02/trees/outer1/class06/result.json	307.010751247406	3122269		0
+models/cpu/M02/trees/outer1/class07/result.json	376.9742429256439	3122284		0
+models/cpu/M02/trees/outer1/class08/result.json	329.8330717086792	3122304		0
+models/cpu/M02/trees/outer1/class09/result.json	444.31023621559143	3122322		0
+models/cpu/M02/trees/outer1/class10/result.json	289.34057784080505	3122332		0
+models/cpu/M02/trees/outer1/class11/result.json	159.9882674217224	3122305		0
+models/cpu/M02/trees/outer1/class12/result.json	461.5577747821808	3122297		0
+models/cpu/M02/trees/outer1/class13/result.json	347.4524095058441	3122273		0
+models/cpu/M02/trees/outer1/class14/result.json	304.8473017215729	3122320		0
+models/cpu/M02/trees/outer1/class15/result.json	276.15276885032654	3122323		0
+models/cpu/M02/trees/outer1/class16/result.json	303.6664412021637	3122265		0
+models/cpu/M02/trees/outer1/class17/result.json	459.2171576023102	3122334		0
+models/cpu/M02/trees/outer1/class18/result.json	340.6857454776764	3122306		0
+models/cpu/M02/trees/outer1/class19/result.json	101.79656958580017	3122324		0
+models/cpu/M02/trees/outer1/class20/result.json	311.2684488296509	3122311		0
+models/cpu/M02/trees/outer1/class21/result.json	380.7479479312897	3122263		0
+models/cpu/M02/trees/outer1/class22/result.json	152.4464089870453	3122266		0
+models/cpu/M02/trees/outer1/class23/result.json	320.4285547733307	3122293		0
+models/cpu/M02/trees/outer1/class24/result.json	179.18472027778625	3122291		0
+models/cpu/M02/trees/outer1/class25/result.json	262.8060259819031	3122289		0
+models/cpu/M02/trees/outer1/class26/result.json	256.47514486312866	3122336		0
+models/cpu/M02/trees/outer1/class27/result.json	311.4373641014099	3122280		0
+models/cpu/M02/trees/outer1/class28/result.json	317.4708502292633	3122319		0
+models/cpu/M02/trees/outer1/class29/result.json	275.81882786750793	3122315		0
+models/cpu/M02/trees/outer1/class30/result.json	174.61302208900452	3122327		0
+models/cpu/M02/trees/outer1/class31/result.json	250.6797046661377	3122312		0
+models/cpu/M02/trees/outer2/class00/result.json	401.5668568611145	3122336		0
+models/cpu/M02/trees/outer2/class01/result.json	253.56355476379395	3122289		0
+models/cpu/M02/trees/outer2/class02/result.json	240.54428267478943	3122320		0
+models/cpu/M02/trees/outer2/class03/result.json	132.84066438674927	3122317		0
+models/cpu/M02/trees/outer2/class04/result.json	530.3938286304474	3122337		0
+models/cpu/M02/trees/outer2/class05/result.json	209.7777533531189	3122265		0
+models/cpu/M02/trees/outer2/class06/result.json	351.1363799571991	3122304		0
+models/cpu/M02/trees/outer2/class07/result.json	398.98685026168823	3122312		0
+models/cpu/M02/trees/outer2/class08/result.json	384.578919172287	3122328		0
+models/cpu/M02/trees/outer2/class09/result.json	634.8180735111237	3122311		0
+models/cpu/M02/trees/outer2/class10/result.json	300.10279297828674	3122318		0
+models/cpu/M02/trees/outer2/class11/result.json	145.37011742591858	3122310		0
+models/cpu/M02/trees/outer2/class12/result.json	467.2466199398041	3122288		0
+models/cpu/M02/trees/outer2/class13/result.json	315.91335797309875	3122315		0
+models/cpu/M02/trees/outer2/class14/result.json	372.0144531726837	3122259		0
+models/cpu/M02/trees/outer2/class15/result.json	356.6917974948883	3122273		0
+models/cpu/M02/trees/outer2/class16/result.json	325.9288685321808	3122325		0
+models/cpu/M02/trees/outer2/class17/result.json	458.9361629486084	3122281		0
+models/cpu/M02/trees/outer2/class18/result.json	460.4685835838318	3122306		0
+models/cpu/M02/trees/outer2/class19/result.json	131.20137333869934	3122284		0
+models/cpu/M02/trees/outer2/class20/result.json	286.16956639289856	3122280		0
+models/cpu/M02/trees/outer2/class21/result.json	429.15878319740295	3122293		0
+models/cpu/M02/trees/outer2/class22/result.json	162.90344142913818	3122313		0
+models/cpu/M02/trees/outer2/class23/result.json	300.9366159439087	3122319		0
+models/cpu/M02/trees/outer2/class24/result.json	188.14808702468872	3122270		0
+models/cpu/M02/trees/outer2/class25/result.json	303.17220544815063	3122287		0
+models/cpu/M02/trees/outer2/class26/result.json	279.73113489151	3122277		0
+models/cpu/M02/trees/outer2/class27/result.json	325.7037296295166	3122262		0
+models/cpu/M02/trees/outer2/class28/result.json	323.48278403282166	3122272		0
+models/cpu/M02/trees/outer2/class29/result.json	272.8485927581787	3122267		0
+models/cpu/M02/trees/outer2/class30/result.json	214.6375937461853	3122294		0
+models/cpu/M02/trees/outer2/class31/result.json	271.68198561668396	3122335		0
+models/cpu/M02/trees/outer3/class00/result.json	338.6366539001465	3122267		0
+models/cpu/M02/trees/outer3/class01/result.json	324.8209373950958	3122335		0
+models/cpu/M02/trees/outer3/class02/result.json	202.88930773735046	3122292		0
+models/cpu/M02/trees/outer3/class03/result.json	118.68723201751709	3122327		0
+models/cpu/M02/trees/outer3/class04/result.json	472.2872998714447	3122329		0
+models/cpu/M02/trees/outer3/class05/result.json	193.98104214668274	3122319		0
+models/cpu/M02/trees/outer3/class06/result.json	352.67614555358887	3122304		0
+models/cpu/M02/trees/outer3/class07/result.json	300.50631761550903	3122287		0
+models/cpu/M02/trees/outer3/class08/result.json	279.31661796569824	3122325		0
+models/cpu/M02/trees/outer3/class09/result.json	410.1810703277588	3122276		0
+models/cpu/M02/trees/outer3/class10/result.json	358.01621174812317	3122275		0
+models/cpu/M02/trees/outer3/class11/result.json	129.8294382095337	3122324		0
+models/cpu/M02/trees/outer3/class12/result.json	376.9346671104431	3122272		0
+models/cpu/M02/trees/outer3/class13/result.json	303.8757674694061	3122263		0
+models/cpu/M02/trees/outer3/class14/result.json	306.68552231788635	3122262		0
+models/cpu/M02/trees/outer3/class15/result.json	290.5393097400665	3122328		0
+models/cpu/M02/trees/outer3/class16/result.json	356.776052236557	3122336		0
+models/cpu/M02/trees/outer3/class17/result.json	369.4686276912689	3122260		0
+models/cpu/M02/trees/outer3/class18/result.json	324.0743451118469	3122273		0
+models/cpu/M02/trees/outer3/class19/result.json	115.29963111877441	3122283		0
+models/cpu/M02/trees/outer3/class20/result.json	267.0171797275543	3122259		0
+models/cpu/M02/trees/outer3/class21/result.json	298.8950583934784	3122268		0
+models/cpu/M02/trees/outer3/class22/result.json	145.56524515151978	3122314		0
+models/cpu/M02/trees/outer3/class23/result.json	289.6046679019928	3122312		0
+models/cpu/M02/trees/outer3/class24/result.json	191.66268014907837	3122266		0
+models/cpu/M02/trees/outer3/class25/result.json	248.7745385169983	3122322		0
+models/cpu/M02/trees/outer3/class26/result.json	276.6003656387329	3122264		0
+models/cpu/M02/trees/outer3/class27/result.json	250.16008496284485	3122265		0
+models/cpu/M02/trees/outer3/class28/result.json	356.5310411453247	3122313		0
+models/cpu/M02/trees/outer3/class29/result.json	288.8382546901703	3122297		0
+models/cpu/M02/trees/outer3/class30/result.json	181.1746916770935	3122321		0
+models/cpu/M02/trees/outer3/class31/result.json	234.92969822883606	3122285		0
+models/cpu/M02/trees/outer4/class00/result.json	443.87622809410095	3122328		0
+models/cpu/M02/trees/outer4/class01/result.json	268.6004378795624	3122299		0
+models/cpu/M02/trees/outer4/class02/result.json	234.9047348499298	3122267		0
+models/cpu/M02/trees/outer4/class03/result.json	144.31519293785095	3122263		0
+models/cpu/M02/trees/outer4/class04/result.json	475.39496898651123	3122312		0
+models/cpu/M02/trees/outer4/class05/result.json	247.5388994216919	3122262		0
+models/cpu/M02/trees/outer4/class06/result.json	418.58407950401306	3122280		0
+models/cpu/M02/trees/outer4/class07/result.json	410.80734062194824	3122268		0
+models/cpu/M02/trees/outer4/class08/result.json	300.2122571468353	3122323		0
+models/cpu/M02/trees/outer4/class09/result.json	491.7372844219208	3122264		0
+models/cpu/M02/trees/outer4/class10/result.json	423.28588128089905	3122304		0
+models/cpu/M02/trees/outer4/class11/result.json	182.17065143585205	3122333		0
+models/cpu/M02/trees/outer4/class12/result.json	474.83658361434937	3122270		0
+models/cpu/M02/trees/outer4/class13/result.json	359.9959349632263	3122291		0
+models/cpu/M02/trees/outer4/class14/result.json	408.5684187412262	3122310		0
+models/cpu/M02/trees/outer4/class15/result.json	384.00255942344666	3122273		0
+models/cpu/M02/trees/outer4/class16/result.json	421.0902647972107	3122297		0
+models/cpu/M02/trees/outer4/class17/result.json	456.11882162094116	3122274		0
+models/cpu/M02/trees/outer4/class18/result.json	432.88110065460205	3122294		0
+models/cpu/M02/trees/outer4/class19/result.json	129.1886088848114	3122327		0
+models/cpu/M02/trees/outer4/class20/result.json	384.2006757259369	3122275		0
+models/cpu/M02/trees/outer4/class21/result.json	410.5323488712311	3122305		0
+models/cpu/M02/trees/outer4/class22/result.json	150.8293297290802	3122288		0
+models/cpu/M02/trees/outer4/class23/result.json	370.49833822250366	3122331		0
+models/cpu/M02/trees/outer4/class24/result.json	195.17929863929749	3122320		0
+models/cpu/M02/trees/outer4/class25/result.json	336.8651258945465	3122336		0
+models/cpu/M02/trees/outer4/class26/result.json	287.4017894268036	3122289		0
+models/cpu/M02/trees/outer4/class27/result.json	322.21386766433716	3122314		0
+models/cpu/M02/trees/outer4/class28/result.json	370.14536023139954	3122261		0
+models/cpu/M02/trees/outer4/class29/result.json	326.40147852897644	3122292		0
+models/cpu/M02/trees/outer4/class30/result.json	176.8490047454834	3122272		0
+models/cpu/M02/trees/outer4/class31/result.json	264.27355313301086	3122260		0
+models/cpu/M03/trees/full/class00/result.json	529.3738913536072	3122322		0
+models/cpu/M03/trees/full/class01/result.json	342.0977189540863	3122323		0
+models/cpu/M03/trees/full/class02/result.json	298.9309298992157	3122324		0
+models/cpu/M03/trees/full/class03/result.json	174.89518666267395	3122325		0
+models/cpu/M03/trees/full/class04/result.json	681.2939782142639	3122326		0
+models/cpu/M03/trees/full/class05/result.json	279.58389043807983	3122327		0
+models/cpu/M03/trees/full/class06/result.json	503.8410623073578	3122328		0
+models/cpu/M03/trees/full/class07/result.json	609.1925461292267	3122329		0
+models/cpu/M03/trees/full/class08/result.json	453.80491185188293	3122330		0
+models/cpu/M03/trees/full/class09/result.json	648.9564588069916	3122331		0
+models/cpu/M03/trees/full/class11/result.json	233.91281127929688	3122333		0
+models/cpu/M03/trees/full/class10/result.json	378.70406436920166	3122332		0
+models/cpu/M03/trees/full/class15/result.json	589.0502314567566	3122270		0
+models/cpu/M03/trees/full/class12/result.json	766.1958899497986	3122334		0
+models/cpu/M03/trees/full/class17/result.json	528.203075170517	3122288		0
+models/cpu/M03/trees/full/class20/result.json	425.41196513175964	3122273		0
+models/cpu/M03/trees/full/class18/result.json	651.5230813026428	3122337		0
+models/cpu/M03/trees/full/class21/result.json	526.8239495754242	3122263		0
+models/cpu/M03/trees/full/class16/result.json	431.57908296585083	3122259		0
+models/cpu/M03/trees/full/class25/result.json	392.79346990585327	3122279		0
+models/cpu/M03/trees/full/class27/result.json	344.457852602005	3122292		0
+models/cpu/M03/trees/full/class24/result.json	236.69868326187134	3122276		0
+models/cpu/M03/trees/full/class22/result.json	292.20888662338257	3122283		0
+models/cpu/M03/trees/full/class14/result.json	441.7774634361267	3122336		0
+models/cpu/M03/trees/full/class19/result.json	231.9378011226654	3122258		0
+models/cpu/M03/trees/full/class26/result.json	497.5066351890564	3122290		0
+models/cpu/M03/trees/full/class23/result.json	495.88120007514954	3122298		0
+models/cpu/M03/trees/full/class28/result.json	462.63420963287354	3122315		0
+models/cpu/M03/trees/full/class30/result.json	264.35979747772217	3122295		0
+models/cpu/M03/trees/full/class29/result.json	331.73595118522644	3122314		0
+models/cpu/M03/trees/full/class31/result.json	312.5225291252136	3122318		0
+models/cpu/M03/trees/full/class13/result.json	614.429830789566	3122335		0
+models/cpu/M03/trees/outer0/class00/result.json	359.02467608451843	3122336		0
+models/cpu/M03/trees/outer0/class01/result.json	259.82503271102905	3122313		0
+models/cpu/M03/trees/outer0/class02/result.json	243.1366846561432	3122330		0
+models/cpu/M03/trees/outer0/class03/result.json	104.9843397140503	3122315		0
+models/cpu/M03/trees/outer0/class04/result.json	383.1915988922119	3122272		0
+models/cpu/M03/trees/outer0/class05/result.json	150.06148600578308	3122267		0
+models/cpu/M03/trees/outer0/class06/result.json	348.4280858039856	3122312		0
+models/cpu/M03/trees/outer0/class07/result.json	322.58335638046265	3122280		0
+models/cpu/M03/trees/outer0/class08/result.json	367.51725244522095	3122301		0
+models/cpu/M03/trees/outer0/class09/result.json	350.0098009109497	3122325		0
+models/cpu/M03/trees/outer0/class10/result.json	277.8096754550934	3122265		0
+models/cpu/M03/trees/outer0/class11/result.json	159.21554160118103	3122316		0
+models/cpu/M03/trees/outer0/class12/result.json	528.3976216316223	3122298		0
+models/cpu/M03/trees/outer0/class13/result.json	380.0849115848541	3122290		0
+models/cpu/M03/trees/outer0/class14/result.json	329.60334396362305	3122310		0
+models/cpu/M03/trees/outer0/class15/result.json	241.20487141609192	3122332		0
+models/cpu/M03/trees/outer0/class16/result.json	379.50947976112366	3122328		0
+models/cpu/M03/trees/outer0/class17/result.json	439.40599060058594	3122286		0
+models/cpu/M03/trees/outer0/class18/result.json	351.06186175346375	3122277		0
+models/cpu/M03/trees/outer0/class19/result.json	141.0010368824005	3122271		0
+models/cpu/M03/trees/outer0/class20/result.json	265.38306283950806	3122263		0
+models/cpu/M03/trees/outer0/class21/result.json	295.35921907424927	3122288		0
+models/cpu/M03/trees/outer0/class22/result.json	212.0572850704193	3122322		0
+models/cpu/M03/trees/outer0/class23/result.json	315.50641083717346	3122303		0
+models/cpu/M03/trees/outer0/class24/result.json	161.5323896408081	3122274		0
+models/cpu/M03/trees/outer0/class25/result.json	281.74291253089905	3122264		0
+models/cpu/M03/trees/outer0/class26/result.json	272.32601523399353	3122282		0
+models/cpu/M03/trees/outer0/class27/result.json	272.00147819519043	3122281		0
+models/cpu/M03/trees/outer0/class28/result.json	356.2034184932709	3122285		0
+models/cpu/M03/trees/outer0/class29/result.json	239.41911721229553	3122315		0
+models/cpu/M03/trees/outer0/class30/result.json	221.99508571624756	3122293		0
+models/cpu/M03/trees/outer0/class31/result.json	216.66289925575256	3122266		0
+models/cpu/M03/trees/outer1/class00/result.json	259.0220375061035	3122288		0
+models/cpu/M03/trees/outer1/class01/result.json	201.704514503479	3122264		0
+models/cpu/M03/trees/outer1/class02/result.json	167.30173516273499	3122275		0
+models/cpu/M03/trees/outer1/class03/result.json	127.55041980743408	3122310		0
+models/cpu/M03/trees/outer1/class04/result.json	363.9829332828522	3122333		0
+models/cpu/M03/trees/outer1/class05/result.json	175.3109426498413	3122282		0
+models/cpu/M03/trees/outer1/class06/result.json	269.86550426483154	3122325		0
+models/cpu/M03/trees/outer1/class07/result.json	326.73011207580566	3122307		0
+models/cpu/M03/trees/outer1/class08/result.json	267.6060290336609	3122281		0
+models/cpu/M03/trees/outer1/class09/result.json	281.6688528060913	3122272		0
+models/cpu/M03/trees/outer1/class10/result.json	232.76064324378967	3122318		0
+models/cpu/M03/trees/outer1/class11/result.json	131.43163919448853	3122313		0
+models/cpu/M03/trees/outer1/class12/result.json	375.34848976135254	3122303		0
+models/cpu/M03/trees/outer1/class13/result.json	303.89494919776917	3122301		0
+models/cpu/M03/trees/outer1/class14/result.json	297.9150424003601	3122283		0
+models/cpu/M03/trees/outer1/class15/result.json	285.77812218666077	3122294		0
+models/cpu/M03/trees/outer1/class16/result.json	262.5982520580292	3122277		0
+models/cpu/M03/trees/outer1/class17/result.json	300.43085193634033	3122324		0
+models/cpu/M03/trees/outer1/class18/result.json	276.0701484680176	3122321		0
+models/cpu/M03/trees/outer1/class19/result.json	105.87332320213318	3122260		0
+models/cpu/M03/trees/outer1/class20/result.json	245.87928247451782	3122287		0
+models/cpu/M03/trees/outer1/class21/result.json	369.01898169517517	3122290		0
+models/cpu/M03/trees/outer1/class22/result.json	187.12879061698914	3122317		0
+models/cpu/M03/trees/outer1/class23/result.json	250.31427717208862	3122262		0
+models/cpu/M03/trees/outer1/class24/result.json	188.80848264694214	3122328		0
+models/cpu/M03/trees/outer1/class25/result.json	263.14813780784607	3122330		0
+models/cpu/M03/trees/outer1/class26/result.json	228.32235884666443	3122267		0
+models/cpu/M03/trees/outer1/class27/result.json	262.5848660469055	3122305		0
+models/cpu/M03/trees/outer1/class28/result.json	274.95252442359924	3122276		0
+models/cpu/M03/trees/outer1/class29/result.json	225.13022327423096	3122285		0
+models/cpu/M03/trees/outer1/class30/result.json	155.18176651000977	3122259		0
+models/cpu/M03/trees/outer1/class31/result.json	207.45454168319702	3122268		0
+models/cpu/M03/trees/outer2/class00/result.json	353.62425565719604	3122321		0
+models/cpu/M03/trees/outer2/class01/result.json	232.2821021080017	3122285		0
+models/cpu/M03/trees/outer2/class02/result.json	222.31488919258118	3122330		0
+models/cpu/M03/trees/outer2/class03/result.json	125.7170946598053	3122283		0
+models/cpu/M03/trees/outer2/class04/result.json	313.16829228401184	3122268		0
+models/cpu/M03/trees/outer2/class05/result.json	189.80968141555786	3122301		0
+models/cpu/M03/trees/outer2/class06/result.json	341.68336820602417	3122307		0
+models/cpu/M03/trees/outer2/class07/result.json	281.37514305114746	3122324		0
+models/cpu/M03/trees/outer2/class08/result.json	300.3744432926178	3122314		0
+models/cpu/M03/trees/outer2/class09/result.json	416.0114598274231	3122258		0
+models/cpu/M03/trees/outer2/class10/result.json	281.2566158771515	3122263		0
+models/cpu/M03/trees/outer2/class11/result.json	140.301203250885	3122305		0
+models/cpu/M03/trees/outer2/class12/result.json	452.89217948913574	3122302		0
+models/cpu/M03/trees/outer2/class13/result.json	307.1657109260559	3122264		0
+models/cpu/M03/trees/outer2/class14/result.json	299.1938784122467	3122322		0
+models/cpu/M03/trees/outer2/class15/result.json	316.46031403541565	3122279		0
+models/cpu/M03/trees/outer2/class16/result.json	248.07319259643555	3122276		0
+models/cpu/M03/trees/outer2/class17/result.json	400.6663222312927	3122333		0
+models/cpu/M03/trees/outer2/class18/result.json	371.0474627017975	3122317		0
+models/cpu/M03/trees/outer2/class19/result.json	110.71973609924316	3122292		0
+models/cpu/M03/trees/outer2/class20/result.json	283.5873398780823	3122297		0
+models/cpu/M03/trees/outer2/class21/result.json	410.23573875427246	3122334		0
+models/cpu/M03/trees/outer2/class22/result.json	184.8496482372284	3122310		0
+models/cpu/M03/trees/outer2/class23/result.json	293.68626379966736	3122303		0
+models/cpu/M03/trees/outer2/class24/result.json	152.47619032859802	3122286		0
+models/cpu/M03/trees/outer2/class25/result.json	264.3339741230011	3122284		0
+models/cpu/M03/trees/outer2/class26/result.json	315.7255539894104	3122290		0
+models/cpu/M03/trees/outer2/class27/result.json	263.45489048957825	3122295		0
+models/cpu/M03/trees/outer2/class28/result.json	285.27331733703613	3122291		0
+models/cpu/M03/trees/outer2/class29/result.json	215.42092752456665	3122265		0
+models/cpu/M03/trees/outer2/class30/result.json	182.11496758460999	3122283		0
+models/cpu/M03/trees/outer2/class31/result.json	212.36840057373047	3122313		0
+models/cpu/M03/trees/outer3/class00/result.json	373.34388971328735	3122307		0
+models/cpu/M03/trees/outer3/class01/result.json	219.00121521949768	3122284		0
+models/cpu/M03/trees/outer3/class02/result.json	212.69799518585205	3122279		0
+models/cpu/M03/trees/outer3/class03/result.json	104.67754650115967	3122332		0
+models/cpu/M03/trees/outer3/class04/result.json	315.64782333374023	3122295		0
+models/cpu/M03/trees/outer3/class05/result.json	191.04634070396423	3122303		0
+models/cpu/M03/trees/outer3/class06/result.json	277.9733929634094	3122320		0
+models/cpu/M03/trees/outer3/class07/result.json	262.3818337917328	3122327		0
+models/cpu/M03/trees/outer3/class08/result.json	265.5580098628998	3122305		0
+models/cpu/M03/trees/outer3/class09/result.json	347.477534532547	3122293		0
+models/cpu/M03/trees/outer3/class10/result.json	234.54879522323608	3122291		0
+models/cpu/M03/trees/outer3/class11/result.json	117.71433806419373	3122288		0
+models/cpu/M03/trees/outer3/class12/result.json	357.6200580596924	3122300		0
+models/cpu/M03/trees/outer3/class13/result.json	325.49276757240295	3122290		0
+models/cpu/M03/trees/outer3/class14/result.json	285.0800335407257	3122281		0
+models/cpu/M03/trees/outer3/class15/result.json	328.3144772052765	3122306		0
+models/cpu/M03/trees/outer3/class16/result.json	289.1109471321106	3122317		0
+models/cpu/M03/trees/outer3/class17/result.json	330.3850212097168	3122283		0
+models/cpu/M03/trees/outer3/class18/result.json	262.22362089157104	3122324		0
+models/cpu/M03/trees/outer3/class19/result.json	136.45982384681702	3122258		0
+models/cpu/M03/trees/outer3/class20/result.json	243.48064374923706	3122277		0
+models/cpu/M03/trees/outer3/class21/result.json	338.20550894737244	3122337		0
+models/cpu/M03/trees/outer3/class22/result.json	176.53033876419067	3122333		0
+models/cpu/M03/trees/outer3/class23/result.json	221.24765133857727	3122261		0
+models/cpu/M03/trees/outer3/class24/result.json	205.60786199569702	3122331		0
+models/cpu/M03/trees/outer3/class25/result.json	258.02446007728577	3122308		0
+models/cpu/M03/trees/outer3/class26/result.json	223.28279042243958	3122319		0
+models/cpu/M03/trees/outer3/class27/result.json	204.29574751853943	3122314		0
+models/cpu/M03/trees/outer3/class28/result.json	301.64877223968506	3122332		0
+models/cpu/M03/trees/outer3/class29/result.json	207.06447434425354	3122292		0
+models/cpu/M03/trees/outer3/class30/result.json	158.83891224861145	3122310		0
+models/cpu/M03/trees/outer3/class31/result.json	189.15924954414368	3122289		0
+models/cpu/M03/trees/outer4/class00/result.json	389.00013303756714	3122295		0
+models/cpu/M03/trees/outer4/class01/result.json	251.97572875022888	3122277		0
+models/cpu/M03/trees/outer4/class02/result.json	205.7544448375702	3122319		0
+models/cpu/M03/trees/outer4/class03/result.json	117.2325267791748	3122324		0
+models/cpu/M03/trees/outer4/class04/result.json	375.0092680454254	3122303		0
+models/cpu/M03/trees/outer4/class05/result.json	220.61711025238037	3122281		0
+models/cpu/M03/trees/outer4/class06/result.json	355.6930058002472	3122313		0
+models/cpu/M03/trees/outer4/class07/result.json	346.5869131088257	3122276		0
+models/cpu/M03/trees/outer4/class08/result.json	298.8680410385132	3122317		0
+models/cpu/M03/trees/outer4/class09/result.json	390.668573141098	3122308		0
+models/cpu/M03/trees/outer4/class10/result.json	359.7141146659851	3122307		0
+models/cpu/M03/trees/outer4/class11/result.json	181.28355264663696	3122290		0
+models/cpu/M03/trees/outer4/class12/result.json	366.82895612716675	3122329		0
+models/cpu/M03/trees/outer4/class13/result.json	346.7217707633972	3122293		0
+models/cpu/M03/trees/outer4/class14/result.json	317.7143075466156	3122302		0
+models/cpu/M03/trees/outer4/class15/result.json	343.0177390575409	3122306		0
+models/cpu/M03/trees/outer4/class16/result.json	313.09423542022705	3122282		0
+models/cpu/M03/trees/outer4/class17/result.json	341.97168231010437	3122263		0
+models/cpu/M03/trees/outer4/class18/result.json	336.40032267570496	3122283		0
+models/cpu/M03/trees/outer4/class19/result.json	133.27191638946533	3122300		0
+models/cpu/M03/trees/outer4/class20/result.json	287.53008580207825	3122332		0
+models/cpu/M03/trees/outer4/class21/result.json	320.7881615161896	3122315		0
+models/cpu/M03/trees/outer4/class22/result.json	258.3057978153229	3122334		0
+models/cpu/M03/trees/outer4/class23/result.json	277.59047770500183	3122327		0
+models/cpu/M03/trees/outer4/class24/result.json	248.27522468566895	3122337		0
+models/cpu/M03/trees/outer4/class25/result.json	276.7052433490753	3122284		0
+models/cpu/M03/trees/outer4/class26/result.json	265.4188163280487	3122333		0
+models/cpu/M03/trees/outer4/class27/result.json	258.3961269855499	3122324		0
+models/cpu/M03/trees/outer4/class28/result.json	285.67884612083435	3122288		0
+models/cpu/M03/trees/outer4/class29/result.json	270.1827480792999	3122335		0
+models/cpu/M03/trees/outer4/class30/result.json	189.09447693824768	3122265		0
+models/cpu/M03/trees/outer4/class31/result.json	255.9512391090393	3122258		0
+models/cpu/M01/C0.01/outer0/class00/result.json	2.5175628662109375	3122267		0
+models/cpu/M01/C0.01/outer0/class01/result.json	2.390299081802368	3122267		0
+models/cpu/M01/C0.01/outer0/class02/result.json	2.225146532058716	3122318		0
+models/cpu/M01/C0.01/outer0/class03/result.json	2.082747220993042	3122267		0
+models/cpu/M01/C0.01/outer0/class04/result.json	2.8176393508911133	3122318		0
+models/cpu/M01/C0.01/outer0/class05/result.json	2.195854425430298	3122267		0
+models/cpu/M01/C0.01/outer0/class06/result.json	2.3195903301239014	3122318		0
+models/cpu/M01/C0.01/outer0/class07/result.json	2.0641252994537354	3122267		0
+models/cpu/M01/C0.01/outer0/class08/result.json	2.575246810913086	3122267		0
+models/cpu/M01/C0.01/outer0/class09/result.json	2.7645199298858643	3122318		0
+models/cpu/M01/C0.01/outer0/class10/result.json	3.10807466506958	3122287		0
+models/cpu/M01/C0.01/outer0/class11/result.json	2.235346794128418	3122267		0
+models/cpu/M01/C0.01/outer0/class12/result.json	2.56709885597229	3122318		0
+models/cpu/M01/C0.01/outer0/class13/result.json	2.531917095184326	3122287		0
+models/cpu/M01/C0.01/outer0/class14/result.json	2.7346277236938477	3122267		0
+models/cpu/M01/C0.01/outer0/class15/result.json	2.5875325202941895	3122318		0
+models/cpu/M01/C0.01/outer0/class16/result.json	3.19903826713562	3122287		0
+models/cpu/M01/C0.01/outer0/class17/result.json	2.3361470699310303	3122267		0
+models/cpu/M01/C0.01/outer0/class18/result.json	2.360231637954712	3122318		0
+models/cpu/M01/C0.01/outer0/class19/result.json	2.3639726638793945	3122272		0
+models/cpu/M01/C0.01/outer0/class20/result.json	2.3417866230010986	3122267		0
+models/cpu/M01/C0.01/outer0/class21/result.json	2.3059794902801514	3122320		0
+models/cpu/M01/C0.01/outer0/class22/result.json	2.352161407470703	3122287		0
+models/cpu/M01/C0.01/outer0/class23/result.json	2.5972161293029785	3122318		0
+models/cpu/M01/C0.01/outer0/class24/result.json	2.5503342151641846	3122262		0
+models/cpu/M01/C0.01/outer0/class25/result.json	2.730144500732422	3122272		0
+models/cpu/M01/C0.01/outer0/class26/result.json	2.8542070388793945	3122267		0
+models/cpu/M01/C0.01/outer0/class27/result.json	2.820643663406372	3122320		0
+models/cpu/M01/C0.01/outer0/class28/result.json	3.74699068069458	3122287		0
+models/cpu/M01/C0.01/outer0/class29/result.json	3.353219747543335	3122318		0
+models/cpu/M01/C0.01/outer0/class30/result.json	2.215947389602661	3122262		0
+models/cpu/M01/C0.01/outer0/class31/result.json	2.9546866416931152	3122272		0
+models/cpu/M01/C0.01/outer1/class00/result.json	2.6587986946105957	3122320		0
+models/cpu/M01/C0.01/outer1/class01/result.json	2.438174247741699	3122267		0
+models/cpu/M01/C0.01/outer1/class02/result.json	2.2368242740631104	3122287		0
+models/cpu/M01/C0.01/outer1/class03/result.json	2.195866346359253	3122318		0
+models/cpu/M01/C0.01/outer1/class04/result.json	2.8809428215026855	3122259		0
+models/cpu/M01/C0.01/outer1/class05/result.json	2.2573540210723877	3122262		0
+models/cpu/M01/C0.01/outer1/class06/result.json	2.2110517024993896	3122267		0
+models/cpu/M01/C0.01/outer1/class07/result.json	2.086674928665161	3122320		0
+models/cpu/M01/C0.01/outer1/class08/result.json	2.2227323055267334	3122272		0
+models/cpu/M01/C0.01/outer1/class09/result.json	2.9504687786102295	3122316		0
+models/cpu/M01/C0.01/outer1/class10/result.json	3.0664262771606445	3122287		0
+models/cpu/M01/C0.01/outer1/class11/result.json	2.2159032821655273	3122318		0
+models/cpu/M01/C0.01/outer1/class12/result.json	2.8354368209838867	3122262		0
+models/cpu/M01/C0.01/outer1/class13/result.json	2.716994047164917	3122259		0
+models/cpu/M01/C0.01/outer1/class14/result.json	2.7106776237487793	3122267		0
+models/cpu/M01/C0.01/outer1/class15/result.json	2.355198621749878	3122320		0
+models/cpu/M01/C0.01/outer1/class16/result.json	2.689798355102539	3122272		0
+models/cpu/M01/C0.01/outer1/class17/result.json	2.2532615661621094	3122318		0
+models/cpu/M01/C0.01/outer1/class18/result.json	2.3054070472717285	3122299		0
+models/cpu/M01/C0.01/outer1/class19/result.json	2.4019322395324707	3122316		0
+models/cpu/M01/C0.01/outer1/class20/result.json	2.3668220043182373	3122287		0
+models/cpu/M01/C0.01/outer1/class21/result.json	2.363832712173462	3122262		0
+models/cpu/M01/C0.01/outer1/class22/result.json	2.3298263549804688	3122320		0
+models/cpu/M01/C0.01/outer1/class23/result.json	2.8929033279418945	3122259		0
+models/cpu/M01/C0.01/outer1/class24/result.json	2.446746349334717	3122267		0
+models/cpu/M01/C0.01/outer1/class25/result.json	2.5584113597869873	3122272		0
+models/cpu/M01/C0.01/outer1/class26/result.json	2.803041458129883	3122318		0
+models/cpu/M01/C0.01/outer1/class27/result.json	3.01908278465271	3122299		0
+models/cpu/M01/C0.01/outer1/class28/result.json	2.6168971061706543	3122316		0
+models/cpu/M01/C0.01/outer1/class29/result.json	3.3035478591918945	3122287		0
+models/cpu/M01/C0.01/outer1/class30/result.json	1.7853450775146484	3122262		0
+models/cpu/M01/C0.01/outer1/class31/result.json	2.796814441680908	3122320		0
+models/cpu/M01/C0.01/outer2/class00/result.json	2.367330312728882	3122267		0
+models/cpu/M01/C0.01/outer2/class01/result.json	2.5406129360198975	3122259		0
+models/cpu/M01/C0.01/outer2/class02/result.json	2.3592007160186768	3122272		0
+models/cpu/M01/C0.01/outer2/class03/result.json	2.3667149543762207	3122318		0
+models/cpu/M01/C0.01/outer2/class04/result.json	3.1720521450042725	3122262		0
+models/cpu/M01/C0.01/outer2/class05/result.json	2.4332549571990967	3122316		0
+models/cpu/M01/C0.01/outer2/class06/result.json	2.626490354537964	3122299		0
+models/cpu/M01/C0.01/outer2/class07/result.json	2.2847275733947754	3122287		0
+models/cpu/M01/C0.01/outer2/class08/result.json	2.635023593902588	3122267		0
+models/cpu/M01/C0.01/outer2/class09/result.json	2.827765703201294	3122320		0
+models/cpu/M01/C0.01/outer2/class10/result.json	2.759431838989258	3122272		0
+models/cpu/M01/C0.01/outer2/class11/result.json	2.4132940769195557	3122259		0
+models/cpu/M01/C0.01/outer2/class12/result.json	3.2469520568847656	3122318		0
+models/cpu/M01/C0.01/outer2/class13/result.json	2.456482410430908	3122316		0
+models/cpu/M01/C0.01/outer2/class14/result.json	2.909649610519409	3122299		0
+models/cpu/M01/C0.01/outer2/class15/result.json	2.5887205600738525	3122262		0
+models/cpu/M01/C0.01/outer2/class16/result.json	2.6880674362182617	3122287		0
+models/cpu/M01/C0.01/outer2/class17/result.json	2.5116477012634277	3122267		0
+models/cpu/M01/C0.01/outer2/class18/result.json	2.5525171756744385	3122259		0
+models/cpu/M01/C0.01/outer2/class19/result.json	2.4961130619049072	3122320		0
+models/cpu/M01/C0.01/outer2/class20/result.json	2.3681583404541016	3122272		0
+models/cpu/M01/C0.01/outer2/class21/result.json	2.4841113090515137	3122316		0
+models/cpu/M01/C0.01/outer2/class22/result.json	2.4321908950805664	3122318		0
+models/cpu/M01/C0.01/outer2/class23/result.json	3.01310396194458	3122262		0
+models/cpu/M01/C0.01/outer2/class24/result.json	2.426823377609253	3122299		0
+models/cpu/M01/C0.01/outer2/class25/result.json	2.9886040687561035	3122287		0
+models/cpu/M01/C0.01/outer2/class26/result.json	3.19938063621521	3122267		0
+models/cpu/M01/C0.01/outer2/class27/result.json	3.3902339935302734	3122320		0
+models/cpu/M01/C0.01/outer2/class28/result.json	2.485400438308716	3122259		0
+models/cpu/M01/C0.01/outer2/class29/result.json	2.8952293395996094	3122272		0
+models/cpu/M01/C0.01/outer2/class30/result.json	2.1195387840270996	3122321		0
+models/cpu/M01/C0.01/outer2/class31/result.json	2.968735933303833	3122316		0
+models/cpu/M01/C0.01/outer3/class00/result.json	2.4064505100250244	3122318		0
+models/cpu/M01/C0.01/outer3/class01/result.json	2.4195716381073	3122299		0
+models/cpu/M01/C0.01/outer3/class02/result.json	2.282480478286743	3122262		0
+models/cpu/M01/C0.01/outer3/class03/result.json	2.182231903076172	3122271		0
+models/cpu/M01/C0.01/outer3/class04/result.json	2.8647773265838623	3122321		0
+models/cpu/M01/C0.01/outer3/class05/result.json	2.2729036808013916	3122259		0
+models/cpu/M01/C0.01/outer3/class06/result.json	2.2691643238067627	3122287		0
+models/cpu/M01/C0.01/outer3/class07/result.json	2.044874429702759	3122267		0
+models/cpu/M01/C0.01/outer3/class08/result.json	2.389375686645508	3122272		0
+models/cpu/M01/C0.01/outer3/class09/result.json	2.7374181747436523	3122320		0
+models/cpu/M01/C0.01/outer3/class10/result.json	2.746204376220703	3122318		0
+models/cpu/M01/C0.01/outer3/class11/result.json	2.3307344913482666	3122316		0
+models/cpu/M01/C0.01/outer3/class12/result.json	2.7618041038513184	3122299		0
+models/cpu/M01/C0.01/outer3/class13/result.json	2.5193376541137695	3122262		0
+models/cpu/M01/C0.01/outer3/class14/result.json	2.6073248386383057	3122271		0
+models/cpu/M01/C0.01/outer3/class15/result.json	2.4194753170013428	3122259		0
+models/cpu/M01/C0.01/outer3/class16/result.json	2.8399147987365723	3122287		0
+models/cpu/M01/C0.01/outer3/class17/result.json	2.3000316619873047	3122267		0
+models/cpu/M01/C0.01/outer3/class18/result.json	2.4403183460235596	3122321		0
+models/cpu/M01/C0.01/outer3/class19/result.json	2.183344602584839	3122272		0
+models/cpu/M01/C0.01/outer3/class20/result.json	2.1733617782592773	3122320		0
+models/cpu/M01/C0.01/outer3/class21/result.json	2.308535099029541	3122316		0
+models/cpu/M01/C0.01/outer3/class22/result.json	2.173950433731079	3122318		0
+models/cpu/M01/C0.01/outer3/class23/result.json	2.751518726348877	3122262		0
+models/cpu/M01/C0.01/outer3/class24/result.json	2.3031294345855713	3122299		0
+models/cpu/M01/C0.01/outer3/class25/result.json	2.1489031314849854	3122271		0
+models/cpu/M01/C0.01/outer3/class26/result.json	2.866076946258545	3122259		0
+models/cpu/M01/C0.01/outer3/class27/result.json	2.1515464782714844	3122267		0
+models/cpu/M01/C0.01/outer3/class28/result.json	2.6434504985809326	3122272		0
+models/cpu/M01/C0.01/outer3/class29/result.json	3.351853132247925	3122287		0
+models/cpu/M01/C0.01/outer3/class30/result.json	1.799391269683838	3122321		0
+models/cpu/M01/C0.01/outer3/class31/result.json	2.6627683639526367	3122320		0
+models/cpu/M01/C0.01/outer4/class00/result.json	2.335505962371826	3122318		0
+models/cpu/M01/C0.01/outer4/class01/result.json	2.703042984008789	3122316		0
+models/cpu/M01/C0.01/outer4/class02/result.json	2.2765605449676514	3122271		0
+models/cpu/M01/C0.01/outer4/class03/result.json	2.3088746070861816	3122299		0
+models/cpu/M01/C0.01/outer4/class04/result.json	2.88614821434021	3122267		0
+models/cpu/M01/C0.01/outer4/class05/result.json	2.667912483215332	3122321		0
+models/cpu/M01/C0.01/outer4/class06/result.json	2.3803558349609375	3122262		0
+models/cpu/M01/C0.01/outer4/class07/result.json	2.1173758506774902	3122259		0
+models/cpu/M01/C0.01/outer4/class08/result.json	2.517439842224121	3122272		0
+models/cpu/M01/C0.01/outer4/class09/result.json	2.799105644226074	3122318		0
+models/cpu/M01/C0.01/outer4/class10/result.json	3.1513149738311768	3122320		0
+models/cpu/M01/C0.01/outer4/class11/result.json	2.4047024250030518	3122287		0
+models/cpu/M01/C0.01/outer4/class12/result.json	2.4006187915802	3122316		0
+models/cpu/M01/C0.01/outer4/class13/result.json	2.544560194015503	3122271		0
+models/cpu/M01/C0.01/outer4/class14/result.json	2.8117928504943848	3122299		0
+models/cpu/M01/C0.01/outer4/class15/result.json	2.6384806632995605	3122262		0
+models/cpu/M01/C0.01/outer4/class16/result.json	2.9650774002075195	3122259		0
+models/cpu/M01/C0.01/outer4/class17/result.json	2.544376850128174	3122321		0
+models/cpu/M01/C0.01/outer4/class18/result.json	2.440319061279297	3122267		0
+models/cpu/M01/C0.01/outer4/class19/result.json	2.5956990718841553	3122272		0
+models/cpu/M01/C0.01/outer4/class20/result.json	2.44521164894104	3122287		0
+models/cpu/M01/C0.01/outer4/class21/result.json	2.394598960876465	3122319		0
+models/cpu/M01/C0.01/outer4/class22/result.json	2.3913443088531494	3122318		0
+models/cpu/M01/C0.01/outer4/class23/result.json	2.8922195434570312	3122316		0
+models/cpu/M01/C0.01/outer4/class24/result.json	2.4199821949005127	3122271		0
+models/cpu/M01/C0.01/outer4/class25/result.json	3.0374066829681396	3122320		0
+models/cpu/M01/C0.01/outer4/class26/result.json	2.884122371673584	3122299		0
+models/cpu/M01/C0.01/outer4/class27/result.json	3.2331461906433105	3122262		0
+models/cpu/M01/C0.01/outer4/class28/result.json	3.6928184032440186	3122321		0
+models/cpu/M01/C0.01/outer4/class29/result.json	2.945444345474243	3122267		0
+models/cpu/M01/C0.01/outer4/class30/result.json	2.0491890907287598	3122259		0
+models/cpu/M01/C0.01/outer4/class31/result.json	3.0308713912963867	3122269		0
+models/cpu/M01/C0.1/outer0/class00/result.json	3.9934327602386475	3122272		0
+models/cpu/M01/C0.1/outer0/class01/result.json	5.271401643753052	3122287		0
+models/cpu/M01/C0.1/outer0/class02/result.json	3.2755162715911865	3122319		0
+models/cpu/M01/C0.1/outer0/class03/result.json	3.002777338027954	3122318		0
+models/cpu/M01/C0.1/outer0/class04/result.json	4.347132444381714	3122271		0
+models/cpu/M01/C0.1/outer0/class05/result.json	4.394359827041626	3122316		0
+models/cpu/M01/C0.1/outer0/class06/result.json	4.505869150161743	3122320		0
+models/cpu/M01/C0.1/outer0/class07/result.json	3.9316294193267822	3122259		0
+models/cpu/M01/C0.1/outer0/class08/result.json	3.894412040710449	3122299		0
+models/cpu/M01/C0.1/outer0/class09/result.json	5.764157772064209	3122296		0
+models/cpu/M01/C0.1/outer0/class10/result.json	4.533836364746094	3122267		0
+models/cpu/M01/C0.1/outer0/class11/result.json	3.860844373703003	3122262		0
+models/cpu/M01/C0.1/outer0/class12/result.json	4.894078016281128	3122269		0
+models/cpu/M01/C0.1/outer0/class13/result.json	4.562145948410034	3122321		0
+models/cpu/M01/C0.1/outer0/class14/result.json	4.329882383346558	3122318		0
+models/cpu/M01/C0.1/outer0/class15/result.json	4.370398283004761	3122319		0
+models/cpu/M01/C0.1/outer0/class16/result.json	5.302616357803345	3122272		0
+models/cpu/M01/C0.1/outer0/class17/result.json	4.575999736785889	3122271		0
+models/cpu/M01/C0.1/outer0/class18/result.json	4.676943778991699	3122316		0
+models/cpu/M01/C0.1/outer0/class19/result.json	4.171120882034302	3122287		0
+models/cpu/M01/C0.1/outer0/class20/result.json	3.519808292388916	3122259		0
+models/cpu/M01/C0.1/outer0/class21/result.json	3.4609508514404297	3122299		0
+models/cpu/M01/C0.1/outer0/class22/result.json	2.9656169414520264	3122320		0
+models/cpu/M01/C0.1/outer0/class23/result.json	5.0529944896698	3122262		0
+models/cpu/M01/C0.1/outer0/class24/result.json	3.9914486408233643	3122267		0
+models/cpu/M01/C0.1/outer0/class25/result.json	4.8012855052948	3122300		0
+models/cpu/M01/C0.1/outer0/class26/result.json	4.330815553665161	3122321		0
+models/cpu/M01/C0.1/outer0/class27/result.json	6.358036279678345	3122269		0
+models/cpu/M01/C0.1/outer0/class28/result.json	6.8136115074157715	3122285		0
+models/cpu/M01/C0.1/outer0/class29/result.json	4.395564079284668	3122318		0
+models/cpu/M01/C0.1/outer0/class30/result.json	3.6233417987823486	3122296		0
+models/cpu/M01/C0.1/outer0/class31/result.json	4.26735782623291	3122319		0
+models/cpu/M01/C0.1/outer1/class00/result.json	3.475911855697632	3122320		0
+models/cpu/M01/C0.1/outer1/class01/result.json	3.8518548011779785	3122299		0
+models/cpu/M01/C0.1/outer1/class02/result.json	3.1943631172180176	3122259		0
+models/cpu/M01/C0.1/outer1/class03/result.json	2.8749747276306152	3122272		0
+models/cpu/M01/C0.1/outer1/class04/result.json	4.309311866760254	3122287		0
+models/cpu/M01/C0.1/outer1/class05/result.json	3.197326898574829	3122271		0
+models/cpu/M01/C0.1/outer1/class06/result.json	4.315053701400757	3122316		0
+models/cpu/M01/C0.1/outer1/class07/result.json	3.3926312923431396	3122267		0
+models/cpu/M01/C0.1/outer1/class08/result.json	3.957756519317627	3122262		0
+models/cpu/M01/C0.1/outer1/class09/result.json	5.129970073699951	3122296		0
+models/cpu/M01/C0.1/outer1/class10/result.json	4.760443925857544	3122300		0
+models/cpu/M01/C0.1/outer1/class11/result.json	3.584521532058716	3122321		0
+models/cpu/M01/C0.1/outer1/class12/result.json	3.643947124481201	3122272		0
+models/cpu/M01/C0.1/outer1/class13/result.json	3.652606248855591	3122330		0
+models/cpu/M01/C0.1/outer1/class14/result.json	3.9315052032470703	3122318		0
+models/cpu/M01/C0.1/outer1/class15/result.json	4.581552505493164	3122259		0
+models/cpu/M01/C0.1/outer1/class16/result.json	3.8726894855499268	3122319		0
+models/cpu/M01/C0.1/outer1/class17/result.json	3.806664228439331	3122320		0
+models/cpu/M01/C0.1/outer1/class18/result.json	3.978320837020874	3122299		0
+models/cpu/M01/C0.1/outer1/class19/result.json	3.0434916019439697	3122271		0
+models/cpu/M01/C0.1/outer1/class20/result.json	4.632457733154297	3122269		0
+models/cpu/M01/C0.1/outer1/class21/result.json	3.8884506225585938	3122287		0
+models/cpu/M01/C0.1/outer1/class22/result.json	3.1613991260528564	3122267		0
+models/cpu/M01/C0.1/outer1/class23/result.json	4.354899644851685	3122285		0
+models/cpu/M01/C0.1/outer1/class24/result.json	3.8896596431732178	3122316		0
+models/cpu/M01/C0.1/outer1/class25/result.json	3.334749460220337	3122309		0
+models/cpu/M01/C0.1/outer1/class26/result.json	4.175584077835083	3122262		0
+models/cpu/M01/C0.1/outer1/class27/result.json	4.569819450378418	3122321		0
+models/cpu/M01/C0.1/outer1/class28/result.json	4.025547027587891	3122272		0
+models/cpu/M01/C0.1/outer1/class29/result.json	4.880242109298706	3122330		0
+models/cpu/M01/C0.1/outer1/class30/result.json	2.616389274597168	3122271		0
+models/cpu/M01/C0.1/outer1/class31/result.json	3.9098870754241943	3122318		0
+models/cpu/M01/C0.1/outer2/class00/result.json	4.495239734649658	3122319		0
+models/cpu/M01/C0.1/outer2/class01/result.json	5.9568703174591064	3122300		0
+models/cpu/M01/C0.1/outer2/class02/result.json	3.067507743835449	3122320		0
+models/cpu/M01/C0.1/outer2/class03/result.json	3.7747113704681396	3122296		0
+models/cpu/M01/C0.1/outer2/class04/result.json	4.820176362991333	3122259		0
+models/cpu/M01/C0.1/outer2/class05/result.json	4.073134660720825	3122325		0
+models/cpu/M01/C0.1/outer2/class06/result.json	4.479990243911743	3122299		0
+models/cpu/M01/C0.1/outer2/class07/result.json	3.93314790725708	3122267		0
+models/cpu/M01/C0.1/outer2/class08/result.json	4.3386876583099365	3122287		0
+models/cpu/M01/C0.1/outer2/class09/result.json	5.927746295928955	3122316		0
+models/cpu/M01/C0.1/outer2/class10/result.json	4.662619590759277	3122309		0
+models/cpu/M01/C0.1/outer2/class11/result.json	3.7658002376556396	3122269		0
+models/cpu/M01/C0.1/outer2/class12/result.json	3.9182980060577393	3122271		0
+models/cpu/M01/C0.1/outer2/class13/result.json	4.868001461029053	3122285		0
+models/cpu/M01/C0.1/outer2/class14/result.json	4.270514488220215	3122262		0
+models/cpu/M01/C0.1/outer2/class15/result.json	4.532233953475952	3122320		0
+models/cpu/M01/C0.1/outer2/class16/result.json	6.288238286972046	3122311		0
+models/cpu/M01/C0.1/outer2/class17/result.json	4.098951578140259	3122272		0
+models/cpu/M01/C0.1/outer2/class18/result.json	4.990706443786621	3122321		0
+models/cpu/M01/C0.1/outer2/class19/result.json	3.977241277694702	3122318		0
+models/cpu/M01/C0.1/outer2/class20/result.json	5.100486993789673	3122296		0
+models/cpu/M01/C0.1/outer2/class21/result.json	3.2662954330444336	3122319		0
+models/cpu/M01/C0.1/outer2/class22/result.json	4.041731119155884	3122330		0
+models/cpu/M01/C0.1/outer2/class23/result.json	4.252349376678467	3122325		0
+models/cpu/M01/C0.1/outer2/class24/result.json	3.545269012451172	3122267		0
+models/cpu/M01/C0.1/outer2/class25/result.json	3.241428852081299	3122299		0
+models/cpu/M01/C0.1/outer2/class26/result.json	4.562110662460327	3122259		0
+models/cpu/M01/C0.1/outer2/class27/result.json	5.286710500717163	3122300		0
+models/cpu/M01/C0.1/outer2/class28/result.json	5.485921382904053	3122287		0
+models/cpu/M01/C0.1/outer2/class29/result.json	5.426208257675171	3122269		0
+models/cpu/M01/C0.1/outer2/class30/result.json	3.1828315258026123	3122286		0
+models/cpu/M01/C0.1/outer2/class31/result.json	4.519497632980347	3122271		0
+models/cpu/M01/C0.1/outer3/class00/result.json	3.9815385341644287	3122309		0
+models/cpu/M01/C0.1/outer3/class01/result.json	4.770416021347046	3122323		0
+models/cpu/M01/C0.1/outer3/class02/result.json	3.6666512489318848	3122290		0
+models/cpu/M01/C0.1/outer3/class03/result.json	3.396336555480957	3122285		0
+models/cpu/M01/C0.1/outer3/class04/result.json	5.200642108917236	3122262		0
+models/cpu/M01/C0.1/outer3/class05/result.json	3.9689674377441406	3122272		0
+models/cpu/M01/C0.1/outer3/class06/result.json	3.446662425994873	3122320		0
+models/cpu/M01/C0.1/outer3/class07/result.json	3.459120988845825	3122319		0
+models/cpu/M01/C0.1/outer3/class08/result.json	3.8257246017456055	3122318		0
+models/cpu/M01/C0.1/outer3/class09/result.json	6.114039659500122	3122316		0
+models/cpu/M01/C0.1/outer3/class10/result.json	4.224932432174683	3122281		0
+models/cpu/M01/C0.1/outer3/class11/result.json	3.351444959640503	3122299		0
+models/cpu/M01/C0.1/outer3/class12/result.json	3.726778745651245	3122267		0
+models/cpu/M01/C0.1/outer3/class13/result.json	4.03574800491333	3122330		0
+models/cpu/M01/C0.1/outer3/class14/result.json	4.542907238006592	3122321		0
+models/cpu/M01/C0.1/outer3/class15/result.json	3.7032487392425537	3122325		0
+models/cpu/M01/C0.1/outer3/class16/result.json	4.976964950561523	3122296		0
+models/cpu/M01/C0.1/outer3/class17/result.json	4.30916953086853	3122311		0
+models/cpu/M01/C0.1/outer3/class18/result.json	3.3767917156219482	3122286		0
+models/cpu/M01/C0.1/outer3/class19/result.json	3.499147653579712	3122259		0
+models/cpu/M01/C0.1/outer3/class20/result.json	4.487124681472778	3122290		0
+models/cpu/M01/C0.1/outer3/class21/result.json	3.5168683528900146	3122285		0
+models/cpu/M01/C0.1/outer3/class22/result.json	3.6055452823638916	3122309		0
+models/cpu/M01/C0.1/outer3/class23/result.json	4.045718193054199	3122271		0
+models/cpu/M01/C0.1/outer3/class24/result.json	3.644529104232788	3122320		0
+models/cpu/M01/C0.1/outer3/class25/result.json	4.374080657958984	3122319		0
+models/cpu/M01/C0.1/outer3/class26/result.json	5.037373304367065	3122300		0
+models/cpu/M01/C0.1/outer3/class27/result.json	3.7054617404937744	3122272		0
+models/cpu/M01/C0.1/outer3/class28/result.json	4.96652889251709	3122287		0
+models/cpu/M01/C0.1/outer3/class29/result.json	5.372586011886597	3122269		0
+models/cpu/M01/C0.1/outer3/class30/result.json	2.9373326301574707	3122318		0
+models/cpu/M01/C0.1/outer3/class31/result.json	4.1600258350372314	3122299		0
+models/cpu/M01/C0.1/outer4/class00/result.json	3.900681257247925	3122323		0
+models/cpu/M01/C0.1/outer4/class01/result.json	5.123321294784546	3122267		0
+models/cpu/M01/C0.1/outer4/class02/result.json	3.1896605491638184	3122281		0
+models/cpu/M01/C0.1/outer4/class03/result.json	3.363703489303589	3122330		0
+models/cpu/M01/C0.1/outer4/class04/result.json	5.217148065567017	3122262		0
+models/cpu/M01/C0.1/outer4/class05/result.json	4.095238924026489	3122325		0
+models/cpu/M01/C0.1/outer4/class06/result.json	4.528203248977661	3122286		0
+models/cpu/M01/C0.1/outer4/class07/result.json	4.22602391242981	3122321		0
+models/cpu/M01/C0.1/outer4/class08/result.json	5.7187676429748535	3122259		0
+models/cpu/M01/C0.1/outer4/class09/result.json	6.170003652572632	3122311		0
+models/cpu/M01/C0.1/outer4/class10/result.json	4.738757371902466	3122316		0
+models/cpu/M01/C0.1/outer4/class11/result.json	3.7270572185516357	3122296		0
+models/cpu/M01/C0.1/outer4/class12/result.json	4.473473310470581	3122285		0
+models/cpu/M01/C0.1/outer4/class13/result.json	4.213258981704712	3122309		0
+models/cpu/M01/C0.1/outer4/class14/result.json	5.144301652908325	3122318		0
+models/cpu/M01/C0.1/outer4/class15/result.json	3.8413641452789307	3122320		0
+models/cpu/M01/C0.1/outer4/class16/result.json	5.326490163803101	3122271		0
+models/cpu/M01/C0.1/outer4/class17/result.json	3.5244345664978027	3122272		0
+models/cpu/M01/C0.1/outer4/class18/result.json	5.2252936363220215	3122290		0
+models/cpu/M01/C0.1/outer4/class19/result.json	4.0674238204956055	3122319		0
+models/cpu/M01/C0.1/outer4/class20/result.json	3.6134462356567383	3122281		0
+models/cpu/M01/C0.1/outer4/class21/result.json	3.8801698684692383	3122323		0
+models/cpu/M01/C0.1/outer4/class22/result.json	3.777982711791992	3122299		0
+models/cpu/M01/C0.1/outer4/class23/result.json	4.548436164855957	3122330		0
+models/cpu/M01/C0.1/outer4/class24/result.json	4.905119180679321	3122300		0
+models/cpu/M01/C0.1/outer4/class25/result.json	4.027141571044922	3122287		0
+models/cpu/M01/C0.1/outer4/class26/result.json	3.757821798324585	3122325		0
+models/cpu/M01/C0.1/outer4/class27/result.json	5.653173446655273	3122269		0
+models/cpu/M01/C0.1/outer4/class28/result.json	5.0155675411224365	3122267		0
+models/cpu/M01/C0.1/outer4/class29/result.json	6.325201749801636	3122286		0
+models/cpu/M01/C0.1/outer4/class30/result.json	2.994311809539795	3122321		0
+models/cpu/M01/C0.1/outer4/class31/result.json	4.316421747207642	3122262		0
+models/cpu/M01/C1.0/outer0/class00/result.json	7.53761887550354	3122296		0
+models/cpu/M01/C1.0/outer0/class01/result.json	6.711373329162598	3122309		0
+models/cpu/M01/C1.0/outer0/class02/result.json	5.374095439910889	3122320		0
+models/cpu/M01/C1.0/outer0/class03/result.json	4.335518836975098	3122272		0
+models/cpu/M01/C1.0/outer0/class04/result.json	9.57218050956726	3122285		0
+models/cpu/M01/C1.0/outer0/class05/result.json	6.774182558059692	3122316		0
+models/cpu/M01/C1.0/outer0/class06/result.json	8.25136923789978	3122281		0
+models/cpu/M01/C1.0/outer0/class07/result.json	5.966285467147827	3122259		0
+models/cpu/M01/C1.0/outer0/class08/result.json	8.839981317520142	3122323		0
+models/cpu/M01/C1.0/outer0/class09/result.json	9.830596208572388	3122319		0
+models/cpu/M01/C1.0/outer0/class10/result.json	7.750997543334961	3122299		0
+models/cpu/M01/C1.0/outer0/class11/result.json	4.877265453338623	3122318		0
+models/cpu/M01/C1.0/outer0/class12/result.json	10.729446172714233	3122311		0
+models/cpu/M01/C1.0/outer0/class13/result.json	6.737035512924194	3122271		0
+models/cpu/M01/C1.0/outer0/class14/result.json	10.04058289527893	3122290		0
+models/cpu/M01/C1.0/outer0/class15/result.json	7.605290174484253	3122321		0
+models/cpu/M01/C1.0/outer0/class16/result.json	9.196622133255005	3122330		0
+models/cpu/M01/C1.0/outer0/class17/result.json	10.647871732711792	3122287		0
+models/cpu/M01/C1.0/outer0/class18/result.json	7.315464735031128	3122325		0
+models/cpu/M01/C1.0/outer0/class19/result.json	6.000013589859009	3122300		0
+models/cpu/M01/C1.0/outer0/class20/result.json	6.555248260498047	3122262		0
+models/cpu/M01/C1.0/outer0/class21/result.json	6.082444429397583	3122267		0
+models/cpu/M01/C1.0/outer0/class22/result.json	7.098883628845215	3122269		0
+models/cpu/M01/C1.0/outer0/class23/result.json	6.226929187774658	3122272		0
+models/cpu/M01/C1.0/outer0/class24/result.json	5.347666501998901	3122286		0
+models/cpu/M01/C1.0/outer0/class25/result.json	4.626190900802612	3122320		0
+models/cpu/M01/C1.0/outer0/class26/result.json	6.028451681137085	3122318		0
+models/cpu/M01/C1.0/outer0/class27/result.json	10.924351692199707	3122277		0
+models/cpu/M01/C1.0/outer0/class28/result.json	9.424919366836548	3122259		0
+models/cpu/M01/C1.0/outer0/class29/result.json	11.940983533859253	3122309		0
+models/cpu/M01/C1.0/outer0/class30/result.json	7.339334726333618	3122296		0
+models/cpu/M01/C1.0/outer0/class31/result.json	8.277016639709473	3122316		0
+models/cpu/M01/C1.0/outer1/class00/result.json	5.9861061573028564	3122271		0
+models/cpu/M01/C1.0/outer1/class01/result.json	7.119200706481934	3122300		0
+models/cpu/M01/C1.0/outer1/class02/result.json	4.486525535583496	3122299		0
+models/cpu/M01/C1.0/outer1/class03/result.json	5.119857311248779	3122281		0
+models/cpu/M01/C1.0/outer1/class04/result.json	9.537762880325317	3122325		0
+models/cpu/M01/C1.0/outer1/class05/result.json	7.217097282409668	3122321		0
+models/cpu/M01/C1.0/outer1/class06/result.json	8.824969053268433	3122285		0
+models/cpu/M01/C1.0/outer1/class07/result.json	6.651054859161377	3122323		0
+models/cpu/M01/C1.0/outer1/class08/result.json	6.568530321121216	3122267		0
+models/cpu/M01/C1.0/outer1/class09/result.json	8.850281238555908	3122320		0
+models/cpu/M01/C1.0/outer1/class10/result.json	8.644214630126953	3122262		0
+models/cpu/M01/C1.0/outer1/class11/result.json	4.411249399185181	3122286		0
+models/cpu/M01/C1.0/outer1/class12/result.json	8.021822452545166	3122272		0
+models/cpu/M01/C1.0/outer1/class13/result.json	7.221442699432373	3122319		0
+models/cpu/M01/C1.0/outer1/class14/result.json	9.427714586257935	3122269		0
+models/cpu/M01/C1.0/outer1/class15/result.json	5.801312685012817	3122330		0
+models/cpu/M01/C1.0/outer1/class16/result.json	8.632958889007568	3122290		0
+models/cpu/M01/C1.0/outer1/class17/result.json	7.2012927532196045	3122318		0
+models/cpu/M01/C1.0/outer1/class18/result.json	7.17334771156311	3122311		0
+models/cpu/M01/C1.0/outer1/class19/result.json	5.199893474578857	3122287		0
+models/cpu/M01/C1.0/outer1/class20/result.json	6.793531894683838	3122299		0
+models/cpu/M01/C1.0/outer1/class21/result.json	5.377648830413818	3122281		0
+models/cpu/M01/C1.0/outer1/class22/result.json	6.1379170417785645	3122296		0
+models/cpu/M01/C1.0/outer1/class23/result.json	6.207594394683838	3122271		0
+models/cpu/M01/C1.0/outer1/class24/result.json	5.708750009536743	3122260		0
+models/cpu/M01/C1.0/outer1/class25/result.json	4.569031715393066	3122286		0
+models/cpu/M01/C1.0/outer1/class26/result.json	8.576191425323486	3122316		0
+models/cpu/M01/C1.0/outer1/class27/result.json	10.233442544937134	3122300		0
+models/cpu/M01/C1.0/outer1/class28/result.json	7.781129837036133	3122259		0
+models/cpu/M01/C1.0/outer1/class29/result.json	9.798191785812378	3122267		0
+models/cpu/M01/C1.0/outer1/class30/result.json	6.611099481582642	3122323		0
+models/cpu/M01/C1.0/outer1/class31/result.json	7.051004886627197	3122321		0
+models/cpu/M01/C1.0/outer2/class00/result.json	6.176306486129761	3122330		0
+models/cpu/M01/C1.0/outer2/class01/result.json	8.05895471572876	3122277		0
+models/cpu/M01/C1.0/outer2/class02/result.json	6.7308669090271	3122287		0
+models/cpu/M01/C1.0/outer2/class03/result.json	4.112911701202393	3122319		0
+models/cpu/M01/C1.0/outer2/class04/result.json	11.032866716384888	3122285		0
+models/cpu/M01/C1.0/outer2/class05/result.json	6.512656927108765	3122309		0
+models/cpu/M01/C1.0/outer2/class06/result.json	8.48697805404663	3122272		0
+models/cpu/M01/C1.0/outer2/class07/result.json	6.008210182189941	3122262		0
+models/cpu/M01/C1.0/outer2/class08/result.json	6.756272554397583	3122325		0
+models/cpu/M01/C1.0/outer2/class09/result.json	8.380301713943481	3122320		0
+models/cpu/M01/C1.0/outer2/class10/result.json	6.988579511642456	3122318		0
+models/cpu/M01/C1.0/outer2/class11/result.json	5.059500217437744	3122311		0
+models/cpu/M01/C1.0/outer2/class12/result.json	9.611958026885986	3122281		0
+models/cpu/M01/C1.0/outer2/class13/result.json	7.025046348571777	3122286		0
+models/cpu/M01/C1.0/outer2/class14/result.json	7.57390022277832	3122299		0
+models/cpu/M01/C1.0/outer2/class15/result.json	8.397660255432129	3122260		0
+models/cpu/M01/C1.0/outer2/class16/result.json	8.846064329147339	3122296		0
+models/cpu/M01/C1.0/outer2/class17/result.json	8.561178207397461	3122269		0
+models/cpu/M01/C1.0/outer2/class18/result.json	8.876910924911499	3122290		0
+models/cpu/M01/C1.0/outer2/class19/result.json	4.757469415664673	3122271		0
+models/cpu/M01/C1.0/outer2/class20/result.json	6.066774606704712	3122319		0
+models/cpu/M01/C1.0/outer2/class21/result.json	8.225758790969849	3122323		0
+models/cpu/M01/C1.0/outer2/class22/result.json	6.51551079750061	3122330		0
+models/cpu/M01/C1.0/outer2/class23/result.json	9.212526082992554	3122321		0
+models/cpu/M01/C1.0/outer2/class24/result.json	5.62131667137146	3122259		0
+models/cpu/M01/C1.0/outer2/class25/result.json	7.63730001449585	3122316		0
+models/cpu/M01/C1.0/outer2/class26/result.json	7.392990350723267	3122311		0
+models/cpu/M01/C1.0/outer2/class27/result.json	11.125900506973267	3122287		0
+models/cpu/M01/C1.0/outer2/class28/result.json	9.115899085998535	3122262		0
+models/cpu/M01/C1.0/outer2/class29/result.json	10.249526500701904	3122309		0
+models/cpu/M01/C1.0/outer2/class30/result.json	6.403733491897583	3122271		0
+models/cpu/M01/C1.0/outer2/class31/result.json	7.904680252075195	3122277		0
+models/cpu/M01/C1.0/outer3/class00/result.json	6.223831415176392	3122325		0
+models/cpu/M01/C1.0/outer3/class01/result.json	7.042070627212524	3122326		0
+models/cpu/M01/C1.0/outer3/class02/result.json	5.027695178985596	3122289		0
+models/cpu/M01/C1.0/outer3/class03/result.json	5.5116424560546875	3122300		0
+models/cpu/M01/C1.0/outer3/class04/result.json	7.663636922836304	3122318		0
+models/cpu/M01/C1.0/outer3/class05/result.json	5.715346336364746	3122267		0
+models/cpu/M01/C1.0/outer3/class06/result.json	5.800940036773682	3122286		0
+models/cpu/M01/C1.0/outer3/class07/result.json	4.677406311035156	3122272		0
+models/cpu/M01/C1.0/outer3/class08/result.json	5.941473007202148	3122320		0
+models/cpu/M01/C1.0/outer3/class09/result.json	7.785947561264038	3122299		0
+models/cpu/M01/C1.0/outer3/class10/result.json	6.7535974979400635	3122319		0
+models/cpu/M01/C1.0/outer3/class11/result.json	4.733149290084839	3122260		0
+models/cpu/M01/C1.0/outer3/class12/result.json	9.339645147323608	3122266		0
+models/cpu/M01/C1.0/outer3/class13/result.json	5.472726821899414	3122281		0
+models/cpu/M01/C1.0/outer3/class14/result.json	7.418210983276367	3122269		0
+models/cpu/M01/C1.0/outer3/class15/result.json	6.838266849517822	3122296		0
+models/cpu/M01/C1.0/outer3/class16/result.json	9.576719999313354	3122290		0
+models/cpu/M01/C1.0/outer3/class17/result.json	9.616880416870117	3122259		0
+models/cpu/M01/C1.0/outer3/class18/result.json	5.852356195449829	3122330		0
+models/cpu/M01/C1.0/outer3/class19/result.json	5.480987787246704	3122285		0
+models/cpu/M01/C1.0/outer3/class20/result.json	5.841550350189209	3122289		0
+models/cpu/M01/C1.0/outer3/class21/result.json	5.496366500854492	3122323		0
+models/cpu/M01/C1.0/outer3/class22/result.json	8.219881772994995	3122300		0
+models/cpu/M01/C1.0/outer3/class23/result.json	7.6633477210998535	3122316		0
+models/cpu/M01/C1.0/outer3/class25/result.json	6.988868236541748	3122311		0
+models/cpu/M01/C1.0/outer3/class24/result.json	5.3810341358184814	3122271		0
+models/cpu/M01/C1.0/outer3/class26/result.json	6.1273088455200195	3122325		0
+models/cpu/M01/C1.0/outer3/class27/result.json	7.633585214614868	3122272		0
+models/cpu/M01/C1.0/outer3/class28/result.json	7.133407831192017	3122267		0
+models/cpu/M01/C1.0/outer3/class29/result.json	9.628336668014526	3122286		0
+models/cpu/M01/C1.0/outer3/class30/result.json	6.24594259262085	3122326		0
+models/cpu/M01/C1.0/outer3/class31/result.json	6.898046970367432	3122321		0
+models/cpu/M01/C1.0/outer4/class00/result.json	5.70859432220459	3122320		0
+models/cpu/M01/C1.0/outer4/class01/result.json	8.590565919876099	3122277		0
+models/cpu/M01/C1.0/outer4/class02/result.json	6.974376440048218	3122260		0
+models/cpu/M01/C1.0/outer4/class03/result.json	6.148728847503662	3122262		0
+models/cpu/M01/C1.0/outer4/class04/result.json	9.547327280044556	3122318		0
+models/cpu/M01/C1.0/outer4/class05/result.json	6.136772632598877	3122281		0
+models/cpu/M01/C1.0/outer4/class06/result.json	8.454902410507202	3122319		0
+models/cpu/M01/C1.0/outer4/class07/result.json	7.714525938034058	3122285		0
+models/cpu/M01/C1.0/outer4/class08/result.json	7.2474775314331055	3122330		0
+models/cpu/M01/C1.0/outer4/class09/result.json	10.664612293243408	3122309		0
+models/cpu/M01/C1.0/outer4/class10/result.json	7.523669719696045	3122299		0
+models/cpu/M01/C1.0/outer4/class11/result.json	6.421799182891846	3122287		0
+models/cpu/M01/C1.0/outer4/class12/result.json	9.80079984664917	3122296		0
+models/cpu/M01/C1.0/outer4/class13/result.json	8.2743980884552	3122269		0
+models/cpu/M01/C1.0/outer4/class14/result.json	9.77731728553772	3122322		0
+models/cpu/M01/C1.0/outer4/class15/result.json	9.620667934417725	3122323		0
+models/cpu/M01/C1.0/outer4/class16/result.json	6.691610336303711	3122289		0
+models/cpu/M01/C1.0/outer4/class17/result.json	7.943434000015259	3122271		0
+models/cpu/M01/C1.0/outer4/class18/result.json	7.293859481811523	3122325		0
+models/cpu/M01/C1.0/outer4/class19/result.json	6.374581336975098	3122266		0
+models/cpu/M01/C1.0/outer4/class20/result.json	8.282243490219116	3122311		0
+models/cpu/M01/C1.0/outer4/class21/result.json	5.779927015304565	3122320		0
+models/cpu/M01/C1.0/outer4/class22/result.json	8.644044637680054	3122290		0
+models/cpu/M01/C1.0/outer4/class23/result.json	9.602577924728394	3122259		0
+models/cpu/M01/C1.0/outer4/class24/result.json	6.823558330535889	3122267		0
+models/cpu/M01/C1.0/outer4/class25/result.json	7.247841835021973	3122326		0
+models/cpu/M01/C1.0/outer4/class26/result.json	7.979389905929565	3122316		0
+models/cpu/M01/C1.0/outer4/class27/result.json	7.861421823501587	3122272		0
+models/cpu/M01/C1.0/outer4/class28/result.json	9.819667100906372	3122300		0
+models/cpu/M01/C1.0/outer4/class29/result.json	12.527472257614136	3122321		0
+models/cpu/M01/C1.0/outer4/class30/result.json	7.829695701599121	3122262		0
+models/cpu/M01/C1.0/outer4/class31/result.json	6.513112545013428	3122260		0
+models/cpu/M01/C10.0/outer0/class00/result.json	8.08525538444519	3122281		0
+models/cpu/M01/C10.0/outer0/class01/result.json	10.68005084991455	3122277		0
+models/cpu/M01/C10.0/outer0/class02/result.json	7.58423924446106	3122286		0
+models/cpu/M01/C10.0/outer0/class03/result.json	6.799329519271851	3122287		0
+models/cpu/M01/C10.0/outer0/class04/result.json	16.954824447631836	3122330		0
+models/cpu/M01/C10.0/outer0/class05/result.json	14.685587644577026	3122285		0
+models/cpu/M01/C10.0/outer0/class06/result.json	11.697889804840088	3122299		0
+models/cpu/M01/C10.0/outer0/class07/result.json	9.446694612503052	3122318		0
+models/cpu/M01/C10.0/outer0/class08/result.json	11.99832820892334	3122319		0
+models/cpu/M01/C10.0/outer0/class09/result.json	15.639009952545166	3122289		0
+models/cpu/M01/C10.0/outer0/class10/result.json	18.07850456237793	3122266		0
+models/cpu/M01/C10.0/outer0/class11/result.json	6.178025484085083	3122320		0
+models/cpu/M01/C10.0/outer0/class12/result.json	23.27310562133789	3122269		0
+models/cpu/M01/C10.0/outer0/class13/result.json	13.607844114303589	3122271		0
+models/cpu/M01/C10.0/outer0/class14/result.json	14.434790849685669	3122325		0
+models/cpu/M01/C10.0/outer0/class15/result.json	8.86969256401062	3122279		0
+models/cpu/M01/C10.0/outer0/class16/result.json	19.357491970062256	3122296		0
+models/cpu/M01/C10.0/outer0/class17/result.json	9.117594003677368	3122267		0
+models/cpu/M01/C10.0/outer0/class18/result.json	9.195151805877686	3122309		0
+models/cpu/M01/C10.0/outer0/class19/result.json	8.706661224365234	3122322		0
+models/cpu/M01/C10.0/outer0/class20/result.json	10.445882081985474	3122326		0
+models/cpu/M01/C10.0/outer0/class21/result.json	8.39696717262268	3122323		0
+models/cpu/M01/C10.0/outer0/class22/result.json	10.668840408325195	3122260		0
+models/cpu/M01/C10.0/outer0/class23/result.json	12.714361429214478	3122311		0
+models/cpu/M01/C10.0/outer0/class24/result.json	8.65616250038147	3122316		0
+models/cpu/M01/C10.0/outer0/class25/result.json	10.5938081741333	3122272		0
+models/cpu/M01/C10.0/outer0/class26/result.json	13.639506816864014	3122290		0
+models/cpu/M01/C10.0/outer0/class27/result.json	19.612285137176514	3122262		0
+models/cpu/M01/C10.0/outer0/class28/result.json	17.786495208740234	3122259		0
+models/cpu/M01/C10.0/outer0/class29/result.json	26.867963314056396	3122281		0
+models/cpu/M01/C10.0/outer0/class30/result.json	15.487067461013794	3122287		0
+models/cpu/M01/C10.0/outer0/class31/result.json	9.566120147705078	3122300		0
+models/cpu/M01/C10.0/outer1/class00/result.json	8.788812398910522	3122286		0
+models/cpu/M01/C10.0/outer1/class01/result.json	6.507443428039551	3122320		0
+models/cpu/M01/C10.0/outer1/class02/result.json	7.226572751998901	3122321		0
+models/cpu/M01/C10.0/outer1/class03/result.json	8.439306497573853	3122277		0
+models/cpu/M01/C10.0/outer1/class04/result.json	16.782296419143677	3122318		0
+models/cpu/M01/C10.0/outer1/class05/result.json	8.614089250564575	3122279		0
+models/cpu/M01/C10.0/outer1/class06/result.json	13.916351556777954	3122299		0
+models/cpu/M01/C10.0/outer1/class07/result.json	14.874117136001587	3122323		0
+models/cpu/M01/C10.0/outer1/class08/result.json	10.366035461425781	3122267		0
+models/cpu/M01/C10.0/outer1/class09/result.json	17.786214113235474	3122322		0
+models/cpu/M01/C10.0/outer1/class10/result.json	10.114797115325928	3122309		0
+models/cpu/M01/C10.0/outer1/class11/result.json	5.931593894958496	3122319		0
+models/cpu/M01/C10.0/outer1/class12/result.json	19.029815912246704	3122316		0
+models/cpu/M01/C10.0/outer1/class13/result.json	15.940583229064941	3122326		0
+models/cpu/M01/C10.0/outer1/class14/result.json	12.042383670806885	3122320		0
+models/cpu/M01/C10.0/outer1/class15/result.json	12.151601552963257	3122285		0
+models/cpu/M01/C10.0/outer1/class16/result.json	18.18333864212036	3122260		0
+models/cpu/M01/C10.0/outer1/class17/result.json	9.989228963851929	3122272		0
+models/cpu/M01/C10.0/outer1/class18/result.json	8.818870067596436	3122286		0
+models/cpu/M01/C10.0/outer1/class19/result.json	5.265108585357666	3122271		0
+models/cpu/M01/C10.0/outer1/class20/result.json	11.417569875717163	3122300		0
+models/cpu/M01/C10.0/outer1/class21/result.json	8.080597639083862	3122289		0
+models/cpu/M01/C10.0/outer1/class22/result.json	6.131582498550415	3122330		0
+models/cpu/M01/C10.0/outer1/class23/result.json	10.347940683364868	3122325		0
+models/cpu/M01/C10.0/outer1/class24/result.json	10.055770635604858	3122321		0
+models/cpu/M01/C10.0/outer1/class25/result.json	12.869976282119751	3122311		0
+models/cpu/M01/C10.0/outer1/class26/result.json	11.941206216812134	3122277		0
+models/cpu/M01/C10.0/outer1/class27/result.json	17.25031614303589	3122314		0
+models/cpu/M01/C10.0/outer1/class28/result.json	13.296107769012451	3122290		0
+models/cpu/M01/C10.0/outer1/class29/result.json	22.77372717857361	3122319		0
+models/cpu/M01/C10.0/outer1/class30/result.json	14.003846168518066	3122266		0
+models/cpu/M01/C10.0/outer1/class31/result.json	8.665463209152222	3122291		0
+models/cpu/M01/C10.0/outer2/class00/result.json	7.98184871673584	3122279		0
+models/cpu/M01/C10.0/outer2/class01/result.json	8.109106302261353	3122271		0
+models/cpu/M01/C10.0/outer2/class02/result.json	10.003859281539917	3122287		0
+models/cpu/M01/C10.0/outer2/class03/result.json	7.285671949386597	3122296		0
+models/cpu/M01/C10.0/outer2/class04/result.json	21.16629385948181	3122267		0
+models/cpu/M01/C10.0/outer2/class05/result.json	16.018638372421265	3122309		0
+models/cpu/M01/C10.0/outer2/class06/result.json	12.050383567810059	3122330		0
+models/cpu/M01/C10.0/outer2/class07/result.json	13.13994574546814	3122259		0
+models/cpu/M01/C10.0/outer2/class08/result.json	13.908043146133423	3122286		0
+models/cpu/M01/C10.0/outer2/class09/result.json	15.96172308921814	3122289		0
+models/cpu/M01/C10.0/outer2/class10/result.json	14.083810806274414	3122262		0
+models/cpu/M01/C10.0/outer2/class11/result.json	5.568892240524292	3122272		0
+models/cpu/M01/C10.0/outer2/class12/result.json	18.560255527496338	3122269		0
+models/cpu/M01/C10.0/outer2/class13/result.json	12.210387229919434	3122299		0
+models/cpu/M01/C10.0/outer2/class14/result.json	14.652870178222656	3122320		0
+models/cpu/M01/C10.0/outer2/class15/result.json	11.83296251296997	3122318		0
+models/cpu/M01/C10.0/outer2/class16/result.json	19.458470821380615	3122285		0
+models/cpu/M01/C10.0/outer2/class17/result.json	12.175100088119507	3122323		0
+models/cpu/M01/C10.0/outer2/class18/result.json	13.271239519119263	3122321		0
+models/cpu/M01/C10.0/outer2/class19/result.json	6.095809698104858	3122325		0
+models/cpu/M01/C10.0/outer2/class20/result.json	11.35361623764038	3122300		0
+models/cpu/M01/C10.0/outer2/class21/result.json	8.361602783203125	3122279		0
+models/cpu/M01/C10.0/outer2/class22/result.json	8.43884801864624	3122265		0
+models/cpu/M01/C10.0/outer2/class23/result.json	12.145148038864136	3122291		0
+models/cpu/M01/C10.0/outer2/class24/result.json	7.747764587402344	3122336		0
+models/cpu/M01/C10.0/outer2/class25/result.json	9.477685928344727	3122271		0
+models/cpu/M01/C10.0/outer2/class26/result.json	12.815992593765259	3122296		0
+models/cpu/M01/C10.0/outer2/class27/result.json	18.91964292526245	3122311		0
+models/cpu/M01/C10.0/outer2/class28/result.json	14.908593893051147	3122326		0
+models/cpu/M01/C10.0/outer2/class29/result.json	27.73856234550476	3122322		0
+models/cpu/M01/C10.0/outer2/class30/result.json	14.778726577758789	3122292		0
+models/cpu/M01/C10.0/outer2/class31/result.json	10.148642778396606	3122277		0
+models/cpu/M01/C10.0/outer3/class00/result.json	8.346476316452026	3122272		0
+models/cpu/M01/C10.0/outer3/class01/result.json	10.543759107589722	3122287		0
+models/cpu/M01/C10.0/outer3/class02/result.json	9.775359630584717	3122290		0
+models/cpu/M01/C10.0/outer3/class03/result.json	7.29529070854187	3122316		0
+models/cpu/M01/C10.0/outer3/class04/result.json	18.644171476364136	3122281		0
+models/cpu/M01/C10.0/outer3/class05/result.json	18.14069628715515	3122260		0
+models/cpu/M01/C10.0/outer3/class06/result.json	10.842672109603882	3122325		0
+models/cpu/M01/C10.0/outer3/class07/result.json	10.251662731170654	3122266		0
+models/cpu/M01/C10.0/outer3/class08/result.json	10.255425691604614	3122317		0
+models/cpu/M01/C10.0/outer3/class09/result.json	13.731931924819946	3122330		0
+models/cpu/M01/C10.0/outer3/class10/result.json	11.823176145553589	3122314		0
+models/cpu/M01/C10.0/outer3/class11/result.json	5.689788818359375	3122279		0
+models/cpu/M01/C10.0/outer3/class12/result.json	13.223683834075928	3122265		0
+models/cpu/M01/C10.0/outer3/class13/result.json	13.028043985366821	3122336		0
+models/cpu/M01/C10.0/outer3/class14/result.json	15.827929735183716	3122259		0
+models/cpu/M01/C10.0/outer3/class15/result.json	10.82906460762024	3122299		0
+models/cpu/M01/C10.0/outer3/class16/result.json	15.275657892227173	3122286		0
+models/cpu/M01/C10.0/outer3/class17/result.json	11.873544931411743	3122309		0
+models/cpu/M01/C10.0/outer3/class18/result.json	9.875658750534058	3122318		0
+models/cpu/M01/C10.0/outer3/class19/result.json	7.080104351043701	3122262		0
+models/cpu/M01/C10.0/outer3/class20/result.json	9.351713418960571	3122271		0
+models/cpu/M01/C10.0/outer3/class21/result.json	9.380646705627441	3122323		0
+models/cpu/M01/C10.0/outer3/class22/result.json	9.316766023635864	3122300		0
+models/cpu/M01/C10.0/outer3/class23/result.json	10.182410955429077	3122272		0
+models/cpu/M01/C10.0/outer3/class24/result.json	10.163816928863525	3122316		0
+models/cpu/M01/C10.0/outer3/class25/result.json	11.63770318031311	3122321		0
+models/cpu/M01/C10.0/outer3/class26/result.json	10.422368049621582	3122277		0
+models/cpu/M01/C10.0/outer3/class27/result.json	17.827775716781616	3122289		0
+models/cpu/M01/C10.0/outer3/class28/result.json	12.655396699905396	3122291		0
+models/cpu/M01/C10.0/outer3/class29/result.json	16.914336919784546	3122320		0
+models/cpu/M01/C10.0/outer3/class30/result.json	10.99952745437622	3122319		0
+models/cpu/M01/C10.0/outer3/class31/result.json	9.18748426437378	3122290		0
+models/cpu/M01/C10.0/outer4/class00/result.json	9.43166470527649	3122287		0
+models/cpu/M01/C10.0/outer4/class01/result.json	10.913769721984863	3122279		0
+models/cpu/M01/C10.0/outer4/class02/result.json	9.5006844997406	3122296		0
+models/cpu/M01/C10.0/outer4/class03/result.json	7.663575887680054	3122269		0
+models/cpu/M01/C10.0/outer4/class04/result.json	15.139449834823608	3122267		0
+models/cpu/M01/C10.0/outer4/class05/result.json	16.80492615699768	3122266		0
+models/cpu/M01/C10.0/outer4/class06/result.json	14.022743940353394	3122325		0
+models/cpu/M01/C10.0/outer4/class07/result.json	13.020631790161133	3122317		0
+models/cpu/M01/C10.0/outer4/class08/result.json	12.599507093429565	3122292		0
+models/cpu/M01/C10.0/outer4/class09/result.json	16.66336154937744	3122326		0
+models/cpu/M01/C10.0/outer4/class10/result.json	12.747450828552246	3122262		0
+models/cpu/M01/C10.0/outer4/class11/result.json	6.114288806915283	3122273		0
+models/cpu/M01/C10.0/outer4/class12/result.json	14.132849216461182	3122285		0
+models/cpu/M01/C10.0/outer4/class13/result.json	11.408153295516968	3122314		0
+models/cpu/M01/C10.0/outer4/class14/result.json	10.644184589385986	3122271		0
+models/cpu/M01/C10.0/outer4/class15/result.json	10.69816517829895	3122300		0
+models/cpu/M01/C10.0/outer4/class16/result.json	13.220797538757324	3122323		0
+models/cpu/M01/C10.0/outer4/class17/result.json	9.227063179016113	3122318		0
+models/cpu/M01/C10.0/outer4/class18/result.json	10.861595153808594	3122311		0
+models/cpu/M01/C10.0/outer4/class19/result.json	6.240332841873169	3122330		0
+models/cpu/M01/C10.0/outer4/class20/result.json	9.532092332839966	3122299		0
+models/cpu/M01/C10.0/outer4/class21/result.json	7.942131042480469	3122272		0
+models/cpu/M01/C10.0/outer4/class22/result.json	9.477442026138306	3122316		0
+models/cpu/M01/C10.0/outer4/class23/result.json	10.619893074035645	3122336		0
+models/cpu/M01/C10.0/outer4/class24/result.json	8.185474634170532	3122265		0
+models/cpu/M01/C10.0/outer4/class25/result.json	8.148459196090698	3122309		0
+models/cpu/M01/C10.0/outer4/class26/result.json	9.728594064712524	3122290		0
+models/cpu/M01/C10.0/outer4/class27/result.json	13.442402124404907	3122277		0
+models/cpu/M01/C10.0/outer4/class28/result.json	10.630929231643677	3122260		0
+models/cpu/M01/C10.0/outer4/class29/result.json	14.213330268859863	3122281		0
+models/cpu/M01/C10.0/outer4/class30/result.json	10.715106964111328	3122269		0
+models/cpu/M01/C10.0/outer4/class31/result.json	8.01374340057373	3122287		0
+models/cpu/M01/C10.0/full/class00/result.json	6.708245754241943	3158625		0
+models/cpu/M01/C10.0/full/class01/result.json	7.747760057449341	3158626		0
+models/cpu/M01/C10.0/full/class02/result.json	6.525712490081787	3158627		0
+models/cpu/M01/C10.0/full/class03/result.json	3.7772488594055176	3158628		0
+models/cpu/M01/C10.0/full/class04/result.json	12.445632934570312	3158629		0
+models/cpu/M01/C10.0/full/class05/result.json	11.998805522918701	3158630		0
+models/cpu/M01/C10.0/full/class06/result.json	10.337571620941162	3158631		0
+models/cpu/M01/C10.0/full/class07/result.json	14.53651762008667	3158632		0
+models/cpu/M01/C10.0/full/class09/result.json	16.12157940864563	3158634		0
+models/cpu/M01/C10.0/full/class08/result.json	9.650490999221802	3158633		0
+models/cpu/M01/C10.0/full/class10/result.json	15.64124345779419	3158635		0
+models/cpu/M01/C10.0/full/class12/result.json	13.664494276046753	3158637		0
+models/cpu/M01/C10.0/full/class11/result.json	5.769551038742065	3158636		0
+models/cpu/M01/C10.0/full/class13/result.json	12.24760389328003	3158638		0
+models/cpu/M01/C10.0/full/class14/result.json	14.366371631622314	3158639		0
+models/cpu/M01/C10.0/full/class16/result.json	11.17197299003601	3158641		0
+models/cpu/M01/C10.0/full/class15/result.json	9.407269716262817	3158640		0
+models/cpu/M01/C10.0/full/class18/result.json	11.357020616531372	3158643		0
+models/cpu/M01/C10.0/full/class17/result.json	6.976598501205444	3158642		0
+models/cpu/M01/C10.0/full/class19/result.json	9.082808017730713	3158644		0
+models/cpu/M01/C10.0/full/class20/result.json	7.353608131408691	3158645		0
+models/cpu/M01/C10.0/full/class21/result.json	7.1851842403411865	3158646		0
+models/cpu/M01/C10.0/full/class23/result.json	8.630621194839478	3158648		0
+models/cpu/M01/C10.0/full/class22/result.json	4.345861196517944	3158647		0
+models/cpu/M01/C10.0/full/class25/result.json	5.857545375823975	3158650		0
+models/cpu/M01/C10.0/full/class24/result.json	7.085691928863525	3158649		0
+models/cpu/M01/C10.0/full/class26/result.json	7.550902605056763	3158651		0
+models/cpu/M01/C10.0/full/class27/result.json	11.956981182098389	3158652		0
+models/cpu/M01/C10.0/full/class28/result.json	8.278389930725098	3158653		0
+models/cpu/M01/C10.0/full/class29/result.json	16.798601865768433	3158654		0
+models/cpu/M01/C10.0/full/class30/result.json	13.168602466583252	3158655		0
+models/cpu/M01/C10.0/full/class31/result.json	10.95105767250061	3158656		0

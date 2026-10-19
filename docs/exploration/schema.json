@@ -1,0 +1,53 @@
+{
+  "bootstrap": {
+    "blocks": "100 iterations per npz; values shape (100,7,2); paired delta shape (100,6,2)",
+    "ci_rule": "fixed original K; any invalid replicate makes ordinary CI NA; conditional valid-only intervals explicitly separate",
+    "draws": "revision/bootstrap/draws.npz; 2000x1396 component draws and multiplicities; seed20261008, same draws for all models and both subsets",
+    "metrics": [
+      "macro_AP",
+      "macro_F1"
+    ],
+    "models": [
+      "selected",
+      "A_weighted",
+      "B_weighted",
+      "C_weighted",
+      "A_unweighted",
+      "B_unweighted",
+      "C_unweighted"
+    ]
+  },
+  "certificates": "each DONE records hashes of completed files; verify before skipping; final DONE hashes inventory, manifest and checksum list",
+  "data/dev.npz": "train and val only, ID/group/label arrays and class order; no test labels",
+  "encoding": "UTF-8; TSV has one header line; JSON null/TSV NA denotes undefined, never zero-filled",
+  "features": "train-fit definitions and parameters; scipy CSR npz or dense numpy npy. Float32 GPU copies are separately verified against canonical features. No role/source/evidence-level input features.",
+  "id_order": "explicit protein_id arrays; columns follow frozen class_order.json",
+  "inventory": "artifacts.tsv paths relative to output; bytes, SHA256, text physical line counts (header included); binary line count NA. Inventory excludes only artifacts.tsv, SHA256SUMS, manifest.json, DONE.json to avoid self-reference; includes REPORT_turn4.md and all cache/log/PID files.",
+  "labels": {
+    "negative": 0,
+    "positive": 1,
+    "unknown": -1,
+    "unknown_policy": "masked in all fitting and metrics"
+  },
+  "model_storage": {
+    "ensemble": "candidate summary config.members/config.weights; fixed three-seed means use numpy mean after stacking, as inference_v2.py",
+    "extra_trees": "experiments/<candidate>/class_XX.pkl; own trusted sklearn 1.7.2 artifact",
+    "linear": "experiments/<candidate>/class_XX.npz; intercept and coefficients",
+    "neural": "gpu/<candidate>/best.pt; own torch 2.5.1 state dictionary plus config; last.pt retains optimizer and RNG for checkpoint audit"
+  },
+  "predictions": {
+    "arrays": {
+      "class_order": "32 Unicode class names",
+      "predictions": "(6257,32) uint8, scores>=thresholds",
+      "protein_id": "6257 Unicode IDs",
+      "scores": "(6257,32) float64, probabilities",
+      "thresholds": "(32,) float64, selected on val"
+    },
+    "authoritative": "inference_v2/test/final_predictions.npz",
+    "legacy": "inference/val retained as pretest numerical-arithmetic diagnostic; never authoritative",
+    "tsv": "revision/scores.tsv and predictions.tsv contain protein_id followed by fixed 32 classes; scores .17g roundtrip; index in revision/prediction_index.tsv",
+    "validation": "inference_v2/val/final_predictions.npz reproduces candidate scores and decisions exactly"
+  },
+  "selection": "selection/final_selection.json plus inference_runtime_v2.json, both frozen before test",
+  "version": "turn4_exploration_delivery_v1"
+}

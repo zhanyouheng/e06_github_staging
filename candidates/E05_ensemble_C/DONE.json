@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-05T18:34:35.377575+00:00",
+  "context": {
+    "config": {
+      "algorithm": "ensemble",
+      "feature": "C",
+      "members": [
+        "E05_005_C_s20261006",
+        "E05_005_C_s20261007",
+        "E05_005_C_s20261008"
+      ],
+      "name": "E05_ensemble_C",
+      "order": 101,
+      "seed": 20261006,
+      "seeds": [
+        20261006,
+        20261007,
+        20261008
+      ],
+      "stage": "E05",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E05_005_C_s20261006/DONE.json": "c7d732ce5903dfb60f2398837056792c15dca48ea2eb2073b8c7a5f26e4031d6",
+    "candidates/E05_005_C_s20261007/DONE.json": "6046997b2f70f65f5002093682e561154fc79d3fe104b8474e3834dfcb28b06e",
+    "candidates/E05_005_C_s20261008/DONE.json": "4ee190f7cb346177de8136bb4eca0cb186db59b07bc61f5a183dcb382abe76a0",
+    "candidates/E05_ensemble_C/per_class.tsv": "d46b6b4e38007bbddc7aa19e743b9fdf4c6a9bbbeea7637d3f9d01c02b0efce4",
+    "candidates/E05_ensemble_C/summary.json": "2a4ad3683fb393606a5728b9d688593a3a8b8038c43acb5e494bafefb4dbc480",
+    "candidates/E05_ensemble_C/validation.npz": "7c189e90de69cd1454b5462ea15c322b63d0338624c0795dc7139072d9a577c3"
+  },
+  "status": "verified_done"
+}

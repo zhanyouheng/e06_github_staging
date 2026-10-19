@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-05T18:41:29.891502+00:00",
+  "context": {
+    "config": {
+      "algorithm": "mlp",
+      "dropout": 0.2,
+      "feature": "A2B",
+      "hidden": [
+        512
+      ],
+      "name": "E09_000_A2B_s20261007",
+      "order": 0,
+      "seed": 20261007,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E09_000_A2B_s20261007/per_class.tsv": "7fdeea7516fa3e1e822c4f5ba7165e128306786a5dd34ad340ebbf63e7d622a3",
+    "candidates/E09_000_A2B_s20261007/summary.json": "fa562a8c8bf2488d9f8bfe24e3a0dbd4545856f545a1db693f4572ab2b7cd329",
+    "candidates/E09_000_A2B_s20261007/validation.npz": "f7d7c1f0d3fe93037a4b7e3d40cbd924abc99daaf3a60d125cd9519fd0a2770a",
+    "gpu/E09_000_A2B_s20261007/DONE.json": "15a811955038df9147531688b34dc01b99bc8992b959403d1782066ec8da1108",
+    "gpu/E09_000_A2B_s20261007/best.pt": "8c42554d2991f586667dda8d128c2f4945275355733037990d6190d8984287ef",
+    "gpu/E09_000_A2B_s20261007/best_validation.npz": "2ec3294a86155a97bf252e9bc6cb751c31627c70643881beb8031dca99f46d04",
+    "gpu/E09_000_A2B_s20261007/history.json": "657f3d05a12cd52f0853bbc19df0760dc1544d4eb02c3f8b64aed2739a351b85"
+  },
+  "status": "verified_done"
+}

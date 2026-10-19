@@ -1,0 +1,65 @@
+class	scope	proteins	components	P	N	U	positive_components	alpha_if_training
+antibiotic_resistance	train	18770	4181	1020	17702	48	87	4.165921501995005
+antibiotic_resistance	val	6257	1398	333	5913	11	32	
+avirulence_plant	train	18770	4181	143	18590	37	69	10
+avirulence_plant	val	6257	1398	48	6196	13	24	
+bacterial_counter_signaling	train	18770	4181	38	18642	90	20	10
+bacterial_counter_signaling	val	6257	1398	12	6218	27	8	
+counter_immunoglobulin	train	18770	4181	49	18633	88	10	10
+counter_immunoglobulin	val	6257	1398	15	6223	19	5	
+cytotoxicity	train	18770	4181	787	17719	264	142	4.744956527972696
+cytotoxicity	val	6257	1398	265	5946	46	49	
+degrade_ecm	train	18770	4181	167	18495	108	21	10
+degrade_ecm	val	6257	1398	45	6170	42	16	
+develop_in_host	train	18770	4181	84	18518	168	62	10
+develop_in_host	val	6257	1398	29	6182	46	19	
+disable_organ	train	18770	4181	2903	15650	217	337	2.321847293342033
+disable_organ	val	6257	1398	970	5225	62	113	
+host_cell_cycle	train	18770	4181	307	18304	159	63	7.721538048674859
+host_cell_cycle	val	6257	1398	106	6114	37	19	
+host_cell_death	train	18770	4181	544	17797	429	97	5.719709217207791
+host_cell_death	val	6257	1398	191	6008	58	26	
+host_cytoskeleton	train	18770	4181	229	18412	129	39	8.966702109744185
+host_cytoskeleton	val	6257	1398	71	6133	53	19	
+host_gtpase	train	18770	4181	40	18641	89	16	10
+host_gtpase	val	6257	1398	12	6220	25	6	
+host_transcription	train	18770	4181	645	17869	256	87	5.263447156473811
+host_transcription	val	6257	1398	211	5955	91	29	
+host_translation	train	18770	4181	297	18308	165	32	7.8513118421762895
+host_translation	val	6257	1398	88	6131	38	14	
+host_ubiquitin	train	18770	4181	529	18123	118	60	5.853117050431261
+host_ubiquitin	val	6257	1398	170	6057	30	22	
+host_xenophagy	train	18770	4181	349	18333	88	28	7.247764204213971
+host_xenophagy	val	6257	1398	113	6117	27	11	
+induce_inflammation	train	18770	4181	247	18138	385	47	8.56931726455304
+induce_inflammation	val	6257	1398	81	6111	65	20	
+nonviral_adhesion	train	18770	4181	117	18554	99	71	10
+nonviral_adhesion	val	6257	1398	41	6185	31	21	
+nonviral_invasion	train	18770	4181	88	18580	102	41	10
+nonviral_invasion	val	6257	1398	29	6193	35	16	
+plant_rna_silencing	train	18770	4181	64	18675	31	18	10
+plant_rna_silencing	val	6257	1398	22	6224	11	5	
+resist_complement	train	18770	4181	61	18631	78	22	10
+resist_complement	val	6257	1398	61	6176	20	3	
+resist_oxidative	train	18770	4181	50	18612	108	26	10
+resist_oxidative	val	6257	1398	16	6208	33	9	
+secreted_effector	train	18770	4181	79	18681	10	28	10
+secreted_effector	val	6257	1398	26	6224	7	9	
+secretion	train	18770	4181	385	18369	16	91	6.907364787796307
+secretion	val	6257	1398	126	6127	4	32	
+suppress_detection	train	18770	4181	90	18648	32	17	10
+suppress_detection	val	6257	1398	27	6228	2	8	
+toxin_synthase	train	18770	4181	419	18308	43	106	6.610182352995778
+toxin_synthase	val	6257	1398	162	6088	7	13	
+viral_adhesion	train	18770	4181	1144	17618	8	94	3.924327923396521
+viral_adhesion	val	6257	1398	376	5873	8	35	
+viral_counter_signaling	train	18770	4181	992	17454	324	122	4.194610597482933
+viral_counter_signaling	val	6257	1398	337	5902	18	36	
+viral_invasion	train	18770	4181	1723	16980	67	181	3.139252177955171
+viral_invasion	val	6257	1398	580	5659	18	58	
+viral_movement	train	18770	4181	861	17729	180	114	4.5377497787546295
+viral_movement	val	6257	1398	289	5904	64	39	
+virulence_activity	train	18770	4181	277	12633	5860	98	6.753258339123852
+virulence_activity	val	6257	1398	95	4248	1914	44	
+virulence_regulator	train	18770	4181	254	18482	34	102	8.5301687865809
+virulence_regulator	val	6257	1398	98	6151	8	11	

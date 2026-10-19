@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "created_at_utc": "2026-10-05T19:03:40.207254+00:00",
+  "phase": "after model selection, before revision test event",
+  "reason": "seed mean must sum then divide, matching stored validation candidates exactly; multiplying each seed by1/3 before summing changed6 known threshold-equality decisions at1.11e-16 score difference",
+  "inference_v1_sha256": "c4003ea08effe1ce5bf3a324a54c5c75962a49b8d1aca749dd6f1f13ac747d5c",
+  "inference_v2_sha256": "959e3bdbcad943b7ecf6bcc7673d6807447220d8fa2f86128f020d2c52d596cf",
+  "unchanged_final_selection_sha256": "1a7b22306a6e87048b4e2499dd4765eba8d89ca65277080890b29933e078d1e7",
+  "model_weights_changed": false,
+  "ensemble_weights_changed": false,
+  "thresholds_changed": false,
+  "features_changed": false,
+  "test_read": false,
+  "old_max_abs_diff": 1.1102230246251565e-16,
+  "old_prediction_differences": 6,
+  "old_known_prediction_differences": 6,
+  "old_versions_preserved": true,
+  "authoritative_prediction_directory": "inference_v2"
+}

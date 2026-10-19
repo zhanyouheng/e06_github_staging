@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-05T18:58:43.647519+00:00",
+  "best_global_single_model": "E09_ensemble_A2B",
+  "test_used": false,
+  "winners": {
+    "MLP_A2B": "E09_ensemble_A2B",
+    "MLP_B": "E05_ensemble_B",
+    "MLP_C": "E05_ensemble_C",
+    "MLP_FAB": "E09_ensemble_FAB",
+    "component_weight_A": "E07_000_A",
+    "component_weight_B": "E07_007_B",
+    "component_weight_C": "E07_013_C",
+    "embedding_normalization": "E08_022_BstdL",
+    "historical_text": "E02_013_FAB",
+    "joint_normalization": "E08_030_Cstd",
+    "kernel_B": "E03_001_N1",
+    "kernel_joint": "E03_004_AN1",
+    "linear_A": "E01_007_A",
+    "linear_B": "E01_018_B",
+    "linear_C": "E01_028_C",
+    "rare_annotation": "E02_041_A5B",
+    "trees_A": "E04_003_A",
+    "trees_B": "E04_011_B",
+    "trees_C": "E04_006_C"
+  }
+}

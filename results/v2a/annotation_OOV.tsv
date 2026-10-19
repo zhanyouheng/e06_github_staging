@@ -1,0 +1,5 @@
+annotation_route	scope	proteins	vocab_dimensions	raw_protein_token_occurrences	OOV_occurrences	OOV_fraction	raw_no_annotation_proteins	all_pruned_or_OOV_proteins	nonempty_retained_proteins	extraction_status_counts
+A	train	18770	1219	249260	10192	0.040889031533338685	62	79	18629	"{""success"": 18770}"
+A	val	6257	1219	82812	6263	0.07562913587402792	9	15	6233	"{""success"": 6257}"
+A2	train	18770	3200	249260	2476	0.009933402872502608	62	32	18676	"{""success"": 18770}"
+A2	val	6257	3200	82812	3567	0.043073467613389364	9	13	6235	"{""success"": 6257}"

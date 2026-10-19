@@ -1,0 +1,170 @@
+{
+  "configs": {
+    "E04_006_C": {
+      "algorithm": "extra_trees",
+      "feature": "C",
+      "max_features": 0.2,
+      "min_samples_leaf": 1,
+      "name": "E04_006_C",
+      "order": 6,
+      "seed": 20261006,
+      "stage": "E04",
+      "weight": "weighted"
+    },
+    "E05_005_C_s20261006": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "C",
+      "hidden": [
+        512
+      ],
+      "name": "E05_005_C_s20261006",
+      "order": 5,
+      "seed": 20261006,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "E05_005_C_s20261007": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "C",
+      "hidden": [
+        512
+      ],
+      "name": "E05_005_C_s20261007",
+      "order": 5,
+      "seed": 20261007,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "E05_005_C_s20261008": {
+      "algorithm": "mlp",
+      "dropout": 0.5,
+      "feature": "C",
+      "hidden": [
+        512
+      ],
+      "name": "E05_005_C_s20261008",
+      "order": 5,
+      "seed": 20261008,
+      "stage": "E05",
+      "weight": "weighted"
+    },
+    "E05_ensemble_C": {
+      "algorithm": "ensemble",
+      "feature": "C",
+      "members": [
+        "E05_005_C_s20261006",
+        "E05_005_C_s20261007",
+        "E05_005_C_s20261008"
+      ],
+      "name": "E05_ensemble_C",
+      "order": 101,
+      "seed": 20261006,
+      "seeds": [
+        20261006,
+        20261007,
+        20261008
+      ],
+      "stage": "E05",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "E06_mix_098": {
+      "algorithm": "ensemble",
+      "members": [
+        "E09_ensemble_A2B",
+        "E05_ensemble_C",
+        "E04_006_C"
+      ],
+      "name": "E06_mix_098",
+      "order": 103,
+      "seed": 20261006,
+      "stage": "E06",
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ]
+    },
+    "E09_000_A2B_s20261006": {
+      "algorithm": "mlp",
+      "dropout": 0.2,
+      "feature": "A2B",
+      "hidden": [
+        512
+      ],
+      "name": "E09_000_A2B_s20261006",
+      "order": 0,
+      "seed": 20261006,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "E09_000_A2B_s20261007": {
+      "algorithm": "mlp",
+      "dropout": 0.2,
+      "feature": "A2B",
+      "hidden": [
+        512
+      ],
+      "name": "E09_000_A2B_s20261007",
+      "order": 0,
+      "seed": 20261007,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "E09_000_A2B_s20261008": {
+      "algorithm": "mlp",
+      "dropout": 0.2,
+      "feature": "A2B",
+      "hidden": [
+        512
+      ],
+      "name": "E09_000_A2B_s20261008",
+      "order": 0,
+      "seed": 20261008,
+      "stage": "E09",
+      "weight": "weighted"
+    },
+    "E09_ensemble_A2B": {
+      "algorithm": "ensemble",
+      "feature": "A2B",
+      "members": [
+        "E09_000_A2B_s20261006",
+        "E09_000_A2B_s20261007",
+        "E09_000_A2B_s20261008"
+      ],
+      "name": "E09_ensemble_A2B",
+      "order": 100,
+      "seed": 20261006,
+      "seeds": [
+        20261006,
+        20261007,
+        20261008
+      ],
+      "stage": "E09",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    }
+  },
+  "purpose": "exact architecture/feature/ensemble recipe only; all fitting for v2 must be done anew on authorized v2 train",
+  "root": "E06_mix_098",
+  "source_summary_hashes": {
+    "exploration/candidates/E04_006_C/summary.json": "aa9ffe7836fd13f728eb50f60d7321437321ce43562d64e58d5491cbe825bf8b",
+    "exploration/candidates/E05_005_C_s20261006/summary.json": "c8e00e1b3e6b0c99158ce311e321c5d2039e5334e48c893307b2aec121932b17",
+    "exploration/candidates/E05_005_C_s20261007/summary.json": "2ea2499745dde6738d59521e9e89379db7c1b500ecd6741c1f27e579b7d61eaa",
+    "exploration/candidates/E05_005_C_s20261008/summary.json": "a65ecdef363f0d5d0c2bcc30ad8b9a491efec1624f703830c7f80787cb89c030",
+    "exploration/candidates/E05_ensemble_C/summary.json": "2a4ad3683fb393606a5728b9d688593a3a8b8038c43acb5e494bafefb4dbc480",
+    "exploration/candidates/E06_mix_098/summary.json": "8c141f4a4f323209abe9e7466cc25e571e0dde168f1d9b0616cc91a0561e2edd",
+    "exploration/candidates/E09_000_A2B_s20261006/summary.json": "20c604fdcc87d8a0ca69bb394b6716c0e712d06913c5f85769a0b14d0858101a",
+    "exploration/candidates/E09_000_A2B_s20261007/summary.json": "fa562a8c8bf2488d9f8bfe24e3a0dbd4545856f545a1db693f4572ab2b7cd329",
+    "exploration/candidates/E09_000_A2B_s20261008/summary.json": "4dddcefa8549d82f4161a69335ba883fabd42ee3533fb8e10ba17b3347f9f261",
+    "exploration/candidates/E09_ensemble_A2B/summary.json": "360a1dadf8f74afa3b6c9459ab53ff597ca989bc9ee17a99dd5d9f61440164e1"
+  }
+}

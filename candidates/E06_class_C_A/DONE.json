@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-05T18:58:45.865804+00:00",
+  "context": {
+    "config": {
+      "algorithm": "class_selector",
+      "members_by_class": [
+        "E01_001_A",
+        "E01_007_A",
+        "E01_002_A",
+        "E01_009_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_002_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_002_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_002_A",
+        "E01_007_A",
+        "E01_001_A",
+        "E01_009_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_009_A",
+        "E01_002_A",
+        "E01_009_A",
+        "E01_007_A",
+        "E01_002_A",
+        "E01_002_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_007_A",
+        "E01_002_A"
+      ],
+      "name": "E06_class_C_A",
+      "order": 0,
+      "pool": [
+        "E01_000_A",
+        "E01_001_A",
+        "E01_002_A",
+        "E01_003_A",
+        "E01_004_A",
+        "E01_005_A",
+        "E01_006_A",
+        "E01_007_A",
+        "E01_008_A",
+        "E01_009_A"
+      ],
+      "seed": 20261006,
+      "stage": "E06"
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E01_001_A/DONE.json": "a87cd762565712e6ce6b71c5d97cff41c51341ef8ad3f5804ffe7825fe4b32b8",
+    "candidates/E01_002_A/DONE.json": "801b686ee3549e8db8e785959a0affa19daaa37f98be9365eef59850a03fc599",
+    "candidates/E01_007_A/DONE.json": "1dce6c3d1152669f1fd3e53a39b4275c969df8c4496cb533aa715396319c23f0",
+    "candidates/E01_009_A/DONE.json": "e983d760decbb09fc866186253ad6c860dbe4636d949661459e3ebef263992fa",
+    "candidates/E06_class_C_A/per_class.tsv": "3689e91120e7ec9058ab04cf3bd65742e6ff8b5d9d5c5ccd5f0c5e85df161484",
+    "candidates/E06_class_C_A/summary.json": "c50eab38244b745c9d34a58ad8ef0d98ace0e36f75f413b9d1f6428bcd33ff50",
+    "candidates/E06_class_C_A/validation.npz": "f143d37acdf432bc3eea2b16805f18cfde225aa7974f2344f05287d56344444a"
+  },
+  "status": "verified_done"
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-05T19:38:30.175740+00:00",
+  "class_fit_process_seconds_sum": 26309.094349530642,
+  "class_records": 5696,
+  "convergence_retry_count": 0,
+  "convergence_warnings": 0,
+  "evaluation_completed_at": "2026-10-05T19:11:27.455377+00:00",
+  "failed_fit_count": 0,
+  "frozen_at": "2026-10-05T18:59:16.788510+00:00",
+  "gpu_fit_process_seconds_sum": 56.74730454804376,
+  "gpu_fits": 20,
+  "incomplete_experiments": [],
+  "maximum_gpu_allocated_bytes": 1149912064,
+  "maximum_gpu_reserved_bytes": 1266679808,
+  "network_recovery_reevaluated_test": false,
+  "network_recovery_retrained": false,
+  "new_class_fits": 5120,
+  "process_seconds_note": "sum of overlapping per-fit elapsed times; not wall-clock time or CPU core-seconds",
+  "recovery_inventory_at": "2026-10-05T19:33:26.371182+00:00",
+  "reused_main_class_models": 576,
+  "torch_cuda_versions": [
+    "12.6"
+  ],
+  "torch_versions": [
+    "2.5.1"
+  ]
+}

@@ -1,0 +1,4 @@
+split	proteins	components	positive_cells	negative_cells	unknown_cells_masked	excluded_by_exploration	fitting_use
+train	18770	4181	15388	333780	251472	0	fit all data-driven transforms and model parameters
+val	6257	1398	5161	111556	83507	0	selection only
+test	6257	1396	5170	110864	84190	0	one frozen revised evaluation only

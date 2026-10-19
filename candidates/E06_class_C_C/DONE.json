@@ -1,0 +1,73 @@
+{
+  "at": "2026-10-05T18:58:49.696007+00:00",
+  "context": {
+    "config": {
+      "algorithm": "class_selector",
+      "members_by_class": [
+        "E01_028_C",
+        "E01_022_C",
+        "E01_029_C",
+        "E01_025_C",
+        "E01_027_C",
+        "E01_028_C",
+        "E01_026_C",
+        "E01_022_C",
+        "E01_027_C",
+        "E01_028_C",
+        "E01_022_C",
+        "E01_021_C",
+        "E01_022_C",
+        "E01_022_C",
+        "E01_027_C",
+        "E01_029_C",
+        "E01_027_C",
+        "E01_027_C",
+        "E01_027_C",
+        "E01_029_C",
+        "E01_027_C",
+        "E01_023_C",
+        "E01_023_C",
+        "E01_028_C",
+        "E01_028_C",
+        "E01_021_C",
+        "E01_022_C",
+        "E01_027_C",
+        "E01_029_C",
+        "E01_029_C",
+        "E01_027_C",
+        "E01_028_C"
+      ],
+      "name": "E06_class_C_C",
+      "order": 2,
+      "pool": [
+        "E01_020_C",
+        "E01_021_C",
+        "E01_022_C",
+        "E01_023_C",
+        "E01_024_C",
+        "E01_025_C",
+        "E01_026_C",
+        "E01_027_C",
+        "E01_028_C",
+        "E01_029_C"
+      ],
+      "seed": 20261006,
+      "stage": "E06"
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E01_021_C/DONE.json": "28d7dc1c727325fa14e0b1da8360a11d8ce2e48f81274ef08d2353c653c2dcba",
+    "candidates/E01_022_C/DONE.json": "d566ae38996712e73667528dd24c41205f12c43ecf8ce94340f632f809cde4bb",
+    "candidates/E01_023_C/DONE.json": "3c3708f8f5e7a034d74d33e7303acf69653cf5eeb14df88ed87c916fc9d08ad3",
+    "candidates/E01_025_C/DONE.json": "a18868c5d35aa4457911350976f0e1af03ad171fc507ee3560f65c3965ddcf8e",
+    "candidates/E01_026_C/DONE.json": "2cec8677514bfcd4faed8add3e664021ca82bb85c89c00c406d9125ab4ee1ba9",
+    "candidates/E01_027_C/DONE.json": "2d5a042d376a77577b265e9425b6c4feb9889ed2bcee12baeec0efddbb615b7d",
+    "candidates/E01_028_C/DONE.json": "47660424b71d9219e7a50d337f6086ddd3a939d05c0caa37bc9c7019b45757d9",
+    "candidates/E01_029_C/DONE.json": "789e49708c777d9c3e306f376a13f36366cfbe49aa56c88b674212fff971f617",
+    "candidates/E06_class_C_C/per_class.tsv": "da933c100745fba6d7c2b52831c6f7e862cd06ce94b1482c02cb29d88ad3b6cb",
+    "candidates/E06_class_C_C/summary.json": "40a5681b02ab218bd8f064d933f0e5145689f5778901c8093ce6641c90952c05",
+    "candidates/E06_class_C_C/validation.npz": "f5d14ac3961d6210e61217e760afe1d1d93d995908a66ceda90cac18d99f912d"
+  },
+  "status": "verified_done"
+}

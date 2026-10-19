@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-05T18:59:11.393198+00:00",
+  "context": {
+    "config": {
+      "algorithm": "ensemble",
+      "members": [
+        "E09_ensemble_A2B",
+        "E05_ensemble_C",
+        "E04_006_C"
+      ],
+      "name": "E06_mix_098",
+      "order": 103,
+      "seed": 20261006,
+      "stage": "E06",
+      "weights": [
+        0.2,
+        0.1,
+        0.7
+      ]
+    },
+    "dev_sha256": "488e8091dde1db85e54cb386b346b9947d46cdd4f196e20b70dffea1d05bf822"
+  },
+  "files": {
+    "candidates/E04_006_C/DONE.json": "434b3b70bf5f806211cb2ad9e71a397a63a5e7c694d55745866d0cb7d37ced18",
+    "candidates/E05_ensemble_C/DONE.json": "eeb8c0fb24a6930d673a56dbaf219ba33ee46e083f16b5f1578800dfa8bd93aa",
+    "candidates/E06_mix_098/per_class.tsv": "0c3b283a0438e18ab6144780280b2654d7706dc696dad576522a2924d4fd46ad",
+    "candidates/E06_mix_098/summary.json": "8c141f4a4f323209abe9e7466cc25e571e0dde168f1d9b0616cc91a0561e2edd",
+    "candidates/E06_mix_098/validation.npz": "67bf8c867e149a934867f5f66f52222d1be6542bb560966e918677799646197b",
+    "candidates/E09_ensemble_A2B/DONE.json": "64770141fdc9bb04c45fea597ed8d460e82bc9679dd4311cef32f26abd4d0e1c"
+  },
+  "status": "verified_done"
+}

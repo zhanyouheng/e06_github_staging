@@ -1,0 +1,17 @@
+{
+  "requested_on": "2026-10-19",
+  "reason": "User explicitly requested not to retry luna_max:batch05367 and to drop its three proteins from the background review scope.",
+  "batch_id": "batch05367",
+  "accessions": [
+    "Q99547",
+    "Q99558",
+    "Q99613"
+  ],
+  "excluded_jobs": [
+    "luna_max:batch05367"
+  ],
+  "original_proteins_total": 17500,
+  "remaining_proteins_expected": 17497,
+  "remaining_initial_jobs_incomplete_expected": 1,
+  "disposition": "Do not retry or resolve this batch; exclude these accessions when consuming background review results. Preserve all existing artifacts for audit."
+}

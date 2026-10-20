@@ -1,0 +1,37 @@
+{
+  "status": "paused",
+  "execution": "selective_review_v1",
+  "pid": 126394,
+  "started_unix": 1791692252.1340303,
+  "updated_unix": 1792381534.5626624,
+  "proteins_total": 17500,
+  "resolved_proteins": 17497,
+  "initial_jobs_total": 11668,
+  "initial_jobs_complete": 11667,
+  "selective_final_jobs_created": 2467,
+  "selective_final_jobs_complete": 2467,
+  "existing_full_final_batches_reused": 733,
+  "selected_proteins": 5227,
+  "agreement_sampled_proteins": 54,
+  "provisional_consensus_proteins": 10071,
+  "first_selective_task": "astra_high:selected_batch00145",
+  "first_selective_accepted": true,
+  "failed_jobs": 0,
+  "running_jobs": 0,
+  "fast_mode": false,
+  "pro100_stop_new_work_at_weekly_remaining_percent": 10,
+  "new_usage_tokens": {
+    "input_tokens": 256469923,
+    "cached_input_tokens": 100189440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 158437563,
+    "reasoning_output_tokens": 57074216
+  },
+  "peak_inflight": {
+    "codex-c": 20,
+    "codex": 6,
+    "codex-b": 5
+  },
+  "old_full_run_usage_record": "selective_review_20261011/before/run_progress.json",
+  "final_task_total_is_dynamic": true
+}

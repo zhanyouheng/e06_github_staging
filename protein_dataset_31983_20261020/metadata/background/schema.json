@@ -1,0 +1,115 @@
+{
+  "type": "object",
+  "properties": {
+    "verdicts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ac": {
+            "type": "string"
+          },
+          "class_id": {
+            "type": "string",
+            "enum": [
+              "disable_organ",
+              "cytotoxicity",
+              "degrade_ecm",
+              "induce_inflammation",
+              "bacterial_counter_signaling",
+              "viral_counter_signaling",
+              "resist_complement",
+              "counter_immunoglobulin",
+              "plant_rna_silencing",
+              "resist_oxidative",
+              "suppress_detection",
+              "avirulence_plant",
+              "host_gtpase",
+              "host_transcription",
+              "host_translation",
+              "host_ubiquitin",
+              "host_xenophagy",
+              "nonviral_invasion",
+              "viral_invasion",
+              "viral_movement",
+              "virulence_activity",
+              "host_cell_cycle",
+              "host_cell_death",
+              "host_cytoskeleton",
+              "secreted_effector",
+              "antibiotic_resistance",
+              "develop_in_host",
+              "nonviral_adhesion",
+              "secretion",
+              "toxin_synthase",
+              "viral_adhesion",
+              "virulence_regulator"
+            ]
+          },
+          "verdict": {
+            "type": "string",
+            "enum": [
+              "P",
+              "N",
+              "U"
+            ]
+          },
+          "basis": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "explicit_negative",
+              "scope_excluded",
+              "insufficient",
+              "conflict"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "field": {
+                  "type": "string",
+                  "enum": [
+                    "organism",
+                    "protein_names",
+                    "keywords",
+                    "go",
+                    "function_cc",
+                    "organism_lineage",
+                    "natural_host"
+                  ]
+                },
+                "quote": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "field",
+                "quote"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "reason": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ac",
+          "class_id",
+          "verdict",
+          "basis",
+          "evidence",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "verdicts"
+  ],
+  "additionalProperties": false
+}

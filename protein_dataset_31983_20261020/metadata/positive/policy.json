@@ -1,0 +1,17 @@
+{
+ "version": "selective_review_20261011_v2_cell_scope",
+ "unit": "cell",
+ "adjudication_scope": "initial_disagreement_cells_only",
+ "sampling_seed": "agreement_audit_20261011_v1",
+ "agreement_audit_rate": 0.0,
+ "v1_policy_sha256": "f52b189f05fe3137e8db1aeeecb518f80fa0764c29740cce380bd1351c2e3ebe",
+ "rule_change_note": "positive_2019 补充审核自始使用 v2 格级规则：仅两初审不一致的格送 Astra 终审，一致项不送审，无历史冲突触发与一致项抽查。本批无历史终审复用，history.json 为空。",
+ "history_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+ "history_sources": {},
+ "scientific_manifest_sha256": "f9d9a59507711dde605ef9aafe6054cdbe5f6b259a3c88ab6b4458eb4ec2cf23",
+ "initial_input_changed": false,
+ "legacy_full_finals_reused_if_valid": true,
+ "new_attempt_limit_per_task": 2,
+ "pro100_reserve_weekly_percent": 10,
+ "provisional_consensus_is_not_gold": true
+}

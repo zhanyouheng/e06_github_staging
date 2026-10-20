@@ -1,0 +1,35 @@
+{
+  "snapshot_started_utc": "2026-10-20T10:59:56.979608+00:00",
+  "snapshot_finished_utc": "2026-10-20T11:03:11.101409+00:00",
+  "type": "review_result_snapshot_not_final_training_labels",
+  "proteins": 31983,
+  "classes": 32,
+  "label_rows": 1023456,
+  "cohorts": {
+    "background_reviewed": 17497,
+    "positive_2019": 13784,
+    "later702": 702
+  },
+  "distinct_sequences": 30251,
+  "current_protocol_resolved_cells": 564032,
+  "current_protocol_resolved_proteins": 17626,
+  "current_review_counts": {
+    "background": {
+      "resolved_batches": 5833,
+      "resolved_proteins": 17497
+    },
+    "positive": {
+      "resolved_batches": 43,
+      "resolved_proteins": 129
+    }
+  },
+  "excluded_accessions": [
+    "Q99547",
+    "Q99558",
+    "Q99613"
+  ],
+  "historical_records_retained": true,
+  "unresolved_cells_filled_with_N_or_U": false,
+  "ready_as_final_training_release": false,
+  "original_files_modified": false
+}

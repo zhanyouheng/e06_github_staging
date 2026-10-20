@@ -1,0 +1,143 @@
+{
+  "policy_id": "label_policy_20261011_v2",
+  "version": "2.0.0",
+  "date": "2026-10-11",
+  "status": "user_confirmed",
+  "scope": "VA共存与阳性定义；正常自身记录的VA/五类身份范围执行条款；其他类别沿用各自定义",
+  "decision_source": "本会话用户2026-10-11确认37项修改及D1/D2/D3，原记录见review_pilot_20261010/reference_v32_20261011/user_decisions.txt",
+  "objective": "尽量保留并检出有证据支持的正例；不以提高召回为由把证据不足的标签格改为P",
+  "supersedes": {
+    "policy": "2026-10-06旧规则A：任何具体类别为P时，将VA格mask",
+    "old_record": "v4/CHANGELOG_v4.md",
+    "strict_residual_training": "不采用严格互斥的残留类训练目标；具体类P也不能作为VA=N的依据"
+  },
+  "label_contract": {
+    "class_count": 32,
+    "va_class_id": "virulence_activity",
+    "states": [
+      "P",
+      "N",
+      "U"
+    ],
+    "model_output": "32个独立二分类输出；U是监督状态，不要求模型输出第三类",
+    "unknown": "只mask对应的蛋白×类别格，不影响同蛋白其他有依据的标签格",
+    "definition_source": "../step2/class_defs.json",
+    "definition_key": "Virulence activity",
+    "source_definition": "Inclusive of a wide variety of virulence activities, including those that did not fit under another FunSoC category",
+    "va_training_meaning": "有证据支持的毒力活性；允许与其他具体功能类别共存，不要求先排除其他31类"
+  },
+  "va_decision_rules": [
+    {
+      "condition": "VA有可靠支持证据、适用于当前记录或所选序列，且没有未解决的关键冲突",
+      "va_label": "P",
+      "mask": false,
+      "other_classes": "无论其他类别是P、N还是U，都不因共存而取消VA正监督"
+    },
+    {
+      "condition": "只有其他类别为P，尚无充分VA支持或排除依据",
+      "va_label": "U",
+      "mask": true,
+      "other_classes": "保留各自已确认的标签；其他类别P不能自动推出VA为P或N"
+    },
+    {
+      "condition": "VA未审、证据不足或关键证据冲突未决",
+      "va_label": "U",
+      "mask": true,
+      "other_classes": "逐类独立判断；其他类别仍有U不妨碍证据明确的VA成为P"
+    },
+    {
+      "condition": "有充分证据排除VA，或明确不满足已规定的必要适用条件",
+      "va_label": "N",
+      "mask": false,
+      "other_classes": "不得仅凭未提及、无注释、检索未命中或其他类别P作此判断"
+    }
+  ],
+  "va_operational_line": {
+    "date": "2026-10-11",
+    "source": "review_pilot_20261010 第一层对稿议题2，用户裁定为口径B，纪要见 review_pilot_20261010/reference_notes_20261010.md",
+    "rule": "VA=P要求满足VA完整阳性定义的直接证据或协议允许的可靠推断，即有证据支持的毒力活动，包括指向宿主的损害或毒力相关干预；普通正常生理调节或任何“影响细胞”不自动等同于毒力活动。病毒自身生活史步骤（成熟、入侵、脱壳、胞内转运、基因组复制）单独不构成VA证据。VA允许与其他类别P共存，禁止从其他类别标签自动传播。",
+    "precedent": "P19151：同一证据句（切割宿主角蛋白 K7/K18）独立满足 VA 与 host_cytoskeleton，VA=P 与 host_cytoskeleton P 共存",
+    "applies_to": "后续审核协议、参考标签、以及旧规则 A 涉及的 8,824 格迁移判定",
+    "refinement_source": "用户D1第3条：阳性例外必须满足VA完整定义，不能把正常自身调节误作毒力"
+  },
+  "reporting_and_evaluation": {
+    "raw_output": "保留全部32类原始输出和逐类评估；VA预测正确不能代替具体功能类别预测正确",
+    "optional_display": "如需优先显示具体功能、将VA作为补充或兜底，可另行规定展示方式；本决定不强制隐藏共存的VA预测",
+    "separation": "展示规则不改变训练或参考标签；如应用展示规则，分别保存应用前后的输出并标明指标口径",
+    "recall": "是否提高召回率须在固定且证据合格的评价标签上验证，不能由增加P的数量直接推定"
+  },
+  "migration": {
+    "principle": "保留历史冻结文件和原始裁定，核验证据后生成带版本的新标签及逐格变更记录",
+    "restore_positive": "对仅因旧规则A被mask、但VA正例依据仍然可靠的格恢复P；同时保留其具体类别P",
+    "unresolved": "仅有盲筛fit、证据不足、关键冲突未决，或因FUNCTION截断需要补证据的格，不直接恢复P",
+    "old_rule_a_count": "8,824是旧规则下的历史分类计数，不是已确认VA正例数，不能整批转P",
+    "audit_fields": [
+      "protein_id",
+      "class_id",
+      "old_label",
+      "new_label",
+      "evidence_version",
+      "decision_id",
+      "policy_id",
+      "change_reason"
+    ],
+    "legacy_code": "旧v4构建和审核脚本仍包含旧规则；后续执行新版本前必须修改对应实现并验收，不能直接重跑旧脚本生成当前标签"
+  },
+  "pilot_contract": {
+    "historical_pilot": "review_model_pilot_20261009/：12蛋白，输出32类，VA按当时协议统一U且不评分，比较31类；历史输入与协议不回写",
+    "next_pilot": "计划中的80+80正式试点使用新协议版本，按证据审核包括VA在内的全部32类",
+    "expected_output_cells_per_80_proteins_per_model": 2560,
+    "expected_output_cells_two_batches_three_configurations": 15360,
+    "scored_cells": "32类均进入审核范围；实际可排名格数须按后续确定的参考标签质控规则计算，并单列覆盖率。本次尚未冻结参考置信度和模型排名规则"
+  },
+  "application_status": {
+    "current_rule_recorded": true,
+    "label_patch_generated": false,
+    "frozen_labels_updated": false,
+    "gpu_dataset_updated": false,
+    "legacy_code_migrated": false,
+    "new_pilot_protocol_generated": true,
+    "new_pilot_started": true,
+    "reference_v32_generated": true,
+    "current_reference": "review_pilot_20261010/reference_v32_20261011/human_final.tsv",
+    "current_protocol": "review_pilot_20261010/reference_v32_20261011/protocol.json",
+    "reference_label_patch_generated": true,
+    "training_label_patch_generated": false,
+    "v32_model_runs_started": false
+  },
+  "previous_policy_id": "va_policy_20261010_v1",
+  "va_normal_self_scope": {
+    "decision_id": "D1",
+    "status": "user_confirmed",
+    "conditions": [
+      "来源与具体功能共同支持正常宿主自身组分语境",
+      "记录描述的作用属于自身正常生理过程"
+    ],
+    "label": "N",
+    "basis": "scope_excluded",
+    "positive_exception": "若存在满足VA完整阳性定义的直接证据或协议允许的可靠推断，应按该证据重新裁定；未解决实质冲突保留U",
+    "full_text": "D1：VA的正常自身记录范围排除（用户2026-10-11确认）\n\n当来源与具体功能共同支持该记录属于正常宿主自身组分，且记录描述的作用属于自身正常生理过程时，可以按本项目记录语境将VA判为N，basis=scope_excluded。\n在采用上述范围排除前，必须检查是否存在满足VA完整阳性定义的直接证据或本协议允许的可靠推断；如有，应按该证据重新裁定。VA阳性仍要求有证据支持的毒力活动，不能把正常生理调节、一般细胞过程改变或任何“影响细胞”自动当成毒力活动。\n正常自身语境不是不可推翻的结论；有相反阳性支持时不得机械套用范围N，实质冲突未解决时保留U。\n不能从其他14类为N、物种名称、蛋白名称、未提及毒力或其他类别为P/N直接推导VA标签。\n这是分类任务边界，不是新增实验性反证。VA仍允许与其他类别同时为P。",
+    "evidence_claim": "明确分类任务边界；不是新增实验性反证"
+  },
+  "normal_self_identity_scope": {
+    "decision_id": "D3",
+    "status": "user_confirmed",
+    "class_ids": [
+      "avirulence_plant",
+      "develop_in_host",
+      "nonviral_adhesion",
+      "nonviral_invasion",
+      "virulence_regulator"
+    ],
+    "route": "record_context_scope",
+    "label": "N",
+    "basis": "scope_excluded",
+    "full_text": "D3：五个身份限定类别的正常自身记录语境（用户2026-10-11选择路径二）\n\n适用于avirulence_plant、develop_in_host、nonviral_adhesion、nonviral_invasion、virulence_regulator。\n来源与具体功能共同支持当前记录为正常宿主自身组分，且所描述作用属于自身正常生理过程时，本项目按该记录语境判断其不满足对应类别要求的病原体/寄生者身份或作用关系，可判N，basis=scope_excluded。\n理由必须逐类指明不满足的必要条件：植物病原体效应蛋白；细菌或真核寄生者在宿主体内的生长/发育关系；非病毒寄生者对宿主细胞的黏附关系；细菌或真核病原体对宿主细胞的侵入关系；细菌或真核寄生者的毒力转录调控身份和作用。\n该规则以来源与具体功能共同支持的记录语境为前提，不把分类谱系单独视为非病原/非寄生证明，不推广为所有植物或动物来源均为N，也不推广到细菌/真菌普通代谢蛋白。\n若当前资料直接或通过协议允许的可靠推断支持某一类别的阳性身份/作用关系，必须按该证据重新裁定；有未解决实质冲突时保留U。不得仅因存在其他已知功能或未提及目标功能判N。\n本条款明确分类范围，不要求另找一条实验性阴性证据，也不声称已证明不存在所有潜在多功能性。",
+    "restriction": "不得仅按分类谱系、名称、未提及目标功能或其他已知功能判N；不得泛化至所有植物/动物或细菌/真菌普通代谢蛋白"
+  },
+  "reliable_inference_clarification": {
+    "decision_id": "D2",
+    "full_text": "D2：viral_movement的胞内移动与可靠推断（用户2026-10-11确认）\n\nviral_movement的正式定义原文为“Enable movement of viral parasite within a host cell or tissue”，包含宿主细胞内移动，不限于细胞间移动。\n本轮认可将病毒核糖核蛋白复合物的核输出按该运输关系判断；这是对定义的执行解释，不把“病毒组分”冒充原文，也不推广为任意单个病毒蛋白的局部移动均属于本类。\n有具体运输关系描述、适用于当前记录的可靠规则注释或同源推断支持时，is thought to等措辞不自动导致U；仍应评估该注释是否只是孤立猜测及是否存在实质冲突。\n可靠推断不自动等于高置信度；保持证据所支持的置信度等级。具体参考格的评分资格另行记录，不能因本条款自动解除所有历史边界格的评分排除。",
+    "reference_case": "P06816/viral_movement=P/mid；新版统一推断规则下恢复评分，不计新增P"
+  }
+}

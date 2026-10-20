@@ -1,0 +1,162 @@
+{
+  "Disable organ": {
+    "definition": "Disables an organ, but not necessarily by killing individual cells. This includes neurotoxins that block receptor conductance, superantigens, and toxins that degrade lung function, gut function, or are involved in the disruption of blood homeostasis.",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) AND • AND [KW-0008 acetylcholine receptor inhibiting toxin OR KW-0872 ion channel impairing toxin OR KW-0123 cardiotoxin OR KW-0260 enterotoxin OR KW-0528 neurotoxin OR KW-0959 myotoxin OR KW-1199 hemostasis impairing toxin OR KW-1213 G-protein coupled receptor impairing toxin OR KW-1216 complement system impairing toxin OR KW-0766 superantigen • AND DOES NOT BELONG to virus (taxonomy:10239) • AND DOES NOT BELONG to KW-1277 toxin-antitoxin system • AND DOES NOT BELONG to the taxonomies of WHITE LIST",
+    "result_file": "DisableOrgan_v1.0_10.25.2019.txt [4558]"
+  },
+  "Cytotoxicity": {
+    "definition": "Kills cells by inhibiting a vital process such as translation, directly lysing the cells through pore formation, or destabilizing the plasma membrane",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains at least one of these terms: o KW-204 Cytolysis o GO:0001897 cytolysis by symbiont of host cells o GO:0051673 membrane disruption in other organism GO:0051715 cytolysis in other organism • AND at least one of these terms: o KW-0800 Toxin o KW-0843 Virulence o GO:009405 Pathogenesis • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT BELONG to taxonomy:312306 (Pseudomonas entomophila) • AND DOES NOT BELONG to GO:0050832 defense response to fungus • AND DOES NOT BELONG to (Protein name) gingipain • AND DOES NOT BELONG to (Protein name) linear • AND DOES NOT BELONG to (Protein name) methyltransferase • AND DOES NOT BELONG to (Protein name) oxyopinin • AND DOES NOT BELONG to (Protein name) pheromone • AND DOES NOT BELONG to (Protein name) scoloptoxin",
+    "result_file": "Cytotoxicity_v1.0_10.24.2019.txt [783]"
+  },
+  "Degrade ECM": {
+    "definition": "Mediates the loosening of host tissue connectivity including reducing cell-to-cell adherence and cell-to-substrate adherence as well as proteolytic destruction of the host extracellular matrix (ECM)",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND [KW-1031 host cell junction OR KW-1061 dermonecrotic toxin OR KW-1217 cell adhesion impairing toxin OR GO:0022407 regulation of cell-cell adhesion OR GO:1903391 regulation of adherens junction organization OR GO:1905073 regulation of tight junction disassembly] • AND [Toxin (KW-0800) OR Virulence (KW-0843) OR GO:0009405 pathogenesis OR GO:0035897 proteolysis in other organism] • AND NOT L-amino-acid oxidase activity (GO:0001716) • AND DOES NOT BELONG to the taxonomies of WHITE LIST",
+    "result_file": "DegradeECM_v1.0_10.25.2019.txt [438]"
+  },
+  "Induce inflammation": {
+    "definition": "Directly activate host inflammatory pathways to cause damage",
+    "query_text": "Query Definition: • Contains GO term Positive regulation by symbiont of host defense response (GO:0052509) o AND NOT containing: Peptidase activity (GO:0008233), Kinase activity (GO:0016301), Regulation of gene expression (GO:010468) • OR while containing Extracellular region (GO:0005576) AND Virulence (KW-0843) also contains o pathogenesis (GO:0009405) AND secreted (KW-0843)  including GTPase activation (KW-0343) AND Guanine-nucleotide release factor  OR including Acetylation (KW-0007)  OR including Actin-binding (KW-0009)  OR including Rho-GTPase binding (GO:0017048) but NOT nucleic acid binding (GO:0003676) o Toxin (KW-0800) but NOT Neurotoxin (KW-0528)  With Protease (KW-0645) OR Glycosyltransferase (KW-0328) • OR contains activation by virus of host NF-kappaB transcription factor activity (GO:0039652) but NOT a virus that infects Bacteria or Archea (NOT host:2 NOT host:2157) • AND NOT containing the InterPro IPR031825 accession related to RXLR phytopathogen effector protein (removes plant related induction of the “innate immune” system) which may need to be included in a different category • AND entries belong to the Swiss-Prot section of UniProtKB",
+    "result_file": "InduceInflammation_v1.0_10.25.2019.txt [154]"
+  },
+  "Bacterial counter signaling": {
+    "definition": "Bacterial suppression of host immune signaling within host cells to avoid inflammatory responses",
+    "query_text": "Query Definition: • If the entry contains one of these GO terms: o GO:0052562 Negative regulation by symbiont of host immune response o GO:0001960 Negative regulation of cytokine-mediated signaling pathway o GO:0005126 Cytokine receptor binding o GO:0035325 Toll-like receptor binding o GO:0042785 Active evasion of host immune response via regulation of host cytokine network o GO:0043408 Regulation of MAPK cascade o GO:0045824 Negative regulation of innate immune process o GO:0052036 Negative regulation by symbiont of host inflammatory response o GO:0052170 Negative regulation by symbiont of host innate immune response • AND is a reviewed sequence OR there is evidence for it at Protein OR Transcript OR Homology • AND DOES BELONG to taxonomy:2 (bacteria) • AND DOES NOT BELONG to: o GO:0045916 Negative regulation of complement activation",
+    "result_file": "BacterialCounterSignaling_v1.0_10.27.2019.txt [35]"
+  },
+  "Viral counter signaling": {
+    "definition": "Viral suppression of host immune signaling within host cells to avoid inflammatory responses",
+    "query_text": "Query Definition: • If the entry contains one of these keywords: o KW-0922 Interferon antiviral system evasion o KW-1090 Inhibition of host innate immune response by virus o KW-1100 Inhibition of host NF-kappa-B by virus o KW-1125 Evasion of host immunity by viral interleukin-like protein • OR one of these GO terms: o GO:0005126 Cytokine receptor binding o GO:0039503 Suppression by virus of host innate immune response o GO:0039511 Suppression by virus of host interferon receptor activity o GO:0039514 Suppression by virus of host JAK-STAT cascade activity o GO:0039518 Suppression by virus of host cytokine activity o GO:0039527 Suppression by virus of host TRAF-mediated signal transduction o GO:0039537 Suppression by virus of host viral-induced cytoplasmic pattern recognition receptor signaling pathway o GO:0039548 Suppression by virus of host IRF3 activity o GO:0039557 Suppression by virus of host IRF7 activity o GO:0039560 Suppression by virus of host IRF9 activity o GO:0039574 Suppression by virus of host TYK2 activity o GO:0039579 Suppression by virus of host ISG15 activity o GO:0039580 Suppression by virus of host PKR activity o GO:0039644 Suppression by virus of host NF-kappaB transcription factor activity o GO:0039723 Suppression by virus of host TBK1 activity o GO:0039724 Suppression by virus of host IKBKE activity o GO:0046774 Suppression by virus of host intracellular interferon activity o GO:0046775 Suppression by virus of host cytokine production • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence • AND is from a virus (taxonomy:10239)",
+    "result_file": "ViralCounterSignaling_v1.0_10.26.2019.txt [1075]"
+  },
+  "Resist complement": {
+    "definition": "Provide resistance to host complement components",
+    "query_text": "Query Definition: • Either: o Complement binding (GO:0001848) AND (Pathogenesis (GO:0009405) OR Viruses (taxonomy:10239) without negative regulation of cytoskeleton organizations (NOT GO:0051494)) o Suppression by virus of host complement activation (GO:0039573) OR active evasion of host immune response via regulation of host complement system (GO:0042784) o Negative regulation of complement activation (GO:0045916) AND  Pathogenesis (GO:0009405) OR Viruses (taxonomy:10239) OR Candida albicans (taxonomy:5476) OR negative regulation by symbiont of host immune response (GO:0052562). • And reviewed in Swiss-Prot section • While not being Q9JH68, Q9Q3G5, nor Q9JGF1 which are exceptions but within the annotations frame-work • (optional) not contained within the White-list",
+    "result_file": "ResistHostComplement_v1.0_10.24.2019.txt [40]"
+  },
+  "Counter immunoglobulin": {
+    "definition": "Binds, sequesters, destroys, or otherwise neutralizes host immunoglobulin",
+    "query_text": "Query Definition: • If the entry contains one of these keywords: o IgA-binding protein (KW-0388) o IgG-binding protein (KW-0390) o Modulation of host immunity by viral IgG Fc receptor-like protein (KW-1124) • OR contains one of these GO terms: o GO:0001791 IgM binding o GO:0019862 IgA binding o GO:0019864 IgG binding • AND Evidence exists at Protein OR Transcript OR Homology OR Predicted OR Reviewed = Yes • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT have a protein name of allergen OR agglutinin • AND DOES NOT belong to taxonomy:6269 (Anisakis simplex: Herring worm)",
+    "result_file": "CounterImmunoglobin_v1.0_10.24.2019.txt [23]"
+  },
+  "Plant RNA silencing": {
+    "definition": "Counters host plant defenses by triggering the degradation of specific sequences, pre-translation",
+    "query_text": "Query Definition: • If the sequence entry contains one of the following: o KW-941 (Suppressor of RNA silencing) OR o protein name: silencing OR o protein name: suppressor • AND is from a virus (taxonomy:10239) • AND the virus Targets at least one of the following: Crop • AND DOES NOT contain one of the following in a Protein Name field: o Putative o Polyprotein • AND is reviewed",
+    "result_file": "PlantRNASilencing_Viral_v1.0_02.18.2020.txt [139]"
+  },
+  "Resist oxidative": {
+    "definition": "Enable resistance of host oxidative killing",
+    "query_text": "Query Definition: Either: • Evasion or tolerance by symbiont of host-produced reactive oxygen species (GO:0052059) • Evasion or tolerance by symbiont of host-produced nitric oxide (GO:52060) • Response to oxidative stress (GO:0006979) OR response to nitrosative stress (GO:0051409) o AND Pathogenesis (GO:0009405) but not transcription regulation (KW-0805) and not DNA-binding transcription factor activity (GO:0003700) and not antibiotic resistance (KW-0046) • AND within: o Swiss-Prot section (ie. Reviewed) OR o Unreviewed section with evidence (ie. Existence) at the protein level [1] or transcript level [2]",
+    "result_file": "ResistOxidative_v1.0_10.25.2019.txt [53]"
+  },
+  "Suppress detection": {
+    "definition": "Viral interference with host immune components involved in processing or display of parasite antigens on the surface of host cells",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains one of these keywords: o KW-1107 Inhibition of host TAP by virus o KW-1108 Inhibition of host tapasin by virus o KW-1115 Inhibition of host MHC class I molecule presentation by virus o KW-1116 Inhibition of host MHC class II molecule presentation by virus o KW-1117 Inhibition of host proteasome antigen processing by virus • OR one of these GO terms: o GO:0039505 Suppression by virus of host antigen processing and presentation of peptide antigen via MHC class II o GO:0039588 Suppression by virus of host antigen processing and presentation o GO:0039591 Suppression by virus of host tapasin activity o GO:0046776 Suppression by virus of host antigen processing and presentation of peptide antigen via MHC class I • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence",
+    "result_file": "SuppressDetection_v1.0_10.29.2019.txt [85]"
+  },
+  "Avirulence plant": {
+    "definition": "Virulence effector proteins of plant pathogens that typically suppress immune signaling of the host plant",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains one of the following o Protein Name field: avirulence o Keyword “Hypersensitive response elicitation” (KW-0928) • AND DOES NOT BELONG to taxonomy:33090 (Viridiplantae) • AND DOES NOT BELONG to taxonomy:10239 (Viruses) • AND DOES NOT BELONG to taxonomy:4786 (Phytophthora cryptogea) • AND DOES NOT BELONG to taxonomy:272952 (Hyaloperonospora arabidopsidis) • AND DOES NOT BELONG to taxonomy:41045 (Pythium oligandrum) AND DOES NOT BELONG to GO:6355 (regulation of transcription, DNA template)",
+    "result_file": "AvirulencePlant_v1.0_01.121.2020.txt [94]"
+  },
+  "Host GTPase": {
+    "definition": "Target host small GTPases",
+    "query_text": "Query Definition: • Contains one of these keywords: GTPase activation (KW-0343) OR Guanine-nucleotide releasing factor (KW-0344) • OR one of these GO terms: o GO:0005089 Rho guanyl-nucleotide exchange factor activity [0 seqs] o GO:0005094 Rho GDP-dissociation inhibitor activity [0 seqs] o GO:0008536 Ran GTPase binding [0 seqs] o GO:0016601 Rac protein signal transduction [0 seqs] o GO:0031267 small GTPase binding [7 seqs] o GO:0035023 regulation of Rho protein signal transduction [1 seqs] o GO:0043087 regulation of GTPase activity [116 seqs] o GO:0044082 Modulation by symbiont of small GTPase mediated signal transduction [0 seqs] o GO:0051021 GDP-dissociation inhibitor binding [0 seqs] o GO:0051022 Rho GDP-dissociation inhibitor binding [0 seqs] o GO:0051056 regulation of small GTPase mediated signal transduction [1 seqs] • AND DOES NOT BELONG to the taxonomy of Eukarya (taxonomy:2759) • AND DOES NOT BELONG to GO:42254 (ribosome biogenesis) • AND DOES NOT BELONG to GO:0046656 (folic acid biosynthetic process) • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND within: o Swiss-Prot section (ie. Reviewed) OR o Unreviewed section with evidence (ie. Existence) at the protein level [1] or transcript level [2]",
+    "result_file": "HostGTPase_v1.0_10.25.2019.txt [47]"
+  },
+  "Host transcription": {
+    "definition": "Target host transcription to inhibit or activate",
+    "query_text": "Query Definition: • If the entry contains at least one of these keywords: o KW-1191 eukaryotic host transcription shutoff by virus • OR one of these GO terms: o GO:0039523 suppression by virus of host RNA polymerase II activity o GO:0039602 suppression by virus of host transcription initiation from RNA polymerase II promoter • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence",
+    "result_file": "HostTranscription_v1.0_10.25.2019.txt [325]"
+  },
+  "Host translation": {
+    "definition": "Target host translation, usually to inhibit",
+    "query_text": "Query Definition: • If the entry contains at least one of these keywords: o KW-1193 eukaryotic host translation shutoff by virus • OR one of these GO terms: o GO:0044073 modulation by symbiont of host translation • AND is from a virus (taxonomy:10239) • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence",
+    "result_file": "HostTranslation_v1.0_10.25.2019.txt [172]"
+  },
+  "Host ubiquitin": {
+    "definition": "Target host ubiquitination machinery",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • OR has Evidence of EITHER Protein OR Transcript • AND contains one of these keywords: o Modulation of host E3 ubiquitin ligases by virus (KW-1123) o Modulation of host ubiquitin pathway by viral deubiquitinase (KW-1127) o Modulation of host ubiquitin pathway by viral ubiquitin ligase (KW-1129) [total of 110 seqs] • OR one of these GO terms: o GO:0039649 Modulation by virus of host ubiquitin-protein ligase activity o GO:0039648 Modulation by virus of host protein ubiquitination o GO:0004839 ubiquitin activating enzyme activity o GO:0031624 ubiquitin conjugating enzyme binding o GO:0031625 ubiquitin protein ligase binding o GO:0033134 ubiquitin activating enzyme binding o GO:0043130 ubiquitin binding o GO:0061578 Lys63-specific deubiquitinase activity o GO:0061630 ubiquitin protein ligase activity o GO:0061631 ubiquitin conjugating enzyme activity o GO:1990380 Lys48-specific deubiquitinase activity o GO:1990757 ubiquitin ligase activator activity o GO:1990948 ubiquitin ligase inhibitor activity o GO:0019784 NEDD8-specific protease activity • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT BELONG to taxonomy:2759 (Eukarya)",
+    "result_file": "HostUbiquitin_v1.0_10.24.2019.txt [120]"
+  },
+  "Host xenophagy": {
+    "definition": "Target host xenophagy/autophagy",
+    "query_text": "Query Definition: • If the entry contains at least one of these GO terms: o GO:0039519 modulation by virus of host autophagy • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence",
+    "result_file": "HostXenophagy_v1.0_10.29.2019.txt [381]"
+  },
+  "Nonviral invasion": {
+    "definition": "Mediates bacterial or eukaryotic pathogen invasion into host cells",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains at least one of these GO terms: o GO:0030260 entry into host cell o GO:0044078 positive regulation by symbiont of host receptor-mediated endocytosis • OR INCLUDES ProteinID:P9WIP9 • AND DOES NOT BELONG to taxonomy:10239 (virus) • AND Evidence exists at Protein OR Transcript OR Homology OR Predicted OR the protein has been reviewed • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT INCLUDE GO:0046718 viral entry into host cell",
+    "result_file": "NonviralInvasion_v1.0_10.24.2019.txt [72]"
+  },
+  "Viral invasion": {
+    "definition": "Mediates viral invasion into host cell",
+    "query_text": "Query Definition: • If the entry contains at least one of these keywords: o KW-1160 virus entry into host cell o KW-1164 virus endocytosis by host • OR one of these GO terms: o GO:0019065 receptor-mediated endocytosis of virus by host cell o GO:0030260 entry into host cell • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND is a reviewed sequence OR there is evidence for it at the PROTEIN level • AND DOES NOT INCLUDE GO:0044826 viral genome integration into host DNA • AND is from a virus (taxonomy:10239) • AND DOES NOT BELONG to the taxonomy:405554 (white bream virus) fish virus • AND DOES NOT BELONG to the taxonomy:465447 (American grass carp reovirus) fish virus • AND DOES NOT BELONG to the taxonomy:12287 (Flock house virus) isolated from a grub • AND DOES NOT BELONG to the taxonomy:103603 (snakehead rhabdovirus) fish virus • AND DOES NOT BELONG to the taxonomy:55987 (salmon isavirus) fish virus • AND DOES NOT BELONG to the taxonomy:11580 (bunyavirus snowshoe hare) hare virus • AND DOES NOT BELONG to the taxonomy:696863 (spring viremia of carp virus) fish virus • AND DOES NOT BELONG to the taxonomy:10815 (abutilon mosaic virus) virus of maple trees • AND DOES NOT BELONG to the taxonomy:39720 (walleye dermal sarcoma virus) fish virus • AND DOES NOT BELONG to the taxonomies of WHITE LIST",
+    "result_file": "InvasionHostCell_Viral_v1.0_10.25.2019.txt [1338]"
+  },
+  "Viral movement": {
+    "definition": "Enable movement of viral parasite within a host cell or tissue",
+    "query_text": "Query Definition: • If the sequence entry contains one of the following: o KW-916 (Viral movement protein) • AND the protein is reviewed • AND is from a virus (taxonomy:10239) • AND DOES NOT contain one of the following in a Protein Name field: o Putative o Probable o Polyprotein",
+    "result_file": "ViralMovement_v1.0_02.25.2020.txt [233]"
+  },
+  "Virulence activity": {
+    "definition": "Inclusive of a wide variety of virulence activities, including those that did not fit under another FunSoC category",
+    "query_text": "Query Definition: • If the entry contains one of these keywords: o KW-0461 Malaria o KW-0821 Trypanosomiasis o KW-1035 Host cytoplasm o KW-1049 Host periplasm • AND EXCLUDES taxonomy:10239 (virus) • AND EXCLUDES taxonomy:28105 (Sinorhizobium) • AND EXCLUDES taxonomy:136845 (Pseudomonas putida group) • AND EXCLUDES taxonomy:6889 (Urudacus genus scorpions) • AND EXCLUDES taxonomy:8703 (Vipera genus snakes) • AND EXCLUDES Protein Name:histone • AND EXCLUDES Protein Name:antigen • AND EXCLUDES Protein Name:heme • AND EXCLUDES Protein Name:circumsporozoite • AND EXCLUDES Protein Name:surface",
+    "result_file": "VirulenceActivity_v1.0_10.25.2019.txt [231]"
+  },
+  "Host cell cycle": {
+    "definition": "Target host cell cycle component or induce alterations in the host cell cycle",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains one of these keywords: o KW-1098 Inhibition of host mitotic exit by virus o KW-1120 Modulation of host cell cycle by viral cyclin-like protein o KW-1121 Modulation of host cell cycle by virus • OR one of these GO terms: o GO:0019055 Modification by virus of host cell cycle regulation • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN",
+    "result_file": "HostCellCycle_v1.0_10.29.2019.txt [342]"
+  },
+  "Host cell death": {
+    "definition": "Target host apoptotic cell death pathways either to inhibit or activate",
+    "query_text": "Query Definition • Contains one of these keywords/GO terms: o modulation by symbiont of host programmed cell death [GO:0052040] o modulation of host cell apoptosis by virus [KW-1119] • AND NOT these keywords/GO terms: o modulation by virus of host autophagy [GO:0039519] • AND does not have the target host of Bacteria (host:2) or Archaea (host:2157) • AND does not belong to the taxonomies of Archaea (taxonomy:2157), S. cervisiae (taxonomy:4932), C. elegans (taxonomy:6239), Mammals (taxonomy:40674), Fruit Fly (taxonomy:7215), Bony Fishes (taxonomy:7954), Birds (taxonomy:8782), Rice (taxonomy:4527), Frogs & Toads (taxonomy:8355), Slime Mold (taxonomy: 44689), or Arabidopsis (taxonomy:3701) • AND the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed)",
+    "result_file": "HostCellDeath_v1.0_10.24.2019.txt [440]"
+  },
+  "Host cytoskeleton": {
+    "definition": "Target host cytoskeletal components or induce alterations in the host cytoskeleton",
+    "query_text": "Query Definition • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • AND contains one of these groups of terms: o KW-0009 actin-binding AND (KW-0843 virulence OR GO:0009405 pathogenesis) o GO:0031532 actin cytoskeleton reorganization EXCLUDING GO:0030037 actin filament reorganization involved in cell cycle o GO:0051493 regulation of cytoskeleton organization EXCLUDING ProteinName:antitoxin o GO:0008064 regulation of actin polymerization or depolymerization • AND is from at least one of these taxonomies: o Taxonomy:10239 (viruses) o Taxonomy:2 (bacteria)",
+    "result_file": "HostCytoskeleton_v1.0_10.29.2019.txt [88]"
+  },
+  "Secreted effector": {
+    "definition": "Secreted bacterial effectors of unknown function",
+    "query_text": "Query Definition: • If the entry is Reviewed OR has Evidence at Protein OR Transcript OR Homology • AND includes ProteinName:secreted+effector • AND Belongs to taxonomy:2 bacteria",
+    "result_file": "SecretedEffector_v1.0_10.29.2019.txt [92]"
+  },
+  "Antibiotic resistance": {
+    "definition": "Counters the effect of antibiotics administered to inhibit the growth or vital functioning of parasites. Note: These are not specific to pathogens.",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) AND • Contains one of these keywords: o Antibiotic resistance (KW-0046) o Cycloheximide resistance (KW-0196) o Trimethoprim resistance (KW-0817) • BUT NOT any of these keywords: o Aminoacyl-tRNA synthetase (KW-0030) o Antibiotic biosynthesis (KW-0045) o Nucleotide-binding (KW-0547) o Ribosomal protein (KW-0689) o rRNA processing (KW-0698) o Transcription (KW-0804) • AND DOES NOT BELONG to the taxonomies of WHITE LIST",
+    "result_file": "AntibioticResistance_v1.0_10.25.2019.txt [1781]"
+  },
+  "Develop in host": {
+    "definition": "Involved in the growth or development of a bacterial or eukaryotic parasite within the host",
+    "query_text": "Query Definition: • Contains one of these GO terms: o GO:0044114 development of symbiont in host o GO:0044119 growth of symbiont in host cell o GO:0044121 growth of symbiont in host organelle • BUT NOT any of these keywords: o Transcription (KW-0804) • AND is not a virus (taxonomy:10239) • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND within: o Swiss-Prot section (ie. Reviewed) OR o Unreviewed section with evidence (ie. Existence) at the protein level [1] or transcript level [2]",
+    "result_file": "DevelopmentInHost_v1.0_10.25.2019.txt [85]"
+  },
+  "Nonviral adhesion": {
+    "definition": "Mediates adherence of nonviral parasites to host cells",
+    "query_text": "Query Definition • Contains at least one of these GO terms: o GO:0044406 Adhesion of symbiont to host o GO:0046810 Host cell extracellular matrix binding o GO:0046812 Host cell surface binding • AND Evidence exists at Protein OR the protein has been reviewed • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT BELONG to taxonomy:10239 (viruses) • AND DOES NOT BELONG to GO:0019062 virion attachment to host cell • AND DOES NOT BELONG to GO:0003700 DNA-binding transcription factor activity",
+    "result_file": "NonviralAdhesion_v1.0_10.24.2019.txt [110]"
+  },
+  "Secretion": {
+    "definition": "Bacterial secretion system components (T1SS - T8SS), including chaperones",
+    "query_text": "Query Definition: • If the entry belongs to the Swiss-Prot section of UniProtKB (i.e., reviewed) • Contains one of these GO terms: o Protein secretion by the type II secretion system (GO:15628) o Protein secretion by the type I secretion system (GO:30253) o Protein secretion by the type III secretion system (GO:30254) o Protein secretion by the type IV secretion system (GO:30255) o Protein secretion by the type VI secretion system (GO:33103) o Protein secretion by the type VII secretion system (GO:44315) o Protein secretion by the type V secretion system (GO:46819) • OR ProteinName:ESX • OR ProteinName:“secretion apparatus” • OR ProteinName:“secretion system” • OR ProteinName:”secretion system protein” • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND DOES NOT BELONG to ProteinName:”secreted effector” • AND DOES NOT BELONG to Transcription (KW-804); Repressor (KW-0678); Transcription regulation (KW-0805) OR GO:0008134 transcription factor binding",
+    "result_file": "Secretion_v1.0_10.24.2019.txt [582]"
+  },
+  "Toxin synthase": {
+    "definition": "Enzymes that synthesize or modify toxins, particularly mycotoxins",
+    "query_text": "Query Definition: • If the sequence entry contains the following GO Terms o GO:43386 (mycotoxin biosynthetic process) [this includes GO terms for synthesis of aflatoxin, culmorin, enniatin, fumitremorgin B, fumonisin, gliotoxin, helvolic acid, ochratoxin A, psilocybin, sterigmatocystin, verruculogen, violaceol I and II, vomitoxin, and zearalenone: these comprise 3038 annotations in Amigo] o GO:45482 trichodiene synthase activity • OR is Pathway o Mycotoxin biosynthesis (pathway:478) o Mycotoxin biosynthesis; HC-toxin biosynthesis (pathway:478.874) o Mycotoxin biosynthesis; patulin biosynthesis (pathway:478.918) • OR contains the following in the Protein Name Field o trichothecene • AND is a fungus (taxonomy:4751) • AND is Reviewed • AND is NOT a sequence fragment • AND DOES NOT contain one of the following in a Protein Name field: o Efflux o Transcription o Putative o Probable o AflR (aflatoxin regulator) o related • AND DOES NOT contain one of the following in a Gene Ontology field: o GO:10913 regulation of sterigmatocystin biosynthetic process o GO:1900177 regulation of aflatoxin biosynthetic process o GO:1900683 regulation of fumonisin biosynthetic process o GO:1900689 regulation of gliotoxin biosynthetic process o GO:1900713 regulation of violaceol I biosynthetic process o GO:1900716 regulation of violaceol II biosynthetic process o GO:1900840 regulation of helvolic acid biosynthetic process o GO:1800850 regulation of pseurotin A biosynthetic process o GO:0006355 regulation of transcription, DNA template",
+    "result_file": "ToxinSynthase_v1.0_02.03.2020.txt [470]"
+  },
+  "Viral adhesion": {
+    "definition": "Mediates viral adherence to host cells",
+    "query_text": "Query Definition • Contains one of these keywords/GO terms: o KW-1161 Viral attachment to host cell o GO:0019062 Virion attachment to host cell o GO:0046810 Host cell extracellular matrix binding o GO:0046812 Host cell surface binding • AND Evidence exists at Protein OR the protein has been reviewed • AND target is CROP OR LIVESTOCK OR PRIMATE OR HUMAN • AND DOES NOT BELONG to the taxonomies of WHITE LIST • AND BELONGS to taxonomy:10239 (viruses)",
+    "result_file": "ViralAdhesion_v1.0_10.24.2019.txt [1400]"
+  },
+  "Virulence regulator": {
+    "definition": "Bacteria or eukaryotic parasites transcription factor of virulence",
+    "query_text": "",
+    "result_file": "VirulenceRegulator_v1.0_10.25.2019.txt [367]"
+  }
+}

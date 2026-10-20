@@ -1,0 +1,14 @@
+{
+  "verified_unix": 1792413732.231534,
+  "checked_batches": 5833,
+  "verified_proteins": 17497,
+  "expected_proteins": 17500,
+  "pending_batches": [
+    "batch05367"
+  ],
+  "failed_batches": {},
+  "unexpected_files": [],
+  "whole_review_complete": false,
+  "existing_results_valid": true,
+  "scope": "technical provenance and coverage; no claim of biological accuracy or training-release approval"
+}

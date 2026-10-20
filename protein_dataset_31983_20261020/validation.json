@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-20T11:04:18.856101+00:00",
+  "proteins": 31983,
+  "distinct_sequences": 30251,
+  "cohorts": {
+    "background_reviewed": 17497,
+    "positive_2019": 13784,
+    "later702": 702
+  },
+  "unique_protein_class_rows": 1023456,
+  "current_review_cells_by_cohort": {
+    "background_reviewed": 559904,
+    "positive_2019": 4128
+  },
+  "copied_archives_verified": 234,
+  "archived_records": 1678121,
+  "files_with_sha256": 519,
+  "scope": "Copy integrity, cohort membership, sequence identity, and table coverage; not final biological label approval.",
+  "ready_as_final_training_release": false
+}

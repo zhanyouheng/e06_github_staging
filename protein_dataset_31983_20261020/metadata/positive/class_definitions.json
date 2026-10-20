@@ -1,0 +1,130 @@
+[
+  {
+    "class_id": "disable_organ",
+    "definition": "Disables an organ, but not necessarily by killing individual cells. This includes neurotoxins that block receptor conductance, superantigens, and toxins that degrade lung function, gut function, or are involved in the disruption of blood homeostasis."
+  },
+  {
+    "class_id": "cytotoxicity",
+    "definition": "Kills cells by inhibiting a vital process such as translation, directly lysing the cells through pore formation, or destabilizing the plasma membrane"
+  },
+  {
+    "class_id": "degrade_ecm",
+    "definition": "Mediates the loosening of host tissue connectivity including reducing cell-to-cell adherence and cell-to-substrate adherence as well as proteolytic destruction of the host extracellular matrix (ECM)"
+  },
+  {
+    "class_id": "induce_inflammation",
+    "definition": "Directly activate host inflammatory pathways to cause damage"
+  },
+  {
+    "class_id": "bacterial_counter_signaling",
+    "definition": "Bacterial suppression of host immune signaling within host cells to avoid inflammatory responses"
+  },
+  {
+    "class_id": "viral_counter_signaling",
+    "definition": "Viral suppression of host immune signaling within host cells to avoid inflammatory responses"
+  },
+  {
+    "class_id": "resist_complement",
+    "definition": "Provide resistance to host complement components"
+  },
+  {
+    "class_id": "counter_immunoglobulin",
+    "definition": "Binds, sequesters, destroys, or otherwise neutralizes host immunoglobulin"
+  },
+  {
+    "class_id": "plant_rna_silencing",
+    "definition": "Counters host plant defenses by triggering the degradation of specific sequences, pre-translation"
+  },
+  {
+    "class_id": "resist_oxidative",
+    "definition": "Enable resistance of host oxidative killing"
+  },
+  {
+    "class_id": "suppress_detection",
+    "definition": "Viral interference with host immune components involved in processing or display of parasite antigens on the surface of host cells"
+  },
+  {
+    "class_id": "avirulence_plant",
+    "definition": "Virulence effector proteins of plant pathogens that typically suppress immune signaling of the host plant"
+  },
+  {
+    "class_id": "host_gtpase",
+    "definition": "Target host small GTPases"
+  },
+  {
+    "class_id": "host_transcription",
+    "definition": "Target host transcription to inhibit or activate"
+  },
+  {
+    "class_id": "host_translation",
+    "definition": "Target host translation, usually to inhibit"
+  },
+  {
+    "class_id": "host_ubiquitin",
+    "definition": "Target host ubiquitination machinery"
+  },
+  {
+    "class_id": "host_xenophagy",
+    "definition": "Target host xenophagy/autophagy"
+  },
+  {
+    "class_id": "nonviral_invasion",
+    "definition": "Mediates bacterial or eukaryotic pathogen invasion into host cells"
+  },
+  {
+    "class_id": "viral_invasion",
+    "definition": "Mediates viral invasion into host cell"
+  },
+  {
+    "class_id": "viral_movement",
+    "definition": "Enable movement of viral parasite within a host cell or tissue"
+  },
+  {
+    "class_id": "virulence_activity",
+    "definition": "Inclusive of a wide variety of virulence activities, including those that did not fit under another FunSoC category"
+  },
+  {
+    "class_id": "host_cell_cycle",
+    "definition": "Target host cell cycle component or induce alterations in the host cell cycle"
+  },
+  {
+    "class_id": "host_cell_death",
+    "definition": "Target host apoptotic cell death pathways either to inhibit or activate"
+  },
+  {
+    "class_id": "host_cytoskeleton",
+    "definition": "Target host cytoskeletal components or induce alterations in the host cytoskeleton"
+  },
+  {
+    "class_id": "secreted_effector",
+    "definition": "Secreted bacterial effectors of unknown function"
+  },
+  {
+    "class_id": "antibiotic_resistance",
+    "definition": "Counters the effect of antibiotics administered to inhibit the growth or vital functioning of parasites. Note: These are not specific to pathogens."
+  },
+  {
+    "class_id": "develop_in_host",
+    "definition": "Involved in the growth or development of a bacterial or eukaryotic parasite within the host"
+  },
+  {
+    "class_id": "nonviral_adhesion",
+    "definition": "Mediates adherence of nonviral parasites to host cells"
+  },
+  {
+    "class_id": "secretion",
+    "definition": "Bacterial secretion system components (T1SS - T8SS), including chaperones"
+  },
+  {
+    "class_id": "toxin_synthase",
+    "definition": "Enzymes that synthesize or modify toxins, particularly mycotoxins"
+  },
+  {
+    "class_id": "viral_adhesion",
+    "definition": "Mediates viral adherence to host cells"
+  },
+  {
+    "class_id": "virulence_regulator",
+    "definition": "Bacteria or eukaryotic parasites transcription factor of virulence"
+  }
+]

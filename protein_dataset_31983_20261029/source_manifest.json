@@ -1,0 +1,24 @@
+{
+  "files": {
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/background/positive_2019.fasta": "5eb9a3241a3896e5977e18f2a0be63f17fdfb0938073d1ff1b794943066bf1e3",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/background/background_2019.fasta": "0f3e66b1c2f7452c9a4e9b50d70b9d7df4adf2edc0bceecd330becb083db10a9",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/gpu_handoff_pack_20261008/v2026_positive702.fasta": "9cf1bdde22bdb623731266ca380f65fbeebb7b99b20f059bc7f1dd7d3883b81a",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/v4/positive_labels_full_v2026_dedup.tsv": "2a0cbf2fb7612e62f2a0c9aa5c20400e164e915e92b0f54bed84ffe2eb34bf1e",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/background/background_labels_final.tsv": "6b61a3661b8070b3bec68b7c431e39caf3c07ad6f28fc58769d9840aa8d48337",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/full_review_20261011/selective_review_20261011/acceptance/summary.json": "fe71d8f3def69eaae2803918821a8e97db2369eedd29708904bd85ba69a14fe1",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/positive_review_20261018/selective_review_20261018/acceptance/summary.json": "333860a9cdac4cbeb02abb0e172eb069bf6082dd533d762703d62004f7ca4955",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/full_review_20261011/selective_review_20261011/explicit_exclusions_20261019.json": "dd514f6792a5b1e3c91c004e73271d1078dec87235c133def835c89b2dfbbb46",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/label_policy.json": "2dcba9afc1339d3d4033b097c60231e46f6b268350bb84f197f8734777e972b6",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/protein_dataset_31983_20261029/build_dataset.py": "22299b309b4509cc1da6e3872d2a2222b29c1fbeb56cf31ec02818a0a77c0a03"
+  },
+  "current_resolved_directories": [
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/full_review_20261011/selective_review_20261011/resolved",
+    "/hpcdisk1/jcyj_group/zhanyhsa/seqscreen-funsoc-repro/step3/positive_review_20261018/selective_review_20261018/resolved"
+  ],
+  "merge_rules": {
+    "background_reviewed": "current v3.2 labels for all 32 classes",
+    "positive_2019": "historical P protected; other cells use current v3.2 labels",
+    "later702_VA": "471 rule-A masks restored as P by user decision; other VA labels unchanged; no new review",
+    "later702_other_31": "historical v2026 labels retained"
+  }
+}

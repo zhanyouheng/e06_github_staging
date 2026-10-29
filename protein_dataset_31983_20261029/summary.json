@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-10-29T07:04:33.580981+00:00",
+  "dataset_type": "mixed_source_training_labels_with_provenance",
+  "proteins": 31983,
+  "classes": 32,
+  "label_rows": 1023456,
+  "cohorts": {
+    "positive_2019": 13784,
+    "background_reviewed": 17497,
+    "later702": 702
+  },
+  "distinct_sequences": 30251,
+  "sequence_groups_with_multiple_accessions": 1129,
+  "label_counts_by_cohort": {
+    "positive_2019": {
+      "U": 298154,
+      "N": 108457,
+      "P": 34477
+    },
+    "background_reviewed": {
+      "U": 313823,
+      "N": 240413,
+      "P": 5668
+    },
+    "later702": {
+      "N": 18154,
+      "P": 1428,
+      "U": 2882
+    }
+  },
+  "label_source_counts": {
+    "current_v32_astra_adjudicated": 144018,
+    "current_v32_provisional_consensus": 834126,
+    "historical_positive_protected": 22848,
+    "historical_v2026_not_current_v32": 21993,
+    "user_restore_rule_a_va_as_P_20261029": 471
+  },
+  "later702_va_labels": {
+    "P": 479,
+    "U": 182,
+    "N": 41
+  },
+  "va_rule_a_restored_as_P": 471,
+  "new_review_for_va_restoration": false,
+  "protected_positive_conflicts": 3101,
+  "excluded_accessions": [
+    "Q99547",
+    "Q99558",
+    "Q99613"
+  ],
+  "split_created": false,
+  "provisional_consensus_is_not_human_gold": true,
+  "later702_other_31_classes_are_historical_not_v32": true,
+  "ready_for_training_with_stated_provenance": true
+}

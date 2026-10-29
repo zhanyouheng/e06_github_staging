@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-29T07:10:50.587964+00:00",
+  "proteins": 31983,
+  "unique_label_cells": 1023456,
+  "wide_and_mask_rows_checked": 63966,
+  "fasta_sequences_checked": 31983,
+  "distinct_sequence_groups": 30251,
+  "va_rule_a_cells_restored_as_P": 471,
+  "other_later702_va_cells_unchanged": 231,
+  "protected_positive_conflicts": 3101,
+  "source_hashes_checked": 10,
+  "files_with_sha256": 14,
+  "training_text_format_loaded": "P=1, N=0, U=empty; supervision mask checked for every cell",
+  "scope": "Structural and provenance validation, not a new biological review or human-gold certification"
+}

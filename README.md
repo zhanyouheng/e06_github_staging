@@ -2,7 +2,29 @@
 
 本仓库整理 SeqScreen 复现/扩展项目的 E06 探索阶段配置、代码、报告和结果，面向 **32 类蛋白质功能多标签分类**。内容以 Turn 4 的集成与按类选择实验为主，并保留相关基础候选、Turn 5 后续探索及 v2a 训练材料，便于审阅实验设计、最终选择与结果来源。
 
-这是按指定清单整理的研究归档。源文件保持原始内容，目录按文档、配置、脚本和结果重新组织；另附下述数据集审核快照，最终训练标签、模型和预测矩阵仍需另行准备。
+这是按指定清单整理的研究归档。源文件保持原始内容，目录按文档、配置、脚本和结果重新组织；另附 2026-10-29 更新训练数据集及 2026-10-20 历史审核快照；模型、特征矩阵和预测矩阵仍需另行准备。
+
+## 更新训练数据集（2026-10-29）
+
+最新版本：[`protein_dataset_31983_20261029/`](protein_dataset_31983_20261029/)，共 16 个文件、163,351,129 字节。包含 31,983 个蛋白编号（背景重审 17,497、positive_2019 13,784、新增 702），30,251 条不同序列及 1,023,456 个蛋白–类别标签格。2026-10-20 版本保留为历史快照。
+
+- 训练标签矩阵：[`training_labels_wide.tsv`](protein_dataset_31983_20261029/training_labels_wide.tsv)，P=1、N=0、U=空白；配套 [`training_mask_wide.tsv`](protein_dataset_31983_20261029/training_mask_wide.tsv) 中 P/N 为 1，U 为 0。类别列顺序见 [`class_order.json`](protein_dataset_31983_20261029/class_order.json)。
+- 序列与分组：[`proteins.fasta`](protein_dataset_31983_20261029/proteins.fasta)、[`proteins.tsv`](protein_dataset_31983_20261029/proteins.tsv)、[`sequence_groups.tsv`](protein_dataset_31983_20261029/sequence_groups.tsv)。尚未划分训练/验证/测试集，同序列组不得跨集合。
+- 标签明细与冲突：[`labels_32class.tsv`](protein_dataset_31983_20261029/labels_32class.tsv)、[`label_conflicts.tsv`](protein_dataset_31983_20261029/label_conflicts.tsv)。背景采用现审结果；13,784 个阳性蛋白保留历史 P，其余标签格使用现审结果，共记录 3,101 个受保护正例冲突。
+- 版本说明与校验：[`README.txt`](protein_dataset_31983_20261029/README.txt)、[`summary.json`](protein_dataset_31983_20261029/summary.json)、[`validation.json`](protein_dataset_31983_20261029/validation.json)、[`SHA256SUMS`](protein_dataset_31983_20261029/SHA256SUMS)。
+
+此版本按记录的来源和合并规则提供训练标签。U 表示缺失监督；初审一致项为暂定一致，不等于人工金标。702 个新增蛋白的其他 31 类沿用历史标签，未按 v3.2 重审；其中 471 个 VA 标签格按 2026-10-29 用户决定恢复为 P，未补审，详见 [`va_label_changes.tsv`](protein_dataset_31983_20261029/va_label_changes.tsv)。新版数据与历史 E06 实验数据的对应关系未在本次上传中重新验证。
+
+`labels_32class.tsv` 为 139,639,480 字节，使用 Git LFS 存储。下载完整文件请在装有 Git LFS 的环境中运行：
+
+```bash
+git lfs install
+git clone https://github.com/zhanyouheng/e06_github_staging.git
+cd e06_github_staging
+git lfs pull --include="protein_dataset_31983_20261029/labels_32class.tsv"
+```
+
+已克隆仓库时，先执行 `git pull`，再执行上述 `git lfs pull`。仅下载到 LFS 指针时不能直接读取为标签表。原始数据集文件内容及其校验和保持不变。
 
 ## 数据集审核快照（2026-10-20）
 
@@ -48,7 +70,7 @@ E06_mix_098 = 0.2 × E09_ensemble_A2B
 
 ## 目录结构
 
-原 E06 研究归档为 171 个文件、约 1.38 MB，目录树如下（不含上面新增的 524 个数据集文件；标注每部分的用途与文件数）：
+原 E06 研究归档为 171 个文件、约 1.38 MB，目录树如下（不含上面两个数据集版本的 540 个文件及 Git LFS 配置；标注每部分的用途与文件数）：
 
 ```text
 .
@@ -97,7 +119,7 @@ E06_mix_098 = 0.2 × E09_ensemble_A2B
 ## 未包含内容
 
 - 大型二进制模型、权重、特征/embedding 矩阵、预测矩阵及其他 `*.npz`、`*.npy`、`*.pkl`、`*.pt`、`*.bin`、`*.ckpt` 文件未纳入；`.gitignore` 同时排除这些格式、`__pycache__/` 和 `.DS_Store`。
-- 除上述数据集审核快照外，原实验的完整原始数据、运行环境、缓存、日志及清单之外的产物未纳入。`selection/` 的 NPZ 文件、候选模型文件和验证预测矩阵均不包含在本仓库中。完整产物说明见 [Turn 4 报告](docs/REPORT_turn4.md)与 [v2a 训练报告](docs/REPORT_training_v2a.md)。
+- 除上述更新训练数据集和历史审核快照外，原实验的完整原始数据、运行环境、缓存、日志及清单之外的产物未纳入。`selection/` 的 NPZ 文件、候选模型文件和验证预测矩阵均不包含在本仓库中。完整产物说明见 [Turn 4 报告](docs/REPORT_turn4.md)与 [v2a 训练报告](docs/REPORT_training_v2a.md)。
 - Turn 5 文档引用的 `REPORT_turn5.md` 及其完整结果、审计产物未在本次复制清单中；本仓库收录了指定的计划、状态、脚本和封存记录。
 - 原 E06 研究归档的单文件大小检查上限为 **20 MB（20,000,000 字节）**，原清单中因超过该上限而排除的文件为零。新增数据集保留全部文件，其中 `labels_32class.tsv` 为 89,675,431 字节。
 
